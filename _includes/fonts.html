@@ -1,8 +1,13 @@
 <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-{% assign googlefonts = "_styles/-theme.scss" | file_read | google_fonts %}
+<!-- families come from _data/affiliation.yaml (fonts.google) -->
+{% assign brandfonts = site.data.affiliation.fonts.google %}
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="{{ googlefonts }}" rel="stylesheet">
+{% if brandfonts %}
+  <link href="https://fonts.googleapis.com/css2?{{ brandfonts }}&display=swap" rel="stylesheet">
+{% else %}
+  {% assign googlefonts = "_styles/-theme.scss" | file_read | google_fonts %}
+  <link href="{{ googlefonts }}" rel="stylesheet">
+{% endif %}
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 {% assign fontawesome = "https://use.fontawesome.com/releases/v6.7.0/css/all.css" %}

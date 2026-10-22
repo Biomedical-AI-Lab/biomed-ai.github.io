@@ -1,0 +1,158 @@
+# Courses taught by Prof. Albert, shown in the Teaching section of his profile.
+# Add a new course at the top of its institution's block; mark the newest ones recent: true.
+
+- code: "INFO 5900/6900"
+  title: "IS Research Seminar (Special Problems)"
+  institution: "University of North Texas"
+  taught: "Fall 2025"
+  recent: true
+  syllabi:
+    - link: https://docs.google.com/document/d/1odVZawnfeNaZDo87zaT18prLPElfwtVXhtFS-KIBwRk/edit?usp=sharing
+
+- code: "CSCE 5931"
+  title: "CSE Seminar"
+  institution: "University of North Texas"
+  taught: "Every semester since Spring 2022"
+  recent: true
+  syllabi:
+    - link: https://docs.google.com/document/d/1ZLtCx2eeNaO3yczL_kMwbE9-drF1pc_ShTqrYVO85Cw/edit?usp=sharing
+
+- code: "CSCE 5280"
+  title: "AI for Wearables and Healthcare"
+  institution: "University of North Texas"
+  taught: "2020, 2021, 2022, 2024"
+  syllabi:
+    - link: https://docs.google.com/document/d/1BBowG5DAvkuHpaCubbWu8fZ0UQ7jSqtzviPAHtXLAkQ/edit?usp=sharing
+      label: "2024"
+
+- code: "CSCE 5310"
+  title: "Methods of Empirical Analysis"
+  institution: "University of North Texas"
+  taught: "2022, 2023, 2024"
+  syllabi:
+    - link: https://docs.google.com/document/d/1MZa3Oaw6VtVNhjysJ6VrEW7gUphv4R9L-gitTAs8Jjs/edit?usp=sharing
+      label: "2022"
+    - link: https://docs.google.com/document/d/14phAx4Z66BcQ1N7aImD4oWYnarNMvgESeJ3ojIoBYxg/edit?usp=sharing
+      label: "2023"
+    - link: https://docs.google.com/document/d/1rY22mcEC0BH4oxoW2P-3cYK3hX3M1XamP4E0tVmZn5A/edit?usp=sharing
+      label: "2024"
+
+- code: "CSCE 5215/4205"
+  title: "Machine Learning"
+  institution: "University of North Texas"
+  taught: "2019, 2023"
+  syllabi:
+    - link: https://docs.google.com/document/d/1qTgUCWY9a9IUdfLiVMFtewOoRoJaYx3U1vb43HGQp5A/edit?usp=sharing
+      label: "2019"
+    - link: https://docs.google.com/document/d/1mjCbV1izDMtXcstKHbXEEsO1ixmlzTuNr7-zb8qE1pg/edit?usp=sharing
+      label: "2023"
+
+- code: "CSCE 6280"
+  title: "Advanced Topics in AI"
+  institution: "University of North Texas"
+  taught: "2022"
+
+- code: "CSCE 5214"
+  title: "Software Development for AI"
+  institution: "University of North Texas"
+  taught: "2020"
+  syllabi:
+    - link: https://docs.google.com/document/d/1fl6x2tREKvw2vGoDdiLEigezZ0t-k6Crt2gMAfP2byU/edit?usp=sharing
+
+- code: "CSCE 5218/4930"
+  title: "Deep Learning"
+  institution: "University of North Texas"
+  taught: "2020"
+  syllabi:
+    - link: https://docs.google.com/document/d/1fntvOhZ1HhxX_MaxuT8pp9t6uZm6qjs0ptjzvesr7W0/edit?usp=sharing
+
+- code: "COMP 460"
+  title: "Algorithms & Complexity"
+  institution: "Loyola University Chicago"
+  taught: "2019"
+  syllabi:
+    - link: https://docs.google.com/document/d/1xrDYUcmC4-1bm__vVz90B0DSeEuxP0pTv0CBAhoYDPo/edit?usp=sharing
+
+- code: "COMP 271"
+  title: "Data Structures"
+  institution: "Loyola University Chicago"
+  taught: "2010, 2017 (x2), 2018 (x2), 2019"
+  syllabi:
+    - link: https://docs.google.com/document/d/1lDT1DML21skhSJMMUGK-3fHHGo5RU_fRC_hqB2a83GA/edit?usp=sharing
+
+- code: "COMP 397"
+  title: "Research Method Seminar in Computer Science"
+  institution: "Loyola University Chicago"
+  taught: "2015–2019"
+  syllabi:
+    - link: https://docs.google.com/document/d/1HA5I6HyXkl2CNyAhsnSLPA40qAxtn4b9kgSmgZUwK1s/edit?usp=sharing
+
+- code: "COMP 386"
+  title: "Computational Neuroscience"
+  institution: "Loyola University Chicago"
+  taught: "2015, 2017, 2018"
+  syllabi:
+    - link: https://docs.google.com/document/d/11ItRMucZkuX4p1OykaO92bEI8EMyN-aTOt9yKJexTPc/edit?usp=sharing
+
+- code: "COMP 399"
+  title: "Computer Science Seminar"
+  institution: "Loyola University Chicago"
+  taught: "2015–2018"
+  syllabi:
+    - link: https://docs.google.com/document/d/1pOU_Gc97kHPjaIeJaf8G0vLiciDp5UEpgZ-RdxjAll8/edit?usp=sharing
+
+- code: "COMP 150"
+  title: "Intro to Computing"
+  institution: "Loyola University Chicago"
+  taught: "2011, 2018"
+  syllabi:
+    - link: https://docs.google.com/document/d/1eN0jp8I3ViLg3CMm6yeCiKtwSg4EUGvRZWmzwR7gAW8/edit?usp=sharing
+
+- code: "COMP 363"
+  title: "Algorithms"
+  institution: "Loyola University Chicago"
+  taught: "2013, 2014, 2015 (x2), 2016, 2017"
+
+- code: "HONORS 204"
+  title: "Science and Society: Automated Discrimination"
+  institution: "Loyola University Chicago"
+  taught: "2016"
+  syllabi:
+    - link: https://docs.google.com/document/d/1384Vu8PqP-yc2g-Hr7JXYgnqU8gxlisGXcOsq2TpyHw/edit?usp=sharing
+
+- code: "COMP 379"
+  title: "Machine Learning"
+  institution: "Loyola University Chicago"
+  taught: "2015"
+
+- code: "COMP 441"
+  title: "Human-Computer Interaction"
+  institution: "Loyola University Chicago"
+  taught: "2013, 2014"
+
+- code: "HONORS 204"
+  title: "Science and Society: Discrimination and Data Science"
+  institution: "Loyola University Chicago"
+  taught: "2015"
+
+- code: "HONORS 204"
+  title: "Science and Society: Network Science"
+  institution: "Loyola University Chicago"
+  taught: "2014"
+
+- code: "COMP 424"
+  title: "Client-side Web Design"
+  institution: "Loyola University Chicago"
+  taught: "2013, 2014"
+  syllabi:
+    - link: https://docs.google.com/document/d/1M7zJ0KCh3Xd1dQvZpU8M6auLeroJq-ilzv2VA3qeq5g/pub
+
+- code: "COMP 412"
+  title: "Open Source Software (graduate)"
+  institution: "Loyola University Chicago"
+  taught: "2011"
+
+- code: "COMP 383"
+  title: "Computational Biology"
+  institution: "Loyola University Chicago"
+  taught: "2010"

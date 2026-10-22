@@ -1,5 +1,6 @@
 {% assign image = page.footer | default: site.footer %}
 {% assign dark = page.footer-dark | is_nil: site.footer-dark | is_nil: true %}
+{% assign brand = site.data.affiliation %}
 
 <footer
   class="background"
@@ -9,11 +10,22 @@
   {% endif %}
   data-size="wide"
 >
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
+  <!-- university mark and address, from _data/affiliation.yaml -->
+  <div class="footer-affiliation">
+    {% if brand.logo_dark and brand.logo_dark != "" %}
+      <a href="{{ brand.url }}" aria-label="{{ brand.institution }}">
+        <img class="affiliation-logo" src="{{ brand.logo_dark | relative_url }}" alt="{{ brand.institution }}">
+      </a>
+    {% elsif brand.institution %}
+      <a href="{{ brand.url }}">{{ brand.department }}, {{ brand.institution }}</a>
+    {% endif %}
+    {% if brand.address %}
+      <br>
+      <a href="{{ brand.address.map }}">
+        {{ brand.address.building }} · {{ brand.address.street }}, {{ brand.address.city }}
+      </a>
+    {% endif %}
+  </div>
 
   <div>
     {% for link in site.links %}

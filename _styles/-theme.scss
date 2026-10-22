@@ -1,10 +1,16 @@
 ---
 ---
 
+// colors and fonts are read from _data/affiliation.yaml
+// edit that file, not this one, when the branding changes
+{% assign brand = site.data.affiliation %}
+
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
+  --primary: {{ brand.colors.primary | default: "#0795d9" }};
+  --secondary: {{ brand.colors.secondary | default: "#7dd3fc" }};
+  --heading-color: {{ brand.colors.primary_dark | default: "#000000" }};
+  --muted: {{ brand.colors.muted | default: "#404040" }};
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
@@ -14,8 +20,10 @@
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
+  --primary: {{ brand.colors.primary_on_dark | default: brand.colors.primary | default: "#0795d9" }};
+  --secondary: {{ brand.colors.primary_dark | default: "#075985" }};
+  --heading-color: #ffffff;
+  --muted: #b0b0b0;
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
@@ -26,11 +34,15 @@
 }
 
 :root {
+  // brand bar behind the header and footer
+  --brand-bar: {{ brand.colors.primary_dark | default: "#181818" }};
+
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --title: "{{ brand.fonts.heading | default: 'Barlow' }}", sans-serif;
+  --heading: "{{ brand.fonts.heading | default: 'Barlow' }}", sans-serif;
+  --body: "{{ brand.fonts.body | default: 'Barlow' }}", sans-serif;
+  --code: "{{ brand.fonts.code | default: 'Roboto Mono' }}", monospace;
+  --heading-stretch: {{ brand.fonts.heading_stretch | default: "100%" }};
 
   // font sizes
   --large: 1.2rem;
@@ -48,7 +60,7 @@
   --compact: 1.5;
 
   // effects
-  --rounded: 3px;
+  --rounded: 6px;
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
 }

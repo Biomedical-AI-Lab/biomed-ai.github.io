@@ -1,23 +1,52 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+# Publications to cite. The full list also comes from ORCID once _data/orcid.yaml exists.
+# Each entry needs an id (doi:..., arxiv:..., pubmed:...). Add tags to place a paper on
+# a Research theme: gait, wearables, language, imaging, neuroscience. Tag 3 to 6 papers
+# "featured" to show them on the home page. Add buttons for code, data or a project page.
+
+# Movement and gait
+- id: doi:10.3390/bioengineering12060591
+  tags: [gait, featured]
+- id: doi:10.3390/bioengineering9100572
+  tags: [gait, amputation]
+
+# Wearable and mobile health sensing
+- id: doi:10.1371/journal.pone.0036556
+  tags: [wearables, falls, featured]
+- id: doi:10.1371/journal.pone.0065340
+  tags: [wearables, amputation]
+- id: doi:10.3389/fneur.2012.00158
+  tags: [wearables, parkinsons]
+- id: arxiv:2405.08969
+  tags: [wearables]
+- id: doi:10.3390/s23042270
+  tags: [wearables]
+
+# Language models
+- id: arxiv:2601.11746
+  tags: [language]
+- id: arxiv:2508.14783
+  tags: [language]
+- id: arxiv:2505.10260
+  tags: [language]
+- id: arxiv:2505.10586
+  tags: [language]
+- id: arxiv:2505.09852
+  tags: [language]
+
+# Medical imaging and multimodal AI
+- id: doi:10.3390/info16020136
+  tags: [imaging, featured]
+
+# Neurological disorders
+- id: doi:10.2196/50117
+  tags: [parkinsons]
+
+# Foundations
+- id: doi:10.1371/journal.pcbi.1000137
+  tags: [neuroscience]
+- id: doi:10.1007/s10462-021-10047-7
+  tags: [neuroscience]
   buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
     - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
-
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+      text: Data and code
+      link: https://docs.google.com/document/d/1GxwGyiuU0rO4OKGNDh-R2I5RFyaqZNZXlhPGwXBAxpE/edit?usp=sharing

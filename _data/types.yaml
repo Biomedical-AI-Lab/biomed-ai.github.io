@@ -14,9 +14,17 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+ms:
+  icon: fa-solid fa-user-graduate
+  description: MS Student
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+
+affiliated:
+  icon: fa-solid fa-handshake
+  description: Lab Affiliate
 
 programmer:
   icon: fa-solid fa-code
@@ -70,7 +78,18 @@ search:
   text: Search
   tooltip: Search
 
+cv:
+  icon: fa-solid fa-file-lines
+  text: CV
+  tooltip: Curriculum vitae
+
 # social media
+
+linkedin-company:
+  icon: fa-brands fa-linkedin
+  text: LinkedIn
+  tooltip: LinkedIn
+  link: https://www.linkedin.com/company/$VALUE
 
 orcid:
   icon: fa-brands fa-orcid

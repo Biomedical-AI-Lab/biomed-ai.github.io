@@ -1,94 +1,92 @@
 ---
 ---
 
-# Lab Website Template
+# Biomedical AI Lab
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+We use machine learning to advance medicine.
+Our roots are in wearable-device analytics that help clinicians treat mobility disorders, and our work now spans movement, sensing, language and imaging models for health.
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="research"
+  text="Our research"
+  icon="fa-solid fa-arrow-right"
+  flip=true
 %}
 {%
   include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="join"
+  text="Join the lab"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
 %}
 
 {% include section.html %}
 
-## Highlights
+## Research themes
 
-{% capture text %}
+{% include themes.html %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% include section.html %}
+
+## Populations we study
+
+<div class="chip-row">
+<span class="chip">Parkinson's disease</span>
+<span class="chip">Incomplete spinal cord injury</span>
+<span class="chip">Transfemoral amputation</span>
+<span class="chip">Cerebral palsy</span>
+<span class="chip">Stroke</span>
+<span class="chip">Toddlers</span>
+</div>
+
+{% include section.html %}
+
+## Featured papers
+
+{% include list.html data="citations" component="citation" style="rich" filter="tags && tags.include?('featured')" %}
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="publications"
+  text="All publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
+{:.center}
 
-{% endcapture %}
+{% include section.html %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+## Latest news
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% for post in site.posts limit: 5 %}
+- **{{ post.date | date: "%b %-d, %Y" }}**: [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="news"
+  text="All news"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
+{:.center}
 
-{% endcapture %}
+{% include section.html dark=true %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+## Join us
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We welcome undergraduate, MS and PhD students with strong programming skills and an interest in AI for health.
+Open houses run the Thursday before each fall and spring semester at {{ site.data.affiliation.address.building }}.
 
 {%
   include button.html
-  link="team"
-  text="Meet our team"
+  link="join"
+  text="How to join"
   icon="fa-solid fa-arrow-right"
   flip=true
-  style="bare"
 %}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+{:.center}

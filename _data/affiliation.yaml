@@ -1,0 +1,40 @@
+# -----------------------------------------------------------------------------
+# AFFILIATION AND BRANDING
+# This is the only file that names a university. If the lab moves, edit the
+# values below and replace the logo files in images/affiliation/. No page,
+# layout or stylesheet needs to change.
+# -----------------------------------------------------------------------------
+
+institution: University of North Texas
+short_name: UNT
+url: https://www.unt.edu
+department: Computer Science and Engineering
+
+# Official university marks, downloaded from the university's identity guide.
+# Never edit or combine them with the lab logo. Leave blank to show the
+# department and institution as text instead.
+logo: ""        # e.g. images/affiliation/logo.svg (for light backgrounds)
+logo_dark: ""   # e.g. images/affiliation/logo-white.svg (shown in the dark footer)
+
+address:
+  building: UNT Discovery Park
+  rooms: Lab F296 · PI office F201E
+  street: 3940 North Elm Street
+  city: Denton, TX 76207-7102
+  map: https://www.google.com/maps/search/?api=1&query=UNT+Discovery+Park+3940+North+Elm+Street+Denton+TX
+
+# Brand colors. Contrast ratios are against white (WCAG AA body text needs 4.5:1).
+colors:
+  primary: "#00853E"          # links and buttons, 4.75:1
+  primary_dark: "#006747"     # headings and the header/footer bar, 6.93:1
+  primary_on_dark: "#00A950"  # links in dark mode, 5.7:1 on the dark background
+  secondary: "#B9DCD2"        # soft accent
+  muted: "#53565A"            # secondary text, 7.38:1
+
+# Fonts. "google" is the Google Fonts query for every family used here.
+fonts:
+  body: Open Sans
+  heading: Open Sans
+  heading_stretch: 87.5%      # semi-condensed headings, per the UNT web style
+  code: Roboto Mono
+  google: family=Open+Sans:wdth,wght@75..100,300..800&family=Roboto+Mono:wght@400;600

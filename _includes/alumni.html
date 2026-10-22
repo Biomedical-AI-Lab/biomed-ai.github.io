@@ -1,0 +1,18 @@
+{%- comment -%}
+  Alumni tables. Data: _data/alumni.yaml (groups, each with people).
+  Groups marked collapsed: true fold into an expandable row.
+{%- endcomment -%}
+{%- for g in site.data.alumni -%}
+{%- capture rows -%}
+{%- for p in g.people -%}
+<tr><td>{%- if p.link -%}<a href="{{ p.link }}">{{ p.name }}</a>{%- else -%}{{ p.name }}{%- endif -%}</td><td>{{ p.level }}</td><td>{{ p.years }}</td><td>{{ p.next }}</td></tr>
+{%- endfor -%}
+{%- endcapture -%}
+{%- capture table -%}<table class="alumni-table"><thead><tr><th>Name</th><th>Role in the lab</th><th>Years</th><th>Next position</th></tr></thead><tbody>{{ rows }}</tbody></table>{%- endcapture -%}
+{%- if g.collapsed %}
+<details class="alumni-group"><summary>{{ g.group }} ({{ g.people.size }})</summary>{{ table }}</details>
+{%- else %}
+<h3>{{ g.group }}</h3>
+{{ table }}
+{%- endif -%}
+{%- endfor %}

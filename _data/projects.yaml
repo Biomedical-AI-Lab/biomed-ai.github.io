@@ -1,47 +1,28 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+# Apps, tools and datasets, shown on the Software & Data page.
+# Add an image (a screenshot or figure) to make cards stand out.
+
+- title: Neural Efficient Coding
+  subtitle: Jupyter notebook and Android app
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://doi.org/10.1007/s10462-021-10047-7
+  description: Shows how early visual and auditory receptive fields can emerge from natural input using efficient-coding strategies. Published in _Artificial Intelligence Review_. [Get the Android app](https://play.google.com/store/apps/details?id=com.biomedai.neuroscience), visit the [Neurosense website](https://sites.google.com/view/neurosenseapp/home), or see the [updated data and code](https://docs.google.com/document/d/1GxwGyiuU0rO4OKGNDh-R2I5RFyaqZNZXlhPGwXBAxpE/edit?usp=sharing).
   tags:
-    - resource
+    - neuroscience
+    - tutorial
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Conversation Moderator
+  subtitle: Android app
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://play.google.com/store/apps/details?id=edu.luc.cs.ConvMod
+  description: A mobile app that tracks how much each person speaks in a group conversation.
   tags:
-    - resource
+    - app
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Gesture Recognition App
+  subtitle: Android app
+  group: featured
+  link: https://play.google.com/store/apps/details?id=com.hand_gesture_collection_app
+  description: Collects hand-gesture data from wearable sensors for the lab's gesture-to-speech research.
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - app
+    - wearables
