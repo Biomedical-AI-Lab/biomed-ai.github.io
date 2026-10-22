@@ -125,3 +125,47 @@ details.alumni-group > summary {
   width: auto;
   height: 48px;
 }
+
+// "under construction" placeholder (_includes/under-construction.html)
+.construction-body {
+  margin: 0;
+}
+.construction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background: var(--brand-bar);
+  color: var(--text);
+}
+.construction-card {
+  max-width: 600px;
+  text-align: center;
+  line-height: var(--compact);
+}
+.construction-icon {
+  font-size: 3rem;
+  color: var(--primary);
+}
+.construction-lab {
+  margin: 20px 0 0;
+  font-family: var(--title);
+  font-size: var(--xxl);
+  font-weight: var(--bold);
+}
+.construction-affiliation {
+  margin: 4px 0 30px;
+  opacity: 0.8;
+}
+.construction h1 {
+  color: var(--text);
+  font-size: var(--xl);
+}
+.construction a {
+  color: var(--text);
+}
+.construction-links {
+  margin-top: 30px;
+}

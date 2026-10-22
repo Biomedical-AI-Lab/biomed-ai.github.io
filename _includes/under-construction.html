@@ -1,0 +1,35 @@
+{%- comment -%}
+  Placeholder shown on the published site while under-construction: true
+  in _config.yaml. Uses the same head (fonts, colors, styles) as the real site.
+{%- endcomment -%}
+{%- assign brand = site.data.affiliation -%}
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  {% include head.html noindex=true %}
+  <body class="construction-body">
+    <main class="construction" data-dark="true">
+      <div class="construction-card">
+        <i class="fa-solid fa-person-digging construction-icon" aria-hidden="true"></i>
+        <p class="construction-lab">{{ site.title }}</p>
+        {% if brand.institution %}
+          <p class="construction-affiliation">{{ brand.department }} · {{ brand.institution }}</p>
+        {% endif %}
+        <h1>Our new website is under construction</h1>
+        <p>We're building a new home for our research, publications and people. Please check back soon.</p>
+        {% if site.links.email %}
+          <p>
+            Questions or interested in joining the lab?
+            <a href="mailto:{{ site.links.email }}">{{ site.links.email }}</a>
+          </p>
+        {% endif %}
+        <div class="construction-links">
+          {% for link in site.links %}
+            {% assign key = link[0] %}
+            {% assign value = link[1] %}
+            {% include button.html type=key text="" link=value style="bare" %}
+          {% endfor %}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,3 +1,16 @@
+{%- comment -%}
+  under-construction (in _config.yaml) swaps every page for a placeholder on the
+  published site only. Local previews (jekyll serve) and pull-request previews
+  (built under /preview/) always show the full site.
+{%- endcomment -%}
+{%- if site.under-construction and jekyll.environment == "production" -%}
+  {%- unless site.baseurl contains "/preview/" -%}
+    {%- assign show_placeholder = true -%}
+  {%- endunless -%}
+{%- endif -%}
+{%- if show_placeholder -%}
+{% include under-construction.html %}
+{%- else -%}
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
@@ -9,3 +22,4 @@
     {% include footer.html %}
   </body>
 </html>
+{%- endif -%}

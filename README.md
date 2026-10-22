@@ -26,6 +26,16 @@ If the lab moves, edit that file and replace the logos in `images/affiliation/`.
 - University marks must be the official files from the university's identity guide, unedited.
 - Pages should never write the university's name or a hex color directly; use `{{ site.data.affiliation.institution }}` and the CSS variables instead.
 
+## "Under construction" switch
+
+`under-construction` in `_config.yaml` controls what the public sees:
+
+- `true`: every page at the public address shows a placeholder (lab name, contact email, social links).
+- `false`: the full site is public.
+
+Local previews (`bundle exec jekyll serve`) and pull-request preview links always show the full site, so you can keep working while the placeholder is up.
+To see the placeholder locally, run `$env:JEKYLL_ENV="production"; bundle exec jekyll serve` in PowerShell (close and reopen the terminal afterwards to clear it).
+
 ## Common tasks
 
 Every change goes through a pull request: edit on a branch, open a PR, check the preview link the bot posts, then merge.
