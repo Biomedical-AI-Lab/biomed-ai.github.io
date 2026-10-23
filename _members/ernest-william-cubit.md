@@ -7,4 +7,4 @@ links:
   linkedin: ewcii
 ---
 
-Ernest holds a BS in Materials Science and works on machine-learning-based alloy design.
+William joins us with a BS in Materials Science. His MS research is on machine-learning-based alloy design: studying deformation-induced transformations in high-entropy alloys with few-shot learning, active learning and NLP, and predicting crystallographic shifts from nanoindentation.

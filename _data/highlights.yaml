@@ -1,0 +1,95 @@
+# Research highlights shown on the Research page, grouped by domain.
+# Keep 2-3 items per domain. image is optional (e.g. images/research/sgi.png);
+# without it a themed icon tile is shown. link usually points to the paper.
+
+- id: gait
+  label: Movement & Gait
+  title: Movement and Gait Intelligence
+  icon: fa-solid fa-person-walking
+  focus: Turning instrumented gait, balance and prosthetic data into single, interpretable scores clinicians can act on.
+  items:
+    - title: "The Shriners Gait Index: a deep autoencoder summary of gait quality"
+      venue: Journal of Biomechanics, 2024 · IEEE ICHI, 2025
+      text: An autoencoder compresses whole-body gait data from children with cerebral palsy into one score of gait quality, so surgeons can compare outcomes before and after treatment. A cross-site study validated the index across Shriners Children's hospitals.
+      tags: [cerebral palsy, autoencoders, clinical outcomes]
+      link: https://doi.org/10.1016/j.jbiomech.2024.112092
+    - title: "Machine learning in marker-based clinical gait analysis"
+      venue: Bioengineering, 2025
+      text: A scoping review of how machine learning is used in clinical motion-capture gait analysis, from classification and phenotyping to outcome prediction, and where the field needs better validation.
+      tags: [review, motion capture, gait]
+      link: https://doi.org/10.3390/bioengineering12060591
+    - title: "Predicting Parkinson's motor symptoms from force plates"
+      venue: IEEE Journal of Biomedical and Health Informatics, 2022
+      text: Machine learning on short quiet-standing recordings estimates UPDRS motor scores, pointing to a quick, low-cost balance test for tracking Parkinson's disease.
+      tags: [Parkinson's disease, balance, force plates]
+      link: https://doi.org/10.1109/JBHI.2022.3157518
+
+- id: wearables
+  label: Wearables
+  title: Wearable and Mobile Health Sensing
+  icon: fa-solid fa-mobile-screen
+  focus: Phones and wearable sensors that recognize activity, detect falls and give a voice to people who cannot speak.
+  items:
+    - title: "Wearable gesture recognition for motor-impaired users"
+      venue: IJCAI, 2024 · ECML PKDD, 2026
+      text: Few-shot continual learning, and now knowledge-attentive representation learning (KARL), let a wearable sensor learn new, user-defined hand gestures from motor-impaired individuals, building on the lab's gesture-to-speech app.
+      tags: [gesture recognition, few-shot learning, assistive tech]
+      link: https://doi.org/10.48550/arXiv.2405.08969
+    - title: "Fall classification with mobile phones"
+      venue: PLoS ONE, 2012
+      text: One of the early demonstrations that a phone's accelerometer, with machine learning, can detect and classify falls, later extended to real-world falls in people with amputations and to wearable airbags after stroke.
+      tags: [fall detection, smartphones, rehabilitation]
+      link: https://doi.org/10.1371/journal.pone.0036556
+
+- id: language
+  label: Language Models
+  title: Language Models for Health and Humanitarian Text
+  icon: fa-solid fa-comment-medical
+  focus: Fine-tuning, probing and evaluating language models on clinical records and on high-stakes humanitarian text.
+  items:
+    - title: "Instruction-tuned language models for pediatric fall risk"
+      venue: IEEE ICHI, 2026
+      text: An instruction fine-tuned model, trained iteratively with generated clinical texts, assesses fall risk from the records of children with cerebral palsy, with related work on pain assessment tuned to a single hospital system.
+      tags: [EHR, LLM fine-tuning, pediatrics]
+    - title: "Cross-lingual stability and bias in humanitarian NLP"
+      venue: LREC, 2026
+      text: Measures how instruction-tuned models change their judgments across Russian, Ukrainian and English prompts when classifying human-rights violations, with companion work on conflict forecasting and peacebuilding reports.
+      tags: [multilingual, bias, social good]
+    - title: "LIME-LLM: probing models with fluent counterfactuals"
+      venue: arXiv, 2026
+      text: Explains language-model predictions with fluent, meaningful counterfactual edits instead of the broken text that classic perturbation methods produce.
+      tags: [explainability, counterfactuals]
+      link: https://doi.org/10.48550/arXiv.2601.11746
+
+- id: imaging
+  label: Multimodal AI
+  title: Medical Imaging and Multimodal AI
+  icon: fa-solid fa-x-ray
+  focus: Multi-agent and multimodal systems that read medical images and write about them.
+  items:
+    - title: "Multi-agent reasoning for radiology visual question answering"
+      venue: ACM/IEEE JCDL, 2025
+      text: Specialized agents divide up complex radiology questions, retrieving evidence and checking each other, with a companion multi-agent framework for generating full radiology reports.
+      tags: [radiology, agents, VQA]
+    - title: "Small vision-language models: a survey"
+      venue: Information Fusion, 2026
+      text: A survey of compact vision-language models, their architectures, training and efficiency trade-offs, and where they fit when large models are impractical, including clinical settings.
+      tags: [vision-language models, efficiency, survey]
+      link: https://doi.org/10.1016/j.inffus.2025.103805
+
+- id: neuroscience
+  label: Foundations
+  title: Brain-Inspired Learning
+  icon: fa-solid fa-brain
+  focus: Efficient-coding models of how the early visual and auditory systems learn, the lab's computational-neuroscience roots.
+  items:
+    - title: "Innate visual learning through spontaneous activity"
+      venue: PLoS Computational Biology, 2008
+      text: Shows that the brain's spontaneous activity before birth can act as training data, letting efficient-coding models develop visual receptive fields before the eyes open.
+      tags: [efficient coding, visual development]
+      link: https://doi.org/10.1371/journal.pcbi.1000137
+    - title: "Neural receptive fields from images and audio: a notebook"
+      venue: Artificial Intelligence Review, 2022
+      text: An accessible survey and Jupyter notebook that derives visual and auditory receptive fields from natural inputs, for anyone curious about the link between computing and neuroscience.
+      tags: [tutorial, unsupervised learning]
+      link: https://doi.org/10.1007/s10462-021-10047-7

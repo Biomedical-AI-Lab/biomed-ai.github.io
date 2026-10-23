@@ -2,7 +2,8 @@
 name: "Ziruo Yi"
 image: images/team/ziruo-yi.jpg
 role: phd
-description: "PhD Candidate"
+email: "ziruoyi@my.unt.edu"
+description: "PhD Candidate · co-advised with Dr. Ting Xiao"
 aliases:
   - "Z Yi"
   - "Z. Yi"
@@ -11,4 +12,4 @@ links:
   linkedin: ziruoy
 ---
 
-Co-advised with Dr. Ting Xiao. Ziruo's dissertation is on automated report generation and visual question answering in radiology with multimodal learning.
+Ziruo's research focuses on multimodal machine learning, natural language processing, computer vision and large language models in healthcare. Her dissertation is on automated radiology report generation and visual question answering, including multi-agent systems for complex radiology reasoning.

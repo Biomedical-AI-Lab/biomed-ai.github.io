@@ -1,0 +1,20 @@
+{%- comment -%}
+  News as a flat list: category icon, MM/YYYY date, one or two sentences.
+  Set kind in each post: paper, funding, award, press, talk or lab.
+  Pass limit=N to show only the newest N.
+{%- endcomment -%}
+{%- assign lim = include.limit | default: 1000 -%}
+<ul class="news-list">
+{%- for post in site.posts limit: lim -%}
+{%- assign cat = post.kind | default: "lab" -%}
+{%- case cat -%}
+{%- when "paper" -%}{%- assign ic = "fa-solid fa-file-lines" -%}
+{%- when "funding" -%}{%- assign ic = "fa-solid fa-sack-dollar" -%}
+{%- when "award" -%}{%- assign ic = "fa-solid fa-trophy" -%}
+{%- when "press" -%}{%- assign ic = "fa-solid fa-newspaper" -%}
+{%- when "talk" -%}{%- assign ic = "fa-solid fa-microphone" -%}
+{%- else -%}{%- assign ic = "fa-solid fa-flask" -%}
+{%- endcase -%}
+<li><span class="news-icon" data-cat="{{ cat }}"><i class="{{ ic }}" aria-hidden="true"></i></span><div class="news-text"><span class="news-date">{{ post.date | date: "%m/%Y" }}:</span> {{ post.content | strip }}</div></li>
+{%- endfor -%}
+</ul>

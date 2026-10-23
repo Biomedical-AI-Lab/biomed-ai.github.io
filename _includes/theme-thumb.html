@@ -1,0 +1,12 @@
+{%- comment -%}Thumbnail: image if given, else an icon tile colored by theme.{%- endcomment -%}
+{%- assign t = include.theme | default: "gait" -%}
+{%- case t -%}
+{%- when "gait" -%}{%- assign ic = "fa-solid fa-person-walking" -%}
+{%- when "wearables" -%}{%- assign ic = "fa-solid fa-mobile-screen" -%}
+{%- when "language" -%}{%- assign ic = "fa-solid fa-comment-medical" -%}
+{%- when "imaging" -%}{%- assign ic = "fa-solid fa-x-ray" -%}
+{%- when "neuroscience" -%}{%- assign ic = "fa-solid fa-brain" -%}
+{%- when "parkinsons" -%}{%- assign ic = "fa-solid fa-person-cane" -%}
+{%- else -%}{%- assign ic = "fa-solid fa-file-lines" -%}
+{%- endcase -%}
+<div class="thumb" data-theme="{{ t }}">{%- if include.image -%}<img src="{{ include.image | relative_url }}" alt="" loading="lazy">{%- else -%}<i class="{{ ic }}" aria-hidden="true"></i>{%- endif -%}</div>

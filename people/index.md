@@ -1,39 +1,45 @@
 ---
 title: People
 nav:
-  order: 3
+  order: 2
   tooltip: Lab members and alumni
 redirect_from:
   - /team/
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}People
+# Lab Members
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% assign members = site.members | sort: "name" %}
+{% assign pi = members | where: "role", "principal-investigator" | first %}
 
-{% include section.html %}
-
-## PhD students
-
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
-
-## MS students
-
-{% include list.html data="members" component="portrait" filter="role == 'ms'" %}
-
-## Undergraduate students
-
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
-
-## Lab affiliates
-
-{% include list.html data="members" component="portrait" filter="role == 'affiliated'" %}
+{% include team-member.html member=pi pi=true %}
 
 {% include section.html %}
 
-## Alumni
+## PhD Students
 
-Where our former students went next. Alumni have joined Google, Amazon, the NIH, Panasonic, Oracle, Allstate, GoHealth and Procured Health, and gone on to graduate study at Northwestern, Northeastern, Carnegie Mellon and the University of Illinois Chicago.
+{% for m in members %}{% if m.role == "phd" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+
+## Master's Students
+
+{% for m in members %}{% if m.role == "ms" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+
+## Undergraduate and TAMS Students
+
+{% for m in members %}{% if m.role == "undergrad" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+
+{% assign affiliates = members | where: "role", "affiliated" %}
+{% if affiliates.size > 0 %}
+## Lab Affiliates
+
+{% for m in affiliates %}{% include team-member.html member=m %}{% endfor %}
+{% endif %}
+
+{% include section.html %}
+
+## Past Lab Members {#alumni}
+
+Alumni have joined Google, Amazon, the NIH, Panasonic, Oracle, Allstate, GoHealth and Procured Health, and gone on to graduate study at Northwestern, Northeastern, Carnegie Mellon and the University of Illinois Chicago.
 
 {% include alumni-logos.html %}
 

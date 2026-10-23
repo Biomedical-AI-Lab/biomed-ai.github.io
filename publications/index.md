@@ -1,32 +1,26 @@
 ---
 title: Publications
 nav:
-  order: 2
-  tooltip: Papers, patents and book
+  order: 3
+  tooltip: Selected publications
 ---
 
-# {% include icon.html icon="fa-solid fa-scroll" %}Publications
+# Selected Publications
 
-This list is built automatically from DOIs and Prof. Albert's ORCID record each time the site updates.
-For citation counts, see [Google Scholar](https://scholar.google.com/citations?user=LPzMx1IAAAAJ).
+For the full list, see [Prof. Albert's Google Scholar profile](https://scholar.google.com/citations?user=LPzMx1IAAAAJ&view_op=list_works&sortby=pubdate). Lab members are underlined.
+{:.page-sub}
 
 {% include section.html %}
 
-{% include search-box.html %}
-
-{% include tags.html tags="gait, wearables, language, imaging, neuroscience" %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include pub-list.html %}
 
 {% include section.html %}
 
 ## Patents
 
-- K. Kording, M. V. Albert, A. Levien. _Medical evaluation system and method using sensors in mobile devices._ US Patent 9,872,637, 2018.
-- K. Kording, M. V. Albert, A. Levien. _Medical evaluation system and method using sensors in mobile devices._ US Patent 10,750,977, 2020.
+- K. Kording, **M. V. Albert**, A. Levien. **Medical evaluation system and method using sensors in mobile devices.** _US Patent 10,750,977_, 2020 (continuation of US Patent 9,872,637, 2018).
+- A. W. Heinemann, S. Jerousek, J. Sliwa, et al., K. Kording, **M. V. Albert**. **Systems and methods for a rehabilitation dashboard.** _US Patent Application 20150058043_, 2015.
 
 ## Book
 
-- M. V. Albert, L. Lin, M. J. Spector, L. S. Dunn. _Bridging Human Intelligence and Artificial Intelligence._ Springer, 2022.
+- **M. V. Albert**, L. Lin, J. M. Spector, L. Dunn (eds.). **Bridging Human Intelligence and Artificial Intelligence.** _Springer_, 2022.

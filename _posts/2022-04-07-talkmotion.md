@@ -1,4 +1,5 @@
 ---
+kind: press
 title: TalkMotion in the North Texas Daily
 tags:
   - press

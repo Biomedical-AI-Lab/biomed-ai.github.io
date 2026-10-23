@@ -7,56 +7,51 @@ redirect_from:
   - /prospective-students/
 ---
 
-# {% include icon.html icon="fa-solid fa-user-plus" %}Join Us
+# Join Us
 
-We are actively recruiting students to lead or contribute to ongoing projects.
-
-{% capture openhouse %}**Next step for everyone:** come to an open house. They run 3:00 to 5:00 pm on the Thursday the week before each fall and spring semester, at {{ site.data.affiliation.address.building }}.{% endcapture %}
-{% include alert.html type="info" content=openhouse %}
+{% assign brand = site.data.affiliation %}
+{% if site.recruiting %}
+<div class="recruiting-banner">We are actively recruiting students to lead or contribute to ongoing projects.</div>
+{% else %}
+<div class="status-note"><strong>We are not actively recruiting new students at the moment.</strong><br>Exceptional PhD applicants may still reach out as described below. This page will announce new openings.</div>
+{% endif %}
 
 {% include section.html %}
 
-## How to get started
+## PhD students
 
-**Open houses** are the main way in. New students generally join during the first week of regular semester classes, after attending an open house.
+### What we look for
 
-**AI Summer Research Program.** The lab hosts projects in this program, which starts in late May and presents progress in late June. It is the main route for undergraduate and MS students, and walk-ins are welcome. Contact Dr. Albert for details.
+- **Foundations:** a BS or MS in computer science, computer engineering, electrical or biomedical engineering, statistics or a related field, with solid linear algebra, probability, statistics and optimization.
+- **Modern machine learning:** hands-on deep learning in PyTorch or JAX, including training and fine-tuning transformers, large language models or vision-language models; comfort with Linux, git, GPU clusters and reproducible experiments.
+- **Evidence of research:** a first-author paper or preprint, a strong thesis, or substantial open-source code. Work at venues such as NeurIPS, ICML, ICLR, ACL, EMNLP, CVPR, MICCAI, KDD, IEEE JBHI or IEEE ICHI stands out.
+- **Health and real-world data:** genuine interest in clinical data such as wearable signals, gait, clinical text and medical images, and in responsible, privacy-aware AI.
+- **Communication:** clear scientific writing and presenting, and meeting the graduate school's English requirements.
+- **Commitment:** full-time research aimed at top venues, typically over four to five years.
+
+### How to apply
+
+1. Apply to the Computer Science and Engineering or Information Science PhD program at {{ brand.short_name }}.
+2. After you apply, email Prof. Albert at [{{ site.links.email }}](mailto:{{ site.links.email }}) with your **application number**, your CV, the research area above you want to work in, and links to your papers and code.
+3. Promising candidates may be invited for an interview.
+
+Funding is limited. Teaching assistantships come through the department, and research assistantships depend on current grants.
+
+{% include section.html %}
+
+## MS, undergraduate and TAMS students
+
+- **Open houses** run 3:00 to 5:00 pm on the Thursday the week before each fall and spring semester, at {{ brand.address.building }}. New students generally join in the first week of classes, after an open house.
+- **AI Summer Research Program:** the main route for undergraduate and MS students. It starts in late May and presents progress in late June. Contact Prof. Albert for details.
+- **Expectations:** about 10 to 15 hours a week for at least 1.5 years, so we do not take students in their final year. You should program confidently in Python and have taken at least one machine learning or data science course.
+- **MS students** usually start by assisting on a project and can propose their own with ML experience and more than a year left in their program. RA funding is usually not available.
 
 {% include section.html %}
 
 ## Summer research
 
-- **AI Summer Research Program.** Prof. Albert created and co-directs this program. Since 2020 it has engaged 239 students in 75 projects, with about 9 faculty advisors each summer.
-- **NSF REU Site: Making Generative AI Responsible** (2025–2028). Paid summer research for undergraduates; the lab is part of the site team.
-- **Advancing Digital Health Technology** (NIH, 2025–2030). A summer research program for high school and community college educators.
-
-{% include section.html %}
-
-## By program
-
-### Undergraduate and TAMS students
-
-New students are generally accepted only in the first week of regular semester classes, after an open house. Students in the summer program may also join.
-
-### MS students
-
-Most MS students start by assisting on a project. If you have AI, ML or data science experience and more than a year left in your program, you can discuss leading your own project. RA funding is usually not available.
-
-### PhD students
-
-PhD applicants are always welcome, but funding is limited. Apply early to {{ site.data.affiliation.short_name }} for TA support, and mention the lab in your application, since RA support may be possible depending on grants.
-
-{% include section.html %}
-
-## What we look for
-
-- **Time:** about 10 to 15 hours a week on average, for at least 1.5 years. We do not take students in their final year.
-- **Programming:** at least 2 years of programming courses or 3 years of job experience. Python is our main language; we use Java for app development.
-- **Statistics or ML:** at least one course in machine learning, data mining or predictive modeling. Applied courses such as NLP or computer vision may count.
-- **Academics:** GPA above 3.3 and TOEFL above 100, with strong writing and speaking skills.
-
-{% include section.html %}
-
-## Where our students go
+- **AI Summer Research Program.** Created and co-directed by Prof. Albert; since 2020 it has engaged 239 students in 75 projects, with about 9 faculty advisors each summer.
+- **NSF REU Site: Making Generative AI Responsible** (2025–2028): paid summer research for undergraduates.
+- **Advancing Digital Health Technology** (NIH, 2025–2030): a summer research program for high school and community college educators.
 
 See the [alumni list]({{ "people" | relative_url }}#alumni) for where our former students went next.

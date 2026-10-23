@@ -1,92 +1,80 @@
 ---
 ---
 
-# Biomedical AI Lab
+{% assign brand = site.data.affiliation %}
 
-We use machine learning to advance medicine.
-Our roots are in wearable-device analytics that help clinicians treat mobility disorders, and our work now spans movement, sensing, language and imaging models for health.
+<div class="hero">
+<img src="{{ "images/logo.png" | relative_url }}" alt="{{ site.title }} logo">
+<div>
+<h1>{{ site.title }}</h1>
+<p>{{ brand.department }} · {{ brand.institution }}</p>
+</div>
+</div>
 
-{%
-  include button.html
-  link="research"
-  text="Our research"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
-{%
-  include button.html
-  link="join"
-  text="Join the lab"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+We use **machine learning to advance medicine**. Our roots are in **wearable-device analytics** that help clinicians treat mobility disorders, and today we build **movement, sensing, language and imaging models** that measure health outcomes more precisely, for people with **Parkinson's disease, cerebral palsy, stroke, amputation and spinal cord injury**.
 
-{% include section.html %}
+<div class="focus-grid" markdown="1">
+<div markdown="1">
 
-## Research themes
+#### <i class="fa-solid fa-person-walking"></i>Movement and Gait
 
-{% include themes.html %}
+- **Gait quality scores:** the Shriners Gait Index for children with cerebral palsy.
+- **Clinical prediction:** surgical outcomes and fall risk from gait and balance data.
+- **Rehabilitation outcomes:** prosthetics, spasticity and Parkinson's symptoms.
 
-{% include section.html %}
+</div>
+<div markdown="1">
 
-## Populations we study
+#### <i class="fa-solid fa-mobile-screen"></i>Wearable Sensing
 
-<div class="chip-row">
-<span class="chip">Parkinson's disease</span>
-<span class="chip">Incomplete spinal cord injury</span>
-<span class="chip">Transfemoral amputation</span>
-<span class="chip">Cerebral palsy</span>
-<span class="chip">Stroke</span>
-<span class="chip">Toddlers</span>
+- **Fall detection:** phones, wearables and airbag belts that respond in real time.
+- **Activity recognition:** from toddlers to adults with spinal cord injury.
+- **Gesture-to-speech:** wearable gesture recognition for people who cannot speak.
+
+</div>
+<div markdown="1">
+
+#### <i class="fa-solid fa-comment-medical"></i>Language Models
+
+- **Clinical text:** fall risk and pain assessment from medical records.
+- **Humanitarian NLP:** human-rights annotation and conflict forecasting.
+- **Trustworthy LLMs:** explainability, distillation and cross-lingual bias.
+
+</div>
+<div markdown="1">
+
+#### <i class="fa-solid fa-x-ray"></i>Multimodal and Imaging AI
+
+- **Radiology:** multi-agent report generation and visual question answering.
+- **Vision-language models:** small, efficient models for clinical settings.
+- **Foundations:** brain-inspired, efficient-coding models of perception.
+
+</div>
+</div>
+
+<div class="cta-row">
+<a class="cta" href="{{ "research" | relative_url }}">Research highlights</a>
+<a class="cta ghost" href="{{ "publications" | relative_url }}">Publications</a>
 </div>
 
 {% include section.html %}
 
-## Featured papers
+#### Our impact
 
-{% include list.html data="citations" component="citation" style="rich" filter="tags && tags.include?('featured')" %}
+Our work appears in venues including **IEEE JBHI, Journal of Biomechanics, Journal of NeuroEngineering and Rehabilitation, PLoS ONE, PLoS Computational Biology, Information Fusion, JMIR Medical Informatics, ECML PKDD, IJCAI, LREC, ACM/IEEE JCDL and IEEE ICHI**, and in two US patents.
 
-{%
-  include button.html
-  link="publications"
-  text="All publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-{:.center}
+#### Sponsors and partners
+
+**NIH · NSF · Shriners Children's · U.S. Army Research Laboratory · Shirley Ryan AbilityLab · Lurie Children's Hospital of Chicago · UNT Health Science Center · AI4All**
+
+#### Join us
+
+{% if site.recruiting %}<div class="recruiting-banner">We are actively recruiting students to lead or contribute to ongoing projects.</div>{% else %}We are not actively recruiting at the moment. Exceptional PhD applicants can still reach out. See **[Join Us]({{ "join" | relative_url }})** for how to apply and what we look for.{% endif %}
 
 {% include section.html %}
 
-## Latest news
+#### Latest news
 
-{% for post in site.posts limit: 5 %}
-- **{{ post.date | date: "%b %-d, %Y" }}**: [{{ post.title }}]({{ post.url | relative_url }})
-{% endfor %}
+{% include news-list.html limit=5 %}
 
-{%
-  include button.html
-  link="news"
-  text="All news"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-{:.center}
-
-{% include section.html dark=true %}
-
-## Join us
-
-We welcome undergraduate, MS and PhD students with strong programming skills and an interest in AI for health.
-Open houses run the Thursday before each fall and spring semester at {{ site.data.affiliation.address.building }}.
-
-{%
-  include button.html
-  link="join"
-  text="How to join"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
-{:.center}
+[All news →]({{ "news" | relative_url }})

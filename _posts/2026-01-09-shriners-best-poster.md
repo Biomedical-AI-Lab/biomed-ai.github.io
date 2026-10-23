@@ -1,4 +1,5 @@
 ---
+kind: award
 title: Best poster at the Shriners Children's State of the Science meeting
 tags:
   - award

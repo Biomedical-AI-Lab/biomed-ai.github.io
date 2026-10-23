@@ -8,7 +8,7 @@
 institution: University of North Texas
 short_name: UNT
 url: https://www.unt.edu
-department: Computer Science and Engineering
+department: Department of Information Science
 
 # Official university marks, downloaded from the university's identity guide.
 # Never edit or combine them with the lab logo. Leave blank to show the
@@ -18,7 +18,9 @@ logo_dark: ""   # e.g. images/affiliation/logo-white.svg (shown in the dark foot
 
 address:
   building: UNT Discovery Park
-  rooms: Lab F296 · PI office F201E
+  lab_room: B201D
+  pi_office: E292A
+  rooms: Lab B201D · PI office E292A
   street: 3940 North Elm Street
   city: Denton, TX 76207-7102
   map: https://www.google.com/maps/search/?api=1&query=UNT+Discovery+Park+3940+North+Elm+Street+Denton+TX

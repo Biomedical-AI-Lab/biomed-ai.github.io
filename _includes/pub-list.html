@@ -1,0 +1,21 @@
+{%- comment -%}
+  Publication rows grouped by year: themed thumbnail, authors (Prof. Albert
+  in bold, current lab members underlined), bold title, italic venue, links.
+  Data: _data/citations.yaml (generated from _data/sources.yaml).
+{%- endcomment -%}
+{%- assign memberNames = site.members | map: "name" -%}
+{%- assign cites = site.data.citations | sort: "date" | reverse -%}
+{%- assign years = cites | group_by_exp: "c", "c.date | date: '%Y'" -%}
+{%- assign themes = "gait,wearables,language,imaging,neuroscience,parkinsons" | split: "," -%}
+{%- for y in years -%}
+<h3 class="pub-year" id="y{{ y.name }}">{{ y.name }}</h3>
+{%- for c in y.items -%}
+{%- assign th = "" -%}{%- for t in themes -%}{%- if c.tags contains t -%}{%- assign th = t -%}{%- break -%}{%- endif -%}{%- endfor -%}
+<div class="pub">{% include theme-thumb.html theme=th image=c.image %}<div>
+<p class="pub-authors">{%- for a in c.authors -%}{%- if a contains "Albert" -%}<strong>{{ a }}</strong>{%- elsif memberNames contains a -%}<u>{{ a }}</u>{%- else -%}{{ a }}{%- endif -%}{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}</p>
+<p class="pub-title">{{ c.title }}</p>
+<p class="pub-venue">{{ c.publisher }}{% if c.publisher %}, {% endif %}{{ c.date | date: "%Y" }}</p>
+<p class="text-links">{%- if c.link -%}<a href="{{ c.link }}">[Paper]</a>{%- endif -%}{%- for b in c.buttons -%} <a href="{{ b.link }}">[{{ b.text | default: b.type }}]</a>{%- endfor -%}</p>
+</div></div>
+{%- endfor -%}
+{%- endfor -%}

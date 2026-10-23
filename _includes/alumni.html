@@ -1,18 +1,18 @@
 {%- comment -%}
-  Alumni tables. Data: _data/alumni.yaml (groups, each with people).
-  Groups marked collapsed: true fold into an expandable row.
+  Past members: one line each (name, role, years, next position).
+  Bios, photos and links are shown only for current members.
+  Data: _data/alumni.yaml. Groups with collapsed: true fold away.
 {%- endcomment -%}
 {%- for g in site.data.alumni -%}
-{%- capture rows -%}
+{%- capture items -%}
 {%- for p in g.people -%}
-<tr><td>{%- if p.link -%}<a href="{{ p.link }}">{{ p.name }}</a>{%- else -%}{{ p.name }}{%- endif -%}{%- if p.thesis -%}<br><small><em>{{ p.thesis }}</em></small>{%- endif -%}</td><td>{{ p.level }}</td><td>{{ p.years }}</td><td>{{ p.next }}</td></tr>
+<li><strong>{{ p.name }}</strong>{%- if p.level or p.years -%}<span class="alum-meta">, {{ p.level }}{%- if p.level and p.years -%}, {% endif -%}{{ p.years }}</span>{%- endif -%}{%- if p.next and p.next != "" -%}<span class="alum-meta"> → </span>{{ p.next }}{%- endif -%}</li>
 {%- endfor -%}
 {%- endcapture -%}
-{%- capture table -%}<table class="alumni-table"><thead><tr><th>Name</th><th>Role in the lab</th><th>Years</th><th>Next position</th></tr></thead><tbody>{{ rows }}</tbody></table>{%- endcapture -%}
 {%- if g.collapsed %}
-<details class="alumni-group"><summary>{{ g.group }} ({{ g.people.size }})</summary>{{ table }}</details>
+<details class="alumni-group"><summary>{{ g.group }} ({{ g.people.size }})</summary><ul class="alumni-list">{{ items }}</ul></details>
 {%- else %}
 <h3>{{ g.group }}</h3>
-{{ table }}
+<ul class="alumni-list">{{ items }}</ul>
 {%- endif -%}
 {%- endfor %}

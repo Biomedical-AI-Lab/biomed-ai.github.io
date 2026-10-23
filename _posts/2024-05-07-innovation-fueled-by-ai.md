@@ -1,4 +1,5 @@
 ---
+kind: press
 title: "Featured: Innovation Fueled by AI"
 tags:
   - press

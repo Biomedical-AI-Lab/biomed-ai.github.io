@@ -1,4 +1,5 @@
 ---
+kind: funding
 title: NIH funds a summer research program in digital health
 tags:
   - funding

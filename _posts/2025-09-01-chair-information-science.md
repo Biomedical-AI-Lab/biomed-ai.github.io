@@ -1,4 +1,5 @@
 ---
+kind: lab
 title: Prof. Albert named Chair of Information Science
 tags:
   - lab

@@ -1,7 +1,7 @@
 ---
 title: Software & Data
 nav:
-  order: 4
+  order: 5
   tooltip: Apps, code and datasets
 redirect_from:
   - /projects/

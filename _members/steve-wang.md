@@ -2,6 +2,7 @@
 name: "Steve (Shou-Jen) Wang"
 image: images/team/steve-wang.jpg
 role: phd
+email: "Shou-JenWang@my.unt.edu"
 description: "PhD Candidate"
 aliases:
   - "SJ Wang"
@@ -10,4 +11,4 @@ links:
   linkedin: steve-wang-1b6a443a
 ---
 
-Steve's dissertation develops autoencoder approaches that quantify gait data to predict surgical outcomes in children with cerebral palsy, in collaboration with Shriners Children's. He also built a machine learning model that measures spasticity from arm-worn sensors.
+Steve holds an MS in Technology from Eastern Illinois University. He developed a machine learning model for arm-worn sensors that automatically measures spasticity, enabling more precise decisions about spasticity treatment. He now works with Shriners Children's on predicting surgical outcomes for children with cerebral palsy, including the Shriners Gait Index, to help surgeons choose therapies that improve gait.

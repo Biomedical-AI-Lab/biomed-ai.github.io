@@ -5,4 +5,4 @@ role: undergrad
 description: "TAMS student"
 ---
 
-Aditya is in the General Science and Mathematics track at the Texas Academy of Mathematics and Science, with interests in biomedicine and computer science.
+Aditya is in the General Science and Mathematics track at the Texas Academy of Mathematics and Science, and is fascinated by the intersection of biomedicine, computer science and health administration.

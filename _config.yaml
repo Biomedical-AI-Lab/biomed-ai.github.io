@@ -9,6 +9,16 @@ proofer: false
 # Local previews and pull-request previews always show the full site.
 under-construction: false
 
+# Recruiting status, shown on Join Us and Home.
+#   true  = big red "we are actively recruiting" banner
+#   false = "not actively recruiting" note
+recruiting: false
+
+# light header and footer with the round logo (reference-lab style)
+header-dark: false
+footer-dark: false
+show-subtitle: false
+
 # The university name, logo, colors, fonts and address are NOT set here.
 # They live in _data/affiliation.yaml so the branding can be swapped in one place.
 

@@ -1,4 +1,5 @@
 ---
+kind: funding
 title: New NSF REU site on responsible generative AI
 tags:
   - funding

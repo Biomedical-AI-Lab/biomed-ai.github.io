@@ -1,4 +1,5 @@
 ---
+kind: lab
 title: Our new website
 tags:
   - lab

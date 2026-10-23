@@ -3,6 +3,8 @@ name: Mark V. Albert
 image: images/team/mark-v-albert.jpg
 role: principal-investigator
 description: Director · Chair of Information Science · Associate Professor
+summary: >-
+  Prof. Albert uses machine learning to automate the collection and inference of clinically useful health information. His work in wearable sensing and gait analysis has improved how outcomes are measured for people with Parkinson's disease, stroke, amputation and cerebral palsy, and the lab now also builds language and imaging models for health. He chairs the Department of Information Science and is an Associate Professor of Computer Science and Engineering with a joint appointment in Biomedical Engineering.
 aliases:
   - M. V. Albert
   - MV Albert

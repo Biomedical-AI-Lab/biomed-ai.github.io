@@ -1,0 +1,25 @@
+{%- comment -%}
+  One lab member: photo (or initials), name, role, email, links, bio.
+  Pass member=<document>. pi=true uses the summary and links to the full profile.
+{%- endcomment -%}
+{%- assign m = include.member -%}
+{%- assign photo = m.image | file_exists -%}
+{%- assign words = m.name | remove: "(" | remove: ")" | split: " " -%}
+{%- capture initials -%}{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}{%- endcapture -%}
+<div class="member{% if include.pi %} pi{% endif %}">
+<div>{%- if photo -%}<img class="member-photo" src="{{ photo | relative_url }}" alt="{{ m.name }}" loading="lazy">{%- else -%}<div class="member-initials" aria-hidden="true">{{ initials }}</div>{%- endif -%}</div>
+<div>
+<p class="member-name">{% if include.pi %}Dr. {% endif %}{{ m.name }}</p>
+{%- if m.description -%}<p class="member-role">{{ m.description }}</p>{%- endif -%}
+{%- assign em = m.email | default: m.links.email -%}
+{%- if em -%}<p class="member-email">{{ em | replace: "@", " (at) " }}</p>{%- endif -%}
+{%- if m.links -%}<p class="text-links">
+{%- assign first = true -%}
+{%- for l in m.links -%}{%- assign k = l[0] -%}{%- assign v = l[1] -%}{%- if k == "email" -%}{%- continue -%}{%- endif -%}{%- assign t = site.data.types[k] -%}{%- assign href = t.link | default: "$VALUE" | replace: "$VALUE", v -%}
+{%- unless first %} · {% endunless -%}<a href="{{ href }}">{{ t.text | default: k }}</a>{%- assign first = false -%}
+{%- endfor -%}
+{%- if include.pi %} · <a href="{{ m.url | relative_url }}">Full profile, teaching &amp; honors</a>{% endif -%}
+</p>{%- elsif include.pi -%}<p class="text-links"><a href="{{ m.url | relative_url }}">Full profile, teaching &amp; honors</a></p>{%- endif -%}
+<div class="member-bio">{%- if include.pi -%}<p>{{ m.summary }}</p>{%- else -%}{{ m.content }}{%- endif -%}</div>
+</div>
+</div>

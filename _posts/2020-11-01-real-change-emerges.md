@@ -1,4 +1,5 @@
 ---
+kind: press
 title: "Featured: Through Artificial Intelligence, Real Change Emerges"
 tags:
   - press

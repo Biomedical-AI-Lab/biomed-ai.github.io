@@ -1,4 +1,5 @@
 ---
+kind: award
 title: Outstanding Research Mentor of the Year
 tags:
   - award
