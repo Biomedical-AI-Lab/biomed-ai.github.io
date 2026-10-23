@@ -13,29 +13,38 @@ aliases:
 links:
   email: Mark.Albert@unt.edu
   google-scholar: LPzMx1IAAAAJ
+  linkedin: markvalbert
 ---
 
 <!-- Bio drawn from Prof. Albert's CV; for him to review. University name comes from _data/affiliation.yaml. -->
 
 Mark V. Albert directs the Biomedical AI Lab.
 He is Chair of the Department of Information Science at the {{ site.data.affiliation.institution }} and an Associate Professor of Computer Science and Engineering, with a joint appointment in Biomedical Engineering.
-From 2021 to 2025 he was Associate Chair for Graduate Studies in Computer Science and Engineering, a period in which the department's graduate program grew more than sixfold.
+Until 2025 he was Associate Chair for Graduate Studies in Computer Science and Engineering, a period in which the department's graduate program grew more than sixfold.
 
 His research applies machine learning to clinical care, especially rehabilitation and wearable sensing: detecting falls and recognizing activity with phones and wearables, and scoring movement quality for clinicians.
 As an advisor to Shriners Children's on gait analysis, he created the Shriners Gait Index, a single summary measure of gait quality for children with cerebral palsy.
 The lab also builds language and imaging models for health and humanitarian applications.
 
-Before 2019 he was an Associate Professor of Computer Science at Loyola University Chicago, where he directed the Pervasive and Ambient Computing Lab and the Theoretical Neuroscience Lab.
-He was a postdoctoral researcher at Northwestern University and the Rehabilitation Institute of Chicago (now Shirley Ryan AbilityLab) with Konrad Kording and Arun Jayaraman, and an adjunct faculty member in Physical Medicine and Rehabilitation at Northwestern until 2022.
+From 2013 to 2019 he was an Assistant Professor of Computer Science at Loyola University Chicago, where he directed the Pervasive and Ambient Computing Lab and the Theoretical Neuroscience Lab.
+From 2009 to 2013 he was a postdoctoral research associate at the Rehabilitation Institute of Chicago (now Shirley Ryan AbilityLab) and Northwestern University Feinberg School of Medicine, with Konrad Kording and Arun Jayaraman, and he remained an adjunct faculty member in Physical Medicine and Rehabilitation at Northwestern until 2022.
 
 {% include section.html %}
 
 ## Education
 
-- **PhD, Computational Biology**, Cornell University, 2009. Dissertation: _Normative Visual Development: innate learning in the early visual system_ (advisor: David Field).
-- Graduate coursework in computational neuroscience, Carnegie Mellon University and University of Pittsburgh, 2001–2004.
-- **Fulbright Fellow**, University of Vienna, 2000–2001.
-- **BS, Computer Science, Chemistry, Physics and Mathematics**, Pittsburg State University, 2000.
+- **PhD, Computational Biology**, Cornell University, 2004–2009. Dissertation: _Normative Visual Development: innate learning in the early visual system_ (advisor: David Field).
+- **Research Assistant, Psychology and Computer Science**, Carnegie Mellon University, 2001–2004.
+- **Fulbright research fellow**, Institute of Medical Cybernetics and Artificial Intelligence, University of Vienna, 2000–2001.
+- **BS, Chemistry, Mathematics, Physics and Computer Science**, Pittsburg State University, 1996–2000.
+
+## Career
+
+- **Chair, Department of Information Science**, University of North Texas, 2025–present
+- **Associate Professor and Associate Chair for Graduate Studies, Computer Science and Engineering**, University of North Texas, until 2025
+- **Assistant Professor, Computer Science and Engineering and Biomedical Engineering**, University of North Texas, 2019–2023
+- **Assistant Professor of Computer Science**, Loyola University Chicago, 2013–2019
+- **Postdoctoral Research Associate**, Rehabilitation Institute of Chicago and Northwestern University Feinberg School of Medicine, 2009–2013
 
 ## Selected honors
 
@@ -77,4 +86,4 @@ He was a postdoctoral researcher at Northwestern University and the Rehabilitati
 
 - _Bridging Human Intelligence and Artificial Intelligence._ M. V. Albert, L. Lin, J. M. Spector, L. Dunn (eds.). Springer, 2022.
 - _Automated Discrimination: The Power and Peril of Big Data_, a book co-written with the students of his Spring 2016 Honors course and funded through Kickstarter.
-- [Neural efficient coding notebook]({{ "software" | relative_url }}): a tutorial that shows how early visual and auditory receptive fields can emerge from natural input ([_Artificial Intelligence Review_](https://doi.org/10.1007/s10462-021-10047-7)).
+- [Neural efficient coding notebook]({{ "research" | relative_url }}#software): a tutorial that shows how early visual and auditory receptive fields can emerge from natural input ([_Artificial Intelligence Review_](https://doi.org/10.1007/s10462-021-10047-7)).
