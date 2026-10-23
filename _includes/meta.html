@@ -49,7 +49,9 @@
 
 <title>{{ fulltitle }}</title>
 
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ icon }}">
+<link rel="icon" href="{{ "favicon.ico" | relative_url }}" sizes="any">
+<link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | relative_url }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">
