@@ -17,4 +17,6 @@ pub_names:
   - "Namratha V. Urs"
 ---
 
-Namratha pursues computational neuroscience: showing how the early visual and auditory systems can be "derived" from an efficient coding of natural scenes and sounds. She is first author of a primer and accessible Jupyter notebook that derives neural receptive fields from grayscale, color and audio input (_Artificial Intelligence Review_, 2022), and presented the work at the Society for Neuroscience meeting. She has also spent a summer at Argonne National Laboratory, works as a scientific computing software developer at Fermilab, and does natural language processing research at UNT.
+Namratha works across computational neuroscience and natural language processing. In the lab she showed how the early visual and auditory systems can be "derived" from an efficient coding of natural scenes and sounds, publishing a primer and accessible Jupyter notebook that derives neural receptive fields from grayscale, color and audio input (_Artificial Intelligence Review_, 2022) and presenting the work at the Society for Neuroscience meeting. She also does discourse-processing research in UNT's Human Intelligence and Language Technologies Lab and contributes to the lab's work on explaining language models with counterfactuals.
+
+Since 2022 she has been a software developer at Fermilab, after internships there, working on GlideinWMS, distributed-computing software that runs physics workloads on grids, clouds and supercomputers. She has also spent a summer at Argonne National Laboratory.

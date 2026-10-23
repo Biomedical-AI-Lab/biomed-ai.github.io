@@ -16,17 +16,27 @@ redirect_from:
 
 {% include section.html %}
 
+{% assign phd = members | where: "role", "phd" %}
+{% assign ms = members | where: "role", "ms" %}
+{% assign undergrad = members | where: "role", "undergrad" %}
+
+{% if phd.size > 0 %}
 ## PhD Students
 
-{% for m in members %}{% if m.role == "phd" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+{% for m in phd %}{% include team-member.html member=m %}{% endfor %}
+{% endif %}
 
+{% if ms.size > 0 %}
 ## Master's Students
 
-{% for m in members %}{% if m.role == "ms" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+{% for m in ms %}{% include team-member.html member=m %}{% endfor %}
+{% endif %}
 
+{% if undergrad.size > 0 %}
 ## Undergraduate and TAMS Students
 
-{% for m in members %}{% if m.role == "undergrad" %}{% include team-member.html member=m %}{% endif %}{% endfor %}
+{% for m in undergrad %}{% include team-member.html member=m %}{% endfor %}
+{% endif %}
 
 {% assign affiliates = members | where: "role", "affiliated" %}
 {% if affiliates.size > 0 %}
