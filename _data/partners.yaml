@@ -9,7 +9,7 @@
   link: https://www.nsf.gov
   type: sponsor
 - name: National Institutes of Health
-  short: NIH
+  short: National Institutes of Health
   link: https://www.nih.gov
   type: sponsor
 - name: U.S. Army Research Laboratory
@@ -17,7 +17,7 @@
   link: https://arl.devcom.army.mil
   type: sponsor
 - name: U.S. Department of Health and Human Services
-  short: Health and Human Services
+  short: U.S. Health and Human Services
   link: https://www.hhs.gov
   type: sponsor
 - name: Shriners Children's

@@ -35,7 +35,7 @@
 <div class="grant-group-head"><h3>{{ g.group }}</h3><span class="grant-sub">{% include money.html n=sub %} · {{ g.items.size }} award{% if g.items.size != 1 %}s{% endif %}</span></div>
 <ul class="grant-list">
 {%- for a in g.items -%}
-<li class="grant"><div class="grant-main"><span class="grant-title">{{ a.title }}</span><span class="grant-meta">{%- if a.badge -%}<span class="grant-badge" data-badge="{{ a.badge }}">{{ a.badge | upcase }}</span> {% endif -%}{{ a.sponsor }}{%- if a.role -%} · {{ a.role }}{%- endif -%}</span>{%- if a.note -%}<span class="grant-note">{{ a.note }}</span>{%- endif -%}</div><div class="grant-side"><span class="grant-amount">{%- if a.amount -%}{% include money.html n=a.amount %}{%- else -%}amount not recorded{%- endif -%}</span><span class="grant-years">{{ a.years }}</span></div></li>
+<li class="grant"><div class="grant-main"><span class="grant-title">{{ a.title }}</span><span class="grant-meta">{%- if a.badge -%}<span class="grant-badge" data-badge="{{ a.badge }}">{{ a.badge | upcase }}</span> {% endif -%}{{ a.sponsor }}{%- if a.role %} · {{ a.role }}{%- endif -%}</span>{%- if a.note -%}<span class="grant-note">{{ a.note }}</span>{%- endif -%}</div><div class="grant-side"><span class="grant-amount">{%- if a.amount -%}{% include money.html n=a.amount %}{%- else -%}amount not recorded{%- endif -%}</span><span class="grant-years">{{ a.years }}</span></div></li>
 {%- endfor -%}
 </ul>
 </div>
