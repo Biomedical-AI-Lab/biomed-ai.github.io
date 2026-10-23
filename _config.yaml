@@ -17,6 +17,9 @@ recruiting: false
 # red "Website Under Construction" notice at the top of the home page
 construction-notice: true
 
+# Publications page lists papers from this year on (the lab started in Aug 2019)
+publications-from: 2019
+
 # light header and footer with the round logo (reference-lab style)
 header-dark: false
 footer-dark: false

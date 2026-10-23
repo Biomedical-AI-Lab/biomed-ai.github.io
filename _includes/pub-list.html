@@ -3,6 +3,7 @@
   in bold, current and former lab members underlined (by name or any
   pub_names spelling in _members/ or _data/alumni.yaml)), bold title, italic venue, links.
   Data: _data/citations.yaml (generated from _data/sources.yaml).
+  Years before publications-from in _config.yaml are hidden.
 {%- endcomment -%}
 {%- assign memberNames = site.members | map: "name" -%}
 {%- for m in site.members -%}{%- if m.pub_names -%}{%- assign memberNames = memberNames | concat: m.pub_names -%}{%- endif -%}{%- endfor -%}
@@ -10,7 +11,9 @@
 {%- assign cites = site.data.citations | sort: "date" | reverse -%}
 {%- assign years = cites | group_by_exp: "c", "c.date | date: '%Y'" -%}
 {%- assign themes = "gait,wearables,language,imaging,neuroscience,parkinsons" | split: "," -%}
+{%- assign from_year = site.publications-from | default: 0 -%}
 {%- for y in years -%}
+{%- assign yn = y.name | plus: 0 -%}{%- if yn < from_year -%}{%- continue -%}{%- endif -%}
 <h3 class="pub-year" id="y{{ y.name }}">{{ y.name }}</h3>
 {%- for c in y.items -%}
 {%- assign th = "" -%}{%- for t in themes -%}{%- if c.tags contains t -%}{%- assign th = t -%}{%- break -%}{%- endif -%}{%- endfor -%}
