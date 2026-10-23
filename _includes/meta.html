@@ -32,7 +32,7 @@
 
 {% assign description = description | xml_escape %}
 
-{% assign png = "images/icon.png" | file_exists %}
+{% assign png = "images/favicon-turtle.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
 
@@ -49,9 +49,9 @@
 
 <title>{{ fulltitle }}</title>
 
-<link rel="icon" type="image/png" sizes="192x192" href="{{ icon }}">
-<link rel="icon" href="{{ "favicon.ico" | relative_url }}" sizes="any">
-<link rel="apple-touch-icon" href="{{ "images/apple-touch-icon.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ icon }}?v=2">
+<link rel="icon" href="{{ "favicon.ico" | relative_url }}?v=2" sizes="any">
+<link rel="apple-touch-icon" href="{{ "images/apple-touch-icon-turtle.png" | relative_url }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">

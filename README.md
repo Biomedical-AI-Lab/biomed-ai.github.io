@@ -84,7 +84,7 @@ Until the custom domain is set, the site is at `https://biomedical-ai-lab.github
 - [ ] Prof. Albert reviews his draft bio in `_members/mark-v-albert.md`
 - [ ] Add his ORCID iD (see above)
 - [ ] Headshots in `images/team/` for the members who don't have one yet (13 done)
-- [x] Lab logo (`images/logo.png`), browser icon (`images/icon.png`) and share image (`images/share.jpg`)
+- [x] Lab logo (`images/logo.png`), browser icon (`images/favicon-turtle.png`) and share image (`images/share.jpg`)
 - [ ] Official university logo files in `images/affiliation/`, then set `logo` and `logo_dark` in `affiliation.yaml`
 - [ ] Confirm the Google Docs syllabus links are shared publicly
 - [ ] Links for the 5 tools listed under "In the works" on Software & Data
