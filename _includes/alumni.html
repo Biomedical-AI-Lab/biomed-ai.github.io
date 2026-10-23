@@ -1,18 +1,17 @@
 {%- comment -%}
-  Past members: one line each (name, role, years, next position).
-  Bios, photos and links are shown only for current members.
-  Data: _data/alumni.yaml. Groups with collapsed: true fold away.
+  Past lab members from _data/alumni.yaml. Every group is a folded,
+  click-to-expand row (add open: true to a group to start it expanded).
+  One line per person: name (linked when a link is given), level, years,
+  an optional note, and where they went next.
 {%- endcomment -%}
 {%- for g in site.data.alumni -%}
-{%- capture items -%}
+<details class="alumni-group"{% if g.open %} open{% endif %}><summary>{{ g.group }} ({{ g.people.size }})</summary>
+<ul class="alumni-list">
 {%- for p in g.people -%}
-<li><strong>{{ p.name }}</strong>{%- if p.level or p.years -%}<span class="alum-meta">, {{ p.level }}{%- if p.level and p.years -%}, {% endif -%}{{ p.years }}</span>{%- endif -%}{%- if p.next and p.next != "" -%}<span class="alum-meta"> → </span>{{ p.next }}{%- endif -%}</li>
+<li><strong>{%- if p.link and p.link != "" -%}<a href="{{ p.link }}">{{ p.name }}</a>{%- else -%}{{ p.name }}{%- endif -%}</strong>
+{%- if p.level or p.years -%}<span class="alum-meta">, {{ p.level }}{%- if p.level and p.years -%}, {% endif -%}{{ p.years }}</span>{%- endif -%}
+{%- if p.note -%}<span class="alum-meta"> ({{ p.note }})</span>{%- endif -%}
+{%- if p.next and p.next != "" -%}<span class="alum-meta"> → </span>{{ p.next }}{%- endif -%}</li>
 {%- endfor -%}
-{%- endcapture -%}
-{%- if g.collapsed %}
-<details class="alumni-group"><summary>{{ g.group }} ({{ g.people.size }})</summary><ul class="alumni-list">{{ items }}</ul></details>
-{%- else %}
-<h3>{{ g.group }}</h3>
-<ul class="alumni-list">{{ items }}</ul>
-{%- endif -%}
+</ul></details>
 {%- endfor %}

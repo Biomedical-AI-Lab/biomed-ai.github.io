@@ -1,8 +1,53 @@
-# Former lab members, shown on the People page.
-# Each group is a table; collapsed: true folds it into an expandable row.
+# Former lab members, shown under "Past Lab Members" on the People page.
+# Every group renders as a folded, click-to-expand row; add open: true to a
+# group to show it expanded by default.
+# Per person: name, level, years, note, next (where they went), link (website or
+# LinkedIn; the name links to it), pub_names (spellings used in citations, so
+# their names stay underlined on the Publications page).
+# When a student graduates: delete their _members file and add them here.
 
-- group: "PhD graduates"
+- group: "PhD alumni"
   people:
+    - name: "George Mihaila"
+      level: "PhD"
+      years: "2026"
+      next: "Applied Scientist, Amazon Web Services"
+      link: "https://gmihaila.github.io/"
+      pub_names: ["George Mihaila"]
+    - name: "Palina Nemkova"
+      level: "PhD"
+      years: "2026"
+      link: "https://www.nemkova.com/"
+      pub_names: ["Poli Nemkova", "Poli A. Nemkova", "Apollinaire Poli Nemkova", "Poli Apollinaire Nemkova"]
+    - name: "Riyad Bin Rafiq"
+      level: "PhD"
+      years: "2026"
+      note: "co-advised with Dr. Weishi Shi"
+      link: "https://riyadrafiq.github.io/"
+      pub_names: ["Riyad Bin Rafiq"]
+    - name: "Steve (Shou-Jen) Wang"
+      level: "PhD"
+      years: "2026"
+      link: "https://www.linkedin.com/in/steve-wang-1b6a443a/"
+      pub_names: ["Shou-Jen Wang"]
+    - name: "Thasina Tabashum"
+      level: "PhD"
+      years: "2026"
+      note: "former lab manager; co-advised with Dr. Ting Xiao"
+      link: "https://www.linkedin.com/in/thasina-tabashum-6553829b/"
+      pub_names: ["Thasina Tabashum"]
+    - name: "Ziruo Yi"
+      level: "PhD"
+      years: "2026"
+      note: "co-advised with Dr. Ting Xiao"
+      link: "https://www.linkedin.com/in/ziruoy/"
+      pub_names: ["Ziruo Yi"]
+    - name: "Abdullah Albanyan"
+      years: "2023"
+      thesis: "Investigating the Relationships between Online Hate Speech and Counterhate Replies to Mitigate Hateful Content"
+      level: "PhD"
+      next: "Prince Sattam bin Abdulaziz University"
+      link: "https://www.linkedin.com/in/abdullah-albanyan-ph-d-23129858/"
     - name: "Sahar Behpour"
       years: "2022"
       thesis: "Weight Initialization for Convolutional Neural Networks using Unsupervised Machine Learning (co-advised with Ting Xiao)"
@@ -15,14 +60,11 @@
       level: "PhD"
       next: "Amazon"
       link: "https://www.linkedin.com/in/md-mosharaf-hossain-phd-490b5751/"
-    - name: "Abdullah Albanyan"
-      years: "2023"
-      thesis: "Investigating the Relationships between Online Hate Speech and Counterhate Replies to Mitigate Hateful Content"
-      level: "PhD"
-      next: "Prince Sattam bin Abdulaziz University"
-      link: "https://www.linkedin.com/in/abdullah-albanyan-ph-d-23129858/"
     - name: "Shiva Ebrahimi"
       level: "PhD"
+    - name: "Chandrashekhar Ramamurthi"
+      level: "PhD student"
+      years: "joined 2020"
 
 - group: "Master's students"
   people:
@@ -176,7 +218,6 @@
       thesis: "BS thesis: Pretraining neural network layers through learning from spontaneous activity"
 
 - group: "Earlier graduate research students, 2012–2019"
-  collapsed: true
   people:
     - name: "Albert Sugianto"
       level: "CS graduate student"
@@ -255,7 +296,6 @@
       next: "Data Engineer, Northwestern Memorial Hospital"
 
 - group: "Earlier undergraduate research students, 2011–2018"
-  collapsed: true
   people:
     - name: "Lucas (Diego) Perez"
       level: "CS undergraduate, independent study"
@@ -338,7 +378,6 @@
       years: "Summer 2011"
 
 - group: "Rotation, visiting and high school students, 2011–2016"
-  collapsed: true
   people:
     - name: "Anna Gabriella Breganholi de Almeida"
       level: "Brazilian Scientific Mobility Program"
