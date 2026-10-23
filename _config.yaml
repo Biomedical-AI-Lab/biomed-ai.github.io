@@ -7,7 +7,7 @@ proofer: false
 #   true  = visitors see the placeholder (use while we work on the site)
 #   false = the full site is public
 # Local previews and pull-request previews always show the full site.
-under-construction: true
+under-construction: false
 
 # The university name, logo, colors, fonts and address are NOT set here.
 # They live in _data/affiliation.yaml so the branding can be swapped in one place.
