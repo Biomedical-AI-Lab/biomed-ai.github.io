@@ -17,6 +17,7 @@
     - name: "Palina Nemkova"
       level: "PhD"
       years: "2026"
+      next: "Columbia University"
       link: "https://www.nemkova.com/"
       pub_names: ["Poli Nemkova", "Poli A. Nemkova", "Apollinaire Poli Nemkova", "Poli Apollinaire Nemkova"]
     - name: "Riyad Bin Rafiq"
@@ -34,6 +35,7 @@
       level: "PhD"
       years: "2026"
       note: "former lab manager; co-advised with Dr. Ting Xiao"
+      next: "Cook Children's"
       link: "https://www.linkedin.com/in/thasina-tabashum-6553829b/"
       pub_names: ["Thasina Tabashum"]
     - name: "Ziruo Yi"

@@ -1,5 +1,5 @@
 ---
-name: "Zubair Hasan"
+name: "Muhammad Zubair Hasan"
 image: images/team/zubair-hasan.jpg
 role: phd
 description: "PhD Student · Lab Manager"

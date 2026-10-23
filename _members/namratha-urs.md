@@ -3,7 +3,7 @@ name: "Namratha Urs"
 image: images/team/namratha-urs.jpg
 role: phd
 email: "NamrathaUrs@my.unt.edu"
-description: "PhD Student · Graduating Summer 2027"
+description: "PhD Candidate · Graduating Summer 2027"
 aliases:
   - "N Urs"
   - "NV Urs"
@@ -12,6 +12,7 @@ links:
   google-scholar: I-rdx8AAAAAJ
   orcid: 0000-0001-6217-6376
   github: namrathaurs
+  linkedin: ursnamratha
 pub_names:
   - "Namratha V. Urs"
 ---
