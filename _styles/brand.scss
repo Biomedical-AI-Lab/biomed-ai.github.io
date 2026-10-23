@@ -515,6 +515,11 @@ body main .grant-summary {
   font-weight: var(--bold);
   color: var(--heading-color);
 }
+.grant-sub {
+  font-family: var(--heading);
+  font-weight: var(--bold);
+  color: var(--primary);
+}
 .grant-group .grant-list {
   padding: 0 18px 6px;
   border-top: 1px solid var(--light-gray);
