@@ -1,0 +1,244 @@
+# Grants, contracts and fellowships, shown in the Grants section of the
+# Research page. Totals on the page are computed from these numbers.
+#
+# Sources: UNT Faculty Information System ("Contracts, Grants and Sponsored
+# Research") and Dr. Albert's CV (Jul 2025). Amounts are award amounts as
+# recorded there; leave amount out when none is recorded. A project listed
+# more than once in those sources appears here once.
+#
+# Per award: title, sponsor, badge (nsf or nih, optional), role, years,
+# amount (number, no $ or commas), note (optional).
+# Per group: group, id, kind (research or fellowship), intro (optional).
+
+- group: National Science Foundation (NSF)
+  id: nsf
+  kind: research
+  items:
+    - title: "NSF REU Site: Knowledge Beyond Language with Vector Embeddings"
+      sponsor: National Science Foundation
+      badge: nsf
+      role: Team member (PI Ting Xiao)
+      years: 2026–2029
+      amount: 464978
+    - title: "REU Site: Making Generative Artificial Intelligence Responsible"
+      sponsor: National Science Foundation
+      badge: nsf
+      role: Co-PI (PI Yunhe Feng)
+      years: 2025–2028
+      amount: 463434
+    - title: "NSF REU Site: Beyond Language: Training to Create and Share Vector Embeddings across Applications"
+      sponsor: National Science Foundation
+      badge: nsf
+      role: Team member (PI Ting Xiao)
+      years: 2023–2025
+      amount: 403547
+    - title: "REU Site: Interdisciplinary Research Experience on Accelerated Deep Learning through a Hardware-Software Collaborative Approach"
+      sponsor: National Science Foundation
+      badge: nsf
+      role: Co-PI (with Hui Zhao)
+      years: 2021–2024
+      amount: 398684
+
+- group: National Institutes of Health (NIH)
+  id: nih
+  kind: research
+  items:
+    - title: "Advancing Digital Health Technology: A Summer Research Program for High School and Community College Educators"
+      sponsor: National Institutes of Health (R25)
+      badge: nih
+      role: Co-PI (PI Mahdi Pedram)
+      years: 2026–2030
+      amount: 530742
+    - title: "Using the Fitbit for Early Detection of Infection and Reduction of Healthcare Utilization after Discharge in Pediatric Surgical Patients"
+      sponsor: NIH (R01), subaward from Lurie Children's Hospital
+      badge: nih
+      role: Co-I
+      years: 2023–2027
+      amount: 72292
+    - title: "Physical Activity Measurement in Toddlers"
+      sponsor: NIH (R01), with Lurie Children's Hospital of Chicago
+      badge: nih
+      role: Co-I
+      years: 2021–2026
+      amount: 70808
+    - title: "Pilot Development and Assessment of a Precision Gesture-to-Speech System for Speech-Impaired Individuals with Limited Mobility"
+      sponsor: NIH-funded C-STAR center, Shirley Ryan AbilityLab
+      badge: nih
+      role: PI
+      years: 2023–2025
+      amount: 37125
+    - title: "Understanding Real-Life Falls in Amputees using Mobile Phone Technology"
+      sponsor: NIH (R01) subcontract, Shirley Ryan AbilityLab
+      badge: nih
+      role: Subcontract
+      years: 2017
+      amount: 4000
+
+- group: Other federal sponsors
+  id: federal
+  kind: research
+  items:
+    - title: "Hierarchically Structured Materials Systems for Enhanced Dynamic Performance"
+      sponsor: U.S. Army Research Laboratory
+      role: Co-PI
+      years: 2023–2024
+      amount: 200000
+      note: Dr. Albert's share of a $5M award
+    - title: "Fall Catcher: Wearable Airbag Technology to Mitigate Falls in Individuals with Stroke"
+      sponsor: U.S. Department of Health and Human Services (RERC subcontract through Shirley Ryan AbilityLab)
+      role: PI
+      years: 2020–2023
+      amount: 97000
+    - title: "Predicting Fall Risk in Older Adults Using Machine Learning"
+      sponsor: Johns Hopkins AI and Technology Collaboratory for Aging Research, subaward through UNT Health Science Center
+      role: Co-PI
+      years: 2023–2024
+      amount: 56157
+
+- group: Hospitals, foundations and other sponsors
+  id: foundations
+  kind: research
+  items:
+    - title: "Improving Orthopaedic Outcomes through Machine Learning"
+      sponsor: Shriners Children's
+      role: Site PI
+      years: 2022–2025
+      amount: 289770
+    - title: "Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury"
+      sponsor: Shriners Children's
+      role: Site PI
+      years: 2026–2027
+      amount: 114363
+    - title: "Machine Learning Prediction Using Quantitative Gait Analysis Data to Suggest and Support Interventions for Pediatric Patients with Movement Disorders"
+      sponsor: Shriners Children's (system-wide)
+      role: PI
+      years: 2020–2021
+      amount: 111218
+      note: also recorded as project 79151, "Machine Learning Techniques for Gait Data to Support Evidence Based Decision Making"
+    - title: "Computer Science Summer Research Program"
+      sponsor: Institute of International Education (Brazil Scientific Mobility Program)
+      role: PI
+      years: 2016
+      amount: 65000
+      note: summer research for 14 visiting students
+    - title: "AI4ALL College Pathways Program"
+      sponsor: AI4ALL
+      role: Co-PI (PI Ting Xiao)
+      years: 2020–2024
+      amount: 22523.5
+      note: four yearly awards of $2,468, $9,503, $7,035 and $3,517.50
+    - title: "Modeling Aspects of Early Binocular Visual Development by Optimizing Depth Perception"
+      sponsor: Google Cloud Platform research credit
+      role: PI
+      years: 2018–2019
+      amount: 5000
+    - title: "Machine Learning to Human Learning: Leveraging Applied Computational Strategies to Understand Human Cognition"
+      sponsor: Sapienza University of Rome (contract)
+      role: PI
+      years: 2015
+      amount: 4000
+    - title: "Visiting scholars program"
+      sponsor: Universities Research Association
+      years: 2022
+      amount: 3000
+    - title: "Technologies to Evaluate and Advance Manipulation and Mobility (TEAMM) RERC"
+      sponsor: Shirley Ryan AbilityLab
+      role: PI
+      years: 2019–2021
+
+- group: University and internal funding
+  id: internal
+  kind: research
+  items:
+    - title: "2020 Health Disparities Strategic Initiative: computer science support"
+      sponsor: Loyola University Chicago
+      role: PI
+      years: 2017–2018
+      amount: 88000
+    - title: "2020 Health Disparities Strategic Initiative: computer science support"
+      sponsor: Loyola University Chicago
+      role: PI
+      years: 2017
+      amount: 20224
+    - title: "Tracing Self-Regulated Learning in AI-Supported Vibe Coding: Implications for Computational Thinking"
+      sponsor: UNT Learning Institute
+      role: Co-PI (PI Ting Xiao)
+      years: 2026–2027
+      amount: 10000
+    - title: "Characterising the Warm Envelope Surrounding the Milky Way Disk with Machine Learning"
+      sponsor: UNT College of Science and College of Engineering seed grant
+      role: Co-PI (with Yuan Li)
+      years: 2021
+      amount: 10000
+    - title: "Clinical Trial in a Dish for Studying Antihypertensive Drug-Induced Cardiovascular Malformation and Dysfunction in Gestational Hypertension"
+      sponsor: UNT seed grant
+      role: Co-I (with Huaxiao Yang and Johnathan Tune)
+      years: 2021–2022
+      amount: 7800
+    - title: "Behaviorally-Relevant Scoring of Binocular Visual Development Models by Depth Perception"
+      sponsor: Loyola University Chicago summer research stipend
+      role: PI
+      years: 2017
+      amount: 7000
+    - title: "Computer Science seminar series"
+      sponsor: Loyola College of Arts and Sciences
+      role: Co-PI (with R. I. Greenberg and A. N. Harrington)
+      years: 2014–2015
+      amount: 2000
+    - title: "Summer \"SAGE Days\" workshop"
+      sponsor: Loyola University Chicago
+      role: Co-PI (with P. Tingley and A. Lauve)
+      years: 2014
+      amount: 2000
+
+- group: Student research fellowships
+  id: student-fellowships
+  kind: fellowship
+  items:
+    - title: "Rehabilitation Institute of Chicago Student Fellowships"
+      sponsor: Rehabilitation Institute of Chicago
+      role: Mentor
+      years: 2016
+      amount: 24000
+      note: two $12,000 fellowships
+    - title: "Development of a Neural Connectivity Toolbox for Human Scalp EEG Recordings and Its Application to the Study of Cognitive Aging"
+      sponsor: LUROP Carbon Scholars Program, Loyola University Chicago
+      role: Mentor (fellow J. Yanar)
+      years: 2015–2017
+      amount: 15000
+    - title: "Impact of Retrotransposons on Plant Evolution"
+      sponsor: Research fellowship (sponsor not recorded)
+      years: 2014–2016
+      amount: 15000
+    - title: "Automated Depth Perception as a Behaviorally-Relevant Metric for the Innate Learning Paradigm"
+      sponsor: Loyola Provost Fellowship (student Gordon Kratz)
+      role: Mentor
+      years: 2014
+      amount: 1000
+
+- group: Dr. Albert's fellowships and scholarships
+  id: albert-fellowships
+  kind: fellowship
+  items:
+    - title: "NSF Graduate Research Fellowship"
+      sponsor: National Science Foundation
+      badge: nsf
+      years: 2005–2008
+      amount: 90000
+    - title: "NSF Nonlinear Systems IGERT Fellowship"
+      sponsor: National Science Foundation
+      badge: nsf
+      years: 2004–2005
+      amount: 30000
+    - title: "Fulbright Fellowship"
+      sponsor: Fulbright Program
+      years: 2000–2001
+      amount: 20000
+    - title: "Goldwater Scholarship"
+      sponsor: Barry Goldwater Scholarship Foundation
+      years: 1999–2000
+      amount: 20000
+    - title: "Presidential Scholarship"
+      sponsor: Pittsburg State University
+      years: 1996–1999
+      amount: 100000

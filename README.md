@@ -10,11 +10,10 @@ The site is published at **https://biomedical-ai-lab.github.io/** (this needs th
 | Page | File | Data it reads |
 | --- | --- | --- |
 | Home | `index.md` | `_includes/themes.html`, featured papers, latest news |
-| Research | `research/index.md` | papers tagged `gait`, `wearables`, `language`, `imaging`, `neuroscience` |
+| Research (areas, grants, software and data) | `research/index.md` | `_data/highlights.yaml`, `_data/grants.yaml`, `_data/projects.yaml` |
 | Publications | `publications/index.md` | `_data/citations.yaml` (generated) |
 | People | `people/index.md` | `_members/*.md`, `_data/alumni.yaml` |
 | Prof. Albert's profile | `_members/mark-v-albert.md` | `_data/courses.yaml` (Teaching section) |
-| Software & Data | `software/index.md` | `_data/projects.yaml` |
 | News | `news/index.md` | `_posts/*.md` |
 | Join Us | `join/index.md` | |
 | Contact | `contact/index.md` | `_data/affiliation.yaml` |
@@ -87,7 +86,7 @@ Until the custom domain is set, the site is at `https://biomedical-ai-lab.github
 - [x] Lab logo (`images/logo.png`), browser icon (`images/favicon-turtle.png`) and share image (`images/share.jpg`)
 - [ ] Official university logo files in `images/affiliation/`, then set `logo` and `logo_dark` in `affiliation.yaml`
 - [ ] Confirm the Google Docs syllabus links are shared publicly
-- [ ] Links for the 5 tools listed under "In the works" on Software & Data
+- [ ] Links for the 5 tools listed under "In the works" in the Software and data section of the Research page
 
 ## Credits
 

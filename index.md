@@ -63,9 +63,15 @@ We use **machine learning to advance medicine**. Our roots are in **wearable-dev
 
 Our work appears in venues including **IEEE JBHI, Journal of Biomechanics, Journal of NeuroEngineering and Rehabilitation, PLoS ONE, PLoS Computational Biology, Information Fusion, JMIR Medical Informatics, ECML PKDD, IJCAI, LREC, ACM/IEEE JCDL and IEEE ICHI**, and in two US patents.
 
-#### Sponsors and partners
+#### Grant providers and collaborators
 
-**NIH · NSF · Shriners Children's · U.S. Army Research Laboratory · Shirley Ryan AbilityLab · Lurie Children's Hospital of Chicago · UNT Health Science Center · AI4All**
+Our work is funded by federal agencies, children's hospitals and foundations. [See all grants and amounts →]({{ "research" | relative_url }}#grants)
+
+<p class="partner-label">Grant providers</p>
+{% include partner-logos.html type="sponsor" %}
+
+<p class="partner-label">Collaborators</p>
+{% include partner-logos.html type="collaborator" %}
 
 #### Join us
 

@@ -2,35 +2,68 @@
 title: Research
 nav:
   order: 1
-  tooltip: Research highlights
+  tooltip: Research areas, grants, software and data
+redirect_from:
+  - /software/
+  - /projects/
+  - /apps/
+  - /funding/
+  - /grants/
 ---
 
 # Research in the Biomedical AI Lab
 
 {% assign domains = site.data.highlights %}
 
-We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are a few highlights from each area.
+We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are highlights from each area, the grants that fund our work, and the software and data we share.
 {:.page-sub}
 
 <div class="jump-links">
 {%- for d in domains -%}<a href="#{{ d.id }}">{{ d.label }}</a>{%- endfor -%}
+<a class="jump-strong" href="#grants">Grants</a><a class="jump-strong" href="#software">Software &amp; Data</a>
 </div>
 
 {% for d in domains %}
 {% include section.html %}
 
-<span class="kicker" id="{{ d.id }}"><i class="{{ d.icon }}" aria-hidden="true"></i>&nbsp; {{ d.label }}</span>
+<h2 class="area-title" id="{{ d.id }}"><i class="{{ d.icon }}" aria-hidden="true"></i>{{ d.title }}</h2>
 
-### {{ d.title }}
+<p class="focus-line">{{ d.focus }}</p>
 
-<p class="focus-line"><strong>Focus:</strong> {{ d.focus }}</p>
-
-<div class="highlight-grid">
+<div class="rcard-grid">
 {%- for it in d.items -%}
-<article class="highlight">{% include theme-thumb.html theme=d.id image=it.image %}<div class="highlight-body"><h4>{{ it.title }}</h4><span class="venue">{{ it.venue }}</span><p>{{ it.text }}</p><div class="tag-row">{%- for tg in it.tags -%}<span class="tag-pill">{{ tg }}</span>{%- endfor -%}</div>{%- if it.link -%}<div class="text-links"><a href="{{ it.link }}">[Paper]</a></div>{%- endif -%}</div></article>
+<article class="rcard" data-theme="{{ d.id }}"><div class="rcard-top"><span class="rcard-icon"><i class="{{ d.icon }}" aria-hidden="true"></i></span><span class="rcard-venue">{{ it.venue }}</span></div><h3 class="rcard-title">{{ it.title }}</h3><p class="rcard-text">{{ it.text }}</p><div class="tag-row">{%- for tg in it.tags -%}<span class="tag-pill">{{ tg }}</span>{%- endfor -%}</div>{%- if it.link -%}<div class="text-links"><a href="{{ it.link }}">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>{%- endif -%}</article>
 {%- endfor -%}
 </div>
 {% endfor %}
+
+{% include section.html %}
+
+<h2 id="grants"><i class="fa-solid fa-sack-dollar" aria-hidden="true"></i>Grants and funding</h2>
+
+Our research is supported by federal agencies, children's hospitals, foundations and the university. Every award Dr. Albert has led or joined is listed below with its amount.
+
+{% include grants.html %}
+
+<p class="partner-label">Grant providers</p>
+{% include partner-logos.html type="sponsor" %}
+
+<p class="partner-label">Collaborators</p>
+{% include partner-logos.html type="collaborator" %}
+
+{% include section.html %}
+
+<h2 id="software"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>Software and data</h2>
+
+Apps, notebooks and tools from the lab. Each card links to the app, the paper or the code.
+
+<div class="scard-grid">
+{%- for p in site.data.projects -%}
+<article class="scard"><h3 class="scard-title"><a href="{{ p.link }}">{{ p.title }}</a></h3><span class="scard-sub">{{ p.subtitle }}</span><div class="scard-text">{{ p.description | markdownify }}</div><div class="tag-row">{%- for tg in p.tags -%}<span class="tag-pill">{{ tg }}</span>{%- endfor -%}</div></article>
+{%- endfor -%}
+</div>
+
+**In the works:** a dashboard for music-induced hearing loss, topic modeling, a biomarker detection app, stock2vec and a dual reinforcement learning app. Each gets a card here once its link or code is public.
 
 {% include section.html %}
 
@@ -42,25 +75,3 @@ These are highlights only. For the complete, up-to-date list of papers and citat
 <a class="cta" href="https://scholar.google.com/citations?user=LPzMx1IAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
 <a class="cta ghost" href="{{ "publications" | relative_url }}">Selected publications</a>
 </div>
-
-<details class="alumni-group" markdown="1">
-<summary>Funding: current and recent projects</summary>
-
-| Project | Sponsor | Role | Years |
-| --- | --- | --- | --- |
-| Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury | Shriners Children's | Site PI | 2026–2027 |
-| Advancing Digital Health Technology: A Summer Research Program for Educators | NIH (R25) | Co-PI | 2025–2030 |
-| REU Site: Making Generative Artificial Intelligence Responsible | NSF | Co-PI | 2025–2028 |
-| Precision gesture-to-speech system for speech-impaired individuals with limited mobility | C-STAR, Shirley Ryan AbilityLab (NIH) | Subcontract | 2024 |
-| Improving Orthopaedic Outcomes through Machine Learning | Shriners Children's | Site PI | 2023–2026 |
-| Using the Fitbit for Early Detection of Infection after Discharge in Pediatric Surgical Patients | NIH (R01), with Lurie Children's Hospital | Co-I | 2023–2027 |
-| Predicting Fall Risk in Older Adults Using Machine Learning | Johns Hopkins AITC for Aging Research, with UNT Health Science Center | Subaward | 2023–2024 |
-| Hierarchically Structured Materials Systems for Enhanced Dynamic Performance | U.S. Army Research Laboratory | Co-PI | 2023–2024 |
-| AI4All College Pathways | AI4All | Co-PI | 2022–2023 |
-| Physical Activity Measurement in Toddlers | NIH (R01), with Lurie Children's Hospital | Co-I | 2021–2026 |
-| REU Site: Accelerated Deep Learning through a Hardware-Software Collaborative Approach | NSF | Co-PI | 2021–2023 |
-| Fall Catcher: Wearable Airbag Technology to Mitigate Falls after Stroke | RERC, with Shirley Ryan AbilityLab | Subcontract | 2018–2023 |
-
-</details>
-
-**Collaborators:** Shriners Children's · Shirley Ryan AbilityLab · Lurie Children's Hospital of Chicago · UNT Health Science Center · Northwestern University

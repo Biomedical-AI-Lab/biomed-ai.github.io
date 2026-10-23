@@ -1,0 +1,12 @@
+{%- comment -%}
+  Formats a dollar amount. include money.html n=12345.5 -> $12,346
+  short=true -> $1.73M / $715K
+{%- endcomment -%}
+{%- assign n = include.n | default: 0 | round -%}
+{%- if include.short -%}
+{%- if n >= 1000000 -%}${{ n | divided_by: 1000000.0 | round: 2 }}M{%- elsif n >= 1000 -%}${{ n | divided_by: 1000.0 | round }}K{%- else -%}${{ n }}{%- endif -%}
+{%- else -%}
+{%- assign s = n | append: "" -%}
+{%- assign len = s.size -%}
+${%- for i in (1..len) -%}{%- assign idx = i | minus: 1 -%}{{ s | slice: idx }}{%- assign rem = len | minus: i -%}{%- assign m = rem | modulo: 3 -%}{%- if rem > 0 and m == 0 -%},{%- endif -%}{%- endfor -%}
+{%- endif -%}

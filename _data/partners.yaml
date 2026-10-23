@@ -1,0 +1,51 @@
+# Grant providers and collaborators, shown as logo tiles on the home page and
+# in the Grants section of the Research page.
+# type: sponsor or collaborator. logo is optional; without one the name is
+# shown as text. NIH, HHS and Army logos are for government use only, so
+# those stay as text (grantees may use the NSF logo to acknowledge support).
+
+- name: National Science Foundation
+  logo: images/partners/nsf.png
+  link: https://www.nsf.gov
+  type: sponsor
+- name: National Institutes of Health
+  short: NIH
+  link: https://www.nih.gov
+  type: sponsor
+- name: U.S. Army Research Laboratory
+  short: Army Research Laboratory
+  link: https://arl.devcom.army.mil
+  type: sponsor
+- name: U.S. Department of Health and Human Services
+  short: Health and Human Services
+  link: https://www.hhs.gov
+  type: sponsor
+- name: Shriners Children's
+  logo: images/partners/shriners-childrens.png
+  link: https://www.shrinerschildrens.org
+  type: sponsor
+- name: Shirley Ryan AbilityLab
+  logo: images/partners/shirley-ryan-abilitylab.png
+  link: https://www.sralab.org
+  type: sponsor
+- name: Johns Hopkins AI and Technology Collaboratory for Aging Research
+  logo: images/partners/johns-hopkins.png
+  link: https://aitc.jhu.edu
+  type: sponsor
+- name: AI4ALL
+  logo: images/partners/ai4all.png
+  link: https://ai-4-all.org
+  type: sponsor
+
+- name: Lurie Children's Hospital of Chicago
+  logo: images/partners/lurie-childrens.png
+  link: https://www.luriechildrens.org
+  type: collaborator
+- name: UNT Health Fort Worth (formerly UNT Health Science Center)
+  logo: images/partners/unt-health-fort-worth.png
+  link: https://www.unthealthfw.org
+  type: collaborator
+- name: Northwestern University
+  logo: images/partners/northwestern.png
+  link: https://www.northwestern.edu
+  type: collaborator

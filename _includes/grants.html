@@ -1,0 +1,43 @@
+{%- comment -%}
+  Grants section: summary tiles and every award in _data/grants.yaml.
+  All totals are computed here from the data file.
+{%- endcomment -%}
+{%- assign research_total = 0 -%}{%- assign research_n = 0 -%}
+{%- assign fellow_total = 0 -%}{%- assign fellow_n = 0 -%}
+{%- assign nsf_total = 0 -%}{%- assign nsf_n = 0 -%}{%- assign nsf_fellow = 0 -%}
+{%- assign nih_total = 0 -%}{%- assign nih_n = 0 -%}
+{%- assign federal_total = 0 -%}
+{%- for g in site.data.grants -%}
+{%- for a in g.items -%}
+{%- assign amt = a.amount | default: 0 -%}
+{%- if g.kind == "research" -%}
+{%- assign research_total = research_total | plus: amt -%}{%- assign research_n = research_n | plus: 1 -%}
+{%- if a.badge == "nsf" -%}{%- assign nsf_total = nsf_total | plus: amt -%}{%- assign nsf_n = nsf_n | plus: 1 -%}{%- endif -%}
+{%- if a.badge == "nih" -%}{%- assign nih_total = nih_total | plus: amt -%}{%- assign nih_n = nih_n | plus: 1 -%}{%- endif -%}
+{%- if g.id == "nsf" or g.id == "nih" or g.id == "federal" -%}{%- assign federal_total = federal_total | plus: amt -%}{%- endif -%}
+{%- else -%}
+{%- assign fellow_total = fellow_total | plus: amt -%}{%- assign fellow_n = fellow_n | plus: 1 -%}
+{%- if a.badge == "nsf" -%}{%- assign nsf_fellow = nsf_fellow | plus: amt -%}{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+{%- assign grand_total = research_total | plus: fellow_total -%}
+<div class="stat-grid">
+<div class="stat stat-main"><span class="stat-value">{% include money.html n=research_total short=true %}</span><span class="stat-label">Total research funding</span><span class="stat-note">{% include money.html n=research_total %} across {{ research_n }} grants and contracts</span></div>
+<div class="stat stat-nsf"><span class="stat-value">{% include money.html n=nsf_total short=true %}</span><span class="stat-label">National Science Foundation</span><span class="stat-note">{% include money.html n=nsf_total %} across {{ nsf_n }} REU site grants</span></div>
+<div class="stat stat-nih"><span class="stat-value">{% include money.html n=nih_total short=true %}</span><span class="stat-label">National Institutes of Health</span><span class="stat-note">{% include money.html n=nih_total %} across {{ nih_n }} awards, including R25 and R01</span></div>
+<div class="stat"><span class="stat-value">{% include money.html n=fellow_total short=true %}</span><span class="stat-label">Fellowships and scholarships</span><span class="stat-note">{% include money.html n=fellow_total %} across {{ fellow_n }} awards</span></div>
+</div>
+<p class="grant-summary">Federal sponsors (NSF, NIH, the U.S. Army Research Laboratory and the Department of Health and Human Services) account for <strong>{% include money.html n=federal_total %}</strong> of research funding. Counting fellowships and scholarships, which include <strong>{% include money.html n=nsf_fellow %}</strong> in NSF fellowships, the lab and Dr. Albert have received <strong>{% include money.html n=grand_total %}</strong> in total.</p>
+{%- for g in site.data.grants -%}
+{%- assign sub = 0 -%}{%- for a in g.items -%}{%- assign amt = a.amount | default: 0 -%}{%- assign sub = sub | plus: amt -%}{%- endfor -%}
+<div class="grant-group" id="grants-{{ g.id }}">
+<div class="grant-group-head"><h3>{{ g.group }}</h3><span class="grant-sub">{% include money.html n=sub %} · {{ g.items.size }} award{% if g.items.size != 1 %}s{% endif %}</span></div>
+<ul class="grant-list">
+{%- for a in g.items -%}
+<li class="grant"><div class="grant-main"><span class="grant-title">{{ a.title }}</span><span class="grant-meta">{%- if a.badge -%}<span class="grant-badge" data-badge="{{ a.badge }}">{{ a.badge | upcase }}</span> {% endif -%}{{ a.sponsor }}{%- if a.role -%} · {{ a.role }}{%- endif -%}</span>{%- if a.note -%}<span class="grant-note">{{ a.note }}</span>{%- endif -%}</div><div class="grant-side"><span class="grant-amount">{%- if a.amount -%}{% include money.html n=a.amount %}{%- else -%}amount not recorded{%- endif -%}</span><span class="grant-years">{{ a.years }}</span></div></li>
+{%- endfor -%}
+</ul>
+</div>
+{%- endfor -%}
+<p class="grant-source">Amounts are award amounts as recorded in UNT's Faculty Information System and Dr. Albert's CV, rounded to the dollar. For multi-institution awards the amount may cover partner institutions; a project recorded more than once is counted once.</p>
