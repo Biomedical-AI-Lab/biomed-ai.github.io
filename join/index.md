@@ -41,10 +41,32 @@ Funding is limited. Teaching assistantships come through the department, and res
 
 ## MS, undergraduate and TAMS students
 
-- **Open houses** run 3:00 to 5:00 pm on the Thursday the week before each fall and spring semester, at {{ brand.address.building }}. New students generally join in the first week of classes, after an open house.
-- **AI Summer Research Program:** the main route for undergraduate and MS students. It starts in late May and presents progress in late June. Contact Prof. Albert for details.
-- **Expectations:** about 10 to 15 hours a week for at least 1.5 years, so we do not take students in their final year. You should program confidently in Python and have taken at least one machine learning or data science course.
+You do not need research experience to join. The requirements below are what usually works best, but **we are flexible**: if you miss one of them, reach out anyway and tell us what you can offer.
+
+### What we ask
+
+- **Time:** about 10 to 15 hours a week. We can work around exams and heavier semesters.
+- **Commitment:** at least 1.5 years with the lab, so that you have time to learn the project and finish something you are proud of. For that reason we usually do not take students in their final year; if you are close to graduating, mention it and we can talk.
+- **Programming:** you should program confidently in Python.
+- **Coursework:** at least one machine learning or data science course. A well-documented online course or self-study project can also count.
+
+### What is not required
+
+- **Publications or prior research.** We will teach you how to read papers, run experiments and present results.
+- **A computing major.** Students from biology, kinesiology, health sciences, engineering and other fields are welcome, especially if you care about health data.
+- **A fixed project idea.** Most new students start by helping on an ongoing project.
+
+### By program
+
 - **MS students** usually start by assisting on a project and can propose their own with ML experience and more than a year left in their program. RA funding is usually not available.
+- **Undergraduates** most often join through the AI Summer Research Program or after an open house.
+- **TAMS students** are welcome under the same expectations. If you have not taken a machine learning course yet, a Python project or online course is enough to start.
+
+### How to join
+
+1. **Come to an open house.** They run 3:00 to 5:00 pm on the Thursday the week before each fall and spring semester, at {{ brand.address.building }}. New students generally join in the first week of classes, after an open house.
+2. **Or join the AI Summer Research Program**, the main route for undergraduate and MS students. It starts in late May and presents progress in late June. Contact Prof. Albert for details.
+3. **Or email Prof. Albert** at [{{ site.links.email }}](mailto:{{ site.links.email }}) with your program and year, a short CV, the hours you can give each week, and a sentence or two on what interests you.
 
 {% include section.html %}
 
