@@ -1,0 +1,6 @@
+{%- comment -%}Logo grid of where alumni went. Data: _data/alumni_logos.yaml{%- endcomment -%}
+<div class="alumni-logos">
+{%- for l in site.data.alumni_logos -%}
+<span class="alumni-logo" title="{{ l.name }}"><img src="{{ l.image | relative_url }}" alt="{{ l.name }}" loading="lazy"></span>
+{%- endfor -%}
+</div>

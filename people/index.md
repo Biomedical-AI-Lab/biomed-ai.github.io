@@ -35,4 +35,6 @@ redirect_from:
 
 Where our former students went next. Alumni have joined Google, Amazon, the NIH, Panasonic, Oracle, Allstate, GoHealth and Procured Health, and gone on to graduate study at Northwestern, Northeastern, Carnegie Mellon and the University of Illinois Chicago.
 
+{% include alumni-logos.html %}
+
 {% include alumni.html %}

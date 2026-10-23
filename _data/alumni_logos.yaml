@@ -1,0 +1,25 @@
+# Logos of organizations where lab alumni went next (People page).
+- name: "Google"
+  image: images/alumni/google.png
+- name: "National Institutes of Health"
+  image: images/alumni/nih.png
+- name: "Amazon"
+  image: images/alumni/amazon.png
+- name: "Procured Health"
+  image: images/alumni/procured-health.png
+- name: "Northwestern University"
+  image: images/alumni/northwestern.png
+- name: "Northeastern University"
+  image: images/alumni/northeastern.png
+- name: "Carnegie Mellon University Silicon Valley"
+  image: images/alumni/cmu-silicon-valley.png
+- name: "Panasonic"
+  image: images/alumni/panasonic.png
+- name: "GoHealth"
+  image: images/alumni/gohealth.png
+- name: "Allstate"
+  image: images/alumni/allstate.png
+- name: "University of Illinois Chicago"
+  image: images/alumni/uic.png
+- name: "Oracle"
+  image: images/alumni/oracle.png
