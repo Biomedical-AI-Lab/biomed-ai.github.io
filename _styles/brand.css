@@ -412,9 +412,9 @@ body main .highlight-body {
 
 .member {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 24px;
-  padding: 22px 0;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  padding: 24px 0;
   border-bottom: 1px solid var(--light-gray);
   align-items: start;
 }
@@ -423,71 +423,86 @@ body main .highlight-body {
   border-bottom: none;
 }
 
-.member-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 12px;
+.member-side {
+  font-family: var(--heading);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.member-photo,
+.member-initials {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
   object-fit: cover;
   background: var(--background-alt);
+  margin-bottom: 10px;
 }
 
 .member-initials {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 12px;
   background: linear-gradient(135deg, var(--heading-color), var(--primary));
   color: #ffffff;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: var(--bold);
   letter-spacing: 2px;
 }
 
-.member-name {
+body main .member-side p {
   margin: 0;
-  font-size: 1.15rem;
+  line-height: 1.45;
+}
+
+.member-name {
+  font-size: 1.05rem;
   font-weight: var(--bold);
   color: var(--heading-color);
 }
 
 .member-role {
-  margin: 2px 0 0;
-  font-weight: var(--semi-bold);
+  margin-top: 2px !important;
 }
 
 .member-email {
-  margin: 2px 0 0;
   font-style: italic;
   color: var(--muted);
-  font-size: 0.93rem;
 }
 
-.member .text-links {
-  margin: 4px 0 0;
-  font-size: 0.93rem;
+.member-links {
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
 }
 
-.member-bio p {
-  margin: 10px 0 0;
+body main .member-links li {
+  line-height: 1.6;
 }
 
-.member.pi .member-photo,
-.member.pi .member-initials {
-  width: 180px;
-  height: 180px;
+.member-links a {
+  text-decoration: none;
+  font-weight: var(--semi-bold);
 }
 
-.member.pi {
-  grid-template-columns: 180px 1fr;
+.member-links i {
+  width: 1.2em;
+  text-align: center;
+  color: var(--primary);
 }
 
-@media (max-width: 600px) {
-  .member,
-  .member.pi {
+body main .member-bio p {
+  margin: 0 0 10px;
+  text-align: justify;
+}
+
+@media (max-width: 640px) {
+  .member {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+  .member-side {
+    max-width: 260px;
   }
 }
 .alumni-list {
