@@ -1,9 +1,10 @@
 {%- comment -%}
   Publication rows grouped by year: themed thumbnail, authors (Prof. Albert
-  in bold, current lab members underlined), bold title, italic venue, links.
+  in bold, current lab members underlined (name or any pub_names alias)), bold title, italic venue, links.
   Data: _data/citations.yaml (generated from _data/sources.yaml).
 {%- endcomment -%}
 {%- assign memberNames = site.members | map: "name" -%}
+{%- for m in site.members -%}{%- if m.pub_names -%}{%- assign memberNames = memberNames | concat: m.pub_names -%}{%- endif -%}{%- endfor -%}
 {%- assign cites = site.data.citations | sort: "date" | reverse -%}
 {%- assign years = cites | group_by_exp: "c", "c.date | date: '%Y'" -%}
 {%- assign themes = "gait,wearables,language,imaging,neuroscience,parkinsons" | split: "," -%}

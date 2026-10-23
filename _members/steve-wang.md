@@ -9,6 +9,8 @@ aliases:
   - "S. J. Wang"
 links:
   linkedin: steve-wang-1b6a443a
+pub_names:
+  - "Shou-Jen Wang"
 ---
 
 Steve holds an MS in Technology from Eastern Illinois University. He developed a machine learning model for arm-worn sensors that automatically measures spasticity, enabling more precise decisions about spasticity treatment. He now works with Shriners Children's on predicting surgical outcomes for children with cerebral palsy, including the Shriners Gait Index, to help surgeons choose therapies that improve gait.

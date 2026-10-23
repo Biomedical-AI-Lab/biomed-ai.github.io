@@ -8,6 +8,11 @@ aliases:
   - "PA Nemkova"
   - "AP Nemkova"
   - "P. Nemkova"
+pub_names:
+  - "Poli Nemkova"
+  - "Poli A. Nemkova"
+  - "Apollinaire Poli Nemkova"
+  - "Poli Apollinaire Nemkova"
 ---
 
 Palina works on language models for humanitarian and social-good applications: human-rights annotation, conflict forecasting, peacebuilding reports, cross-lingual bias and uncertainty-aware agentic AI.

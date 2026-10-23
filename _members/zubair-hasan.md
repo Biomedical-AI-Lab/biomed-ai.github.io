@@ -9,6 +9,8 @@ aliases:
 links:
   home-page: https://mdzh10.github.io/
   github: mdzh10
+pub_names:
+  - "Muhammad Zubair Hasan"
 ---
 
 Zubair works on small vision-language models and on machine learning for toddler physical activity recognition, and manages the lab website.

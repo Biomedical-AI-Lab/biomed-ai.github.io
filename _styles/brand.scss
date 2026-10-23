@@ -13,24 +13,24 @@ body {
   font-size: 1.02rem;
 }
 
-main > section,
-main > section:nth-of-type(even) {
+body main > section:nth-of-type(n) {
   background: var(--background);
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: max(20px, calc((100% - #{$read}) / 2));
   padding-right: max(20px, calc((100% - #{$read}) / 2));
 }
-main > section + section {
+body main > section + section {
   border-top: 1px solid var(--light-gray);
 }
-main > section[data-dark="true"] {
+body main > section[data-dark="true"] {
   background: var(--background);
 }
 
-p,
-li {
+body main p,
+body main li {
   line-height: 1.7;
+  text-align: left;
 }
 
 // header: white bar, round logo, lab name, links on the right
@@ -79,7 +79,7 @@ header nav > a:hover {
 }
 
 // headings
-h1 {
+body h1 {
   margin: 28px 0 8px;
   font-size: 2rem;
   font-weight: var(--bold);
@@ -87,21 +87,21 @@ h1 {
   letter-spacing: 0.3px;
   color: var(--heading-color);
 }
-h1 + .page-sub {
+body h1 + .page-sub {
   margin: 0 0 8px;
   text-align: center;
   color: var(--muted);
 }
-h2 {
+body h2 {
   margin-top: 36px;
   font-weight: var(--bold);
   border-bottom: 2px solid color-mix(in srgb, var(--primary) 35%, transparent);
 }
-h3 {
+body h3 {
   font-size: 1.3rem;
   font-weight: var(--bold);
 }
-h4 {
+body h4 {
   font-size: 1.1rem;
   font-weight: var(--bold);
   letter-spacing: 0.2px;
@@ -109,12 +109,20 @@ h4 {
 :where(h1, h2, h3, h4) > .icon {
   color: color-mix(in srgb, var(--primary) 55%, transparent);
 }
-h1,
-h2,
-h3,
-h4 {
+body h1,
+body h2,
+body h3,
+body h4 {
   color: var(--heading-color);
   font-stretch: var(--heading-stretch);
+  letter-spacing: 0.2px;
+}
+body h1 {
+  text-transform: none;
+}
+body .hero h1 {
+  text-align: left;
+  margin: 0 0 6px;
 }
 
 // footer: light band
@@ -223,7 +231,7 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 6;
   border-radius: var(--rounded);
   color: #ffffff;
   font-size: 1.8rem;
@@ -339,18 +347,24 @@ footer a:hover {
   font-style: italic;
   font-size: 0.88rem;
 }
-.highlight p {
+body main .highlight p {
   margin: 4px 0 0;
-  font-size: 0.93rem;
-  line-height: 1.55;
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 .highlight .text-links {
   margin-top: auto;
   padding-top: 8px;
   font-size: 0.9rem;
 }
-.focus-line {
+body main .focus-line {
   margin: 4px 0 0;
+}
+body main .member-bio p,
+body main .pub p,
+body main .news-text,
+body main .highlight-body {
+  text-align: left;
 }
 
 // ---------------------------------------------------------------- team
@@ -490,6 +504,7 @@ details.course-group > summary {
 }
 .pub .thumb {
   font-size: 1.4rem;
+  aspect-ratio: 16 / 10;
 }
 .pub-authors {
   margin: 0;

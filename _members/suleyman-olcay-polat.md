@@ -7,6 +7,8 @@ aliases:
   - "SO Polat"
   - "S. O. Polat"
   - "S Olcay Polat"
+pub_names:
+  - "Suleyman O. Polat"
 ---
 
 Olcay works on knowledge distillation and explainability for language models, including SAGE embeddings and LIME-LLM counterfactual probing.
