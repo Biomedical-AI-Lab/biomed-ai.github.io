@@ -1,3 +1,5 @@
+Visit **[biomedical-ai-lab.github.io](https://biomedical-ai-lab.github.io)** 🚀
+
 # Biomedical AI Lab website
 
 Source for the Biomedical AI Lab website, built with the [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs) (Jekyll + GitHub Actions).
