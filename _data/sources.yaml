@@ -8,6 +8,12 @@
   tags: [gait, featured]
 - id: doi:10.3390/bioengineering9100572
   tags: [gait, amputation]
+- id: doi:10.1016/j.jbiomech.2024.112092
+  tags: [gait, featured]
+- id: doi:10.1186/s12984-021-00879-3
+  tags: [gait, amputation]
+- id: doi:10.1109/JBHI.2022.3157518
+  tags: [gait, parkinsons]
 
 # Wearable and mobile health sensing
 - id: doi:10.1371/journal.pone.0036556
@@ -19,6 +25,18 @@
 - id: arxiv:2405.08969
   tags: [wearables]
 - id: doi:10.3390/s23042270
+  tags: [wearables]
+- id: doi:10.1109/ICHI57859.2023.00062
+  tags: [wearables]
+- id: doi:10.1109/BIBM49941.2020.9313130
+  tags: [wearables]
+- id: doi:10.1155/2020/8869134
+  tags: [wearables]
+- id: doi:10.2196/mhealth.8201
+  tags: [wearables, falls, amputation]
+- id: doi:10.1186/s12984-017-0222-5
+  tags: [wearables]
+- id: doi:10.1109/CIC52973.2021.00012
   tags: [wearables]
 
 # Language models
@@ -32,17 +50,40 @@
   tags: [language]
 - id: arxiv:2505.09852
   tags: [language]
+- id: doi:10.1016/j.knosys.2021.106907
+  tags: [language]
 
 # Medical imaging and multimodal AI
 - id: doi:10.3390/info16020136
   tags: [imaging, featured]
+- id: doi:10.1016/j.inffus.2025.103805
+  tags: [imaging]
+- id: doi:10.1002/btm2.10641
+  tags: [imaging]
+- id: doi:10.1109/BIBM49941.2020.9313322
+  tags: [imaging]
 
 # Neurological disorders
 - id: doi:10.2196/50117
   tags: [parkinsons]
+- id: doi:10.3389/fmed.2021.645293
+  tags: [parkinsons]
+- id: doi:10.1007/s10072-021-05245-8
+  tags: [parkinsons]
+
+# Other clinical and applied work
+- id: doi:10.1186/s41687-023-00567-x
+- id: doi:10.1055/s-0044-1791210
+- id: doi:10.1016/j.pmrj.2016.09.007
+- id: doi:10.1016/j.rico.2024.100471
+- id: doi:10.1109/MIPR54900.2022.00077
 
 # Foundations
 - id: doi:10.1371/journal.pcbi.1000137
+  tags: [neuroscience]
+- id: doi:10.3389/fphys.2021.695431
+  tags: [neuroscience]
+- id: doi:10.3389/fncom.2016.00135
   tags: [neuroscience]
 - id: doi:10.1007/s10462-021-10047-7
   tags: [neuroscience]

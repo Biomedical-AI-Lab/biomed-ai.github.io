@@ -7,10 +7,10 @@
 {%- assign brand = site.data.affiliation -%}
 {%- assign courses = site.data.courses -%}
 {%- assign recent = courses | where: "recent", true -%}
-<p>{{ courses.size }} courses taught since 2010, with syllabi linked where available.</p>
+<p>{{ courses.size }} courses taught since 2010, with syllabi linked where available. ★ marks courses he created.</p>
 <div class="course-cards">
 {%- for c in recent -%}
-<div class="course-card"><span class="course-code">{{ c.code }}</span><strong>{{ c.title }}</strong><span class="course-meta">{{ c.taught }}</span><span>{%- for s in c.syllabi -%}<a href="{{ s.link }}">Syllabus{% if s.label %} {{ s.label }}{% endif %}</a>{%- unless forloop.last -%} · {% endunless -%}{%- endfor -%}</span></div>
+<div class="course-card"><span class="course-code">{{ c.code }}</span><strong>{{ c.title }}{% if c.created %} ★{% endif %}</strong><span class="course-meta">{{ c.taught }}</span><span>{%- for s in c.syllabi -%}<a href="{{ s.link }}">Syllabus{% if s.label %} {{ s.label }}{% endif %}</a>{%- unless forloop.last -%} · {% endunless -%}{%- endfor -%}</span></div>
 {%- endfor -%}
 </div>
 {%- assign groups = courses | group_by: "institution" -%}
@@ -19,7 +19,7 @@
 {%- if rest.size == 0 -%}{%- continue -%}{%- endif -%}
 {%- capture rows -%}
 {%- for c in rest -%}
-<tr><td>{{ c.code }}</td><td>{{ c.title }}</td><td>{{ c.taught }}</td><td>{%- for s in c.syllabi -%}<a href="{{ s.link }}">{{ s.label | default: "Syllabus" }}</a>{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}</td></tr>
+<tr><td>{{ c.code }}</td><td>{{ c.title }}{% if c.created %} ★{% endif %}</td><td>{{ c.taught }}</td><td>{%- for s in c.syllabi -%}<a href="{{ s.link }}">{{ s.label | default: "Syllabus" }}</a>{%- unless forloop.last -%}, {% endunless -%}{%- endfor -%}</td></tr>
 {%- endfor -%}
 {%- endcapture -%}
 {%- capture table -%}<table class="course-table"><thead><tr><th>Course</th><th>Title</th><th>Taught</th><th>Syllabus</th></tr></thead><tbody>{{ rows }}</tbody></table>{%- endcapture -%}

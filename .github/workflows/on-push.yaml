@@ -56,5 +56,5 @@ jobs:
   # always build the site, even if citations were skipped or failed
   build-site:
     needs: update-citations
-    if: ${{ !cancelled() }}
+    if: ${{ always() }}
     uses: ./.github/workflows/build-site.yaml

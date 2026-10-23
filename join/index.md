@@ -24,6 +24,14 @@ We are actively recruiting students to lead or contribute to ongoing projects.
 
 {% include section.html %}
 
+## Summer research
+
+- **AI Summer Research Program.** Prof. Albert created and co-directs this program. Since 2020 it has engaged 239 students in 75 projects, with about 9 faculty advisors each summer.
+- **NSF REU Site: Making Generative AI Responsible** (2025–2028). Paid summer research for undergraduates; the lab is part of the site team.
+- **Advancing Digital Health Technology** (NIH, 2025–2030). A summer research program for high school and community college educators.
+
+{% include section.html %}
+
 ## By program
 
 ### Undergraduate and TAMS students

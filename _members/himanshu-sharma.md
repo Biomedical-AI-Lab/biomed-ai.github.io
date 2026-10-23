@@ -8,4 +8,4 @@ aliases:
   - "H. Sharma"
 ---
 
-Himanshu works on compressing EKG signals with deep autoencoders.
+Himanshu's dissertation is a multimodal temporal fusion framework for automated echocardiogram report generation using cross-modal attention.

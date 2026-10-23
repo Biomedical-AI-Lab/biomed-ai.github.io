@@ -11,4 +11,4 @@ links:
   linkedin: ziruoy
 ---
 
-Ziruo works on multimodal machine learning, natural language processing, computer vision and large language models in healthcare.
+Co-advised with Dr. Ting Xiao. Ziruo's dissertation is on automated report generation and visual question answering in radiology with multimodal learning.

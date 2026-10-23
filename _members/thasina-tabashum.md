@@ -11,4 +11,4 @@ links:
   linkedin: thasina-tabashum-6553829b
 ---
 
-Co-advised with Dr. Ting Xiao. Thasina builds predictive models of clinical score outcomes using natural language processing, and serves as the lab manager.
+Co-advised with Dr. Ting Xiao. Thasina's dissertation is on improving gait quality assessment and predicting fall risk through robust modeling, including language models for clinical records.

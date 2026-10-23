@@ -1,5 +1,6 @@
 # Courses taught by Prof. Albert, shown in the Teaching section of his profile.
 # Add a new course at the top of its institution's block; mark the newest ones recent: true.
+# created: true marks courses Prof. Albert designed.
 
 - code: "INFO 5900/6900"
   title: "IS Research Seminar (Special Problems)"
@@ -11,14 +12,16 @@
 
 - code: "CSCE 5931"
   title: "CSE Seminar"
+  created: true
   institution: "University of North Texas"
-  taught: "Every semester since Spring 2022"
+  taught: "Every semester since Spring 2022 (as CSCE 5931 since Spring 2025)"
   recent: true
   syllabi:
     - link: https://docs.google.com/document/d/1ZLtCx2eeNaO3yczL_kMwbE9-drF1pc_ShTqrYVO85Cw/edit?usp=sharing
 
 - code: "CSCE 5280"
   title: "AI for Wearables and Healthcare"
+  created: true
   institution: "University of North Texas"
   taught: "2020, 2021, 2022, 2024"
   syllabi:
@@ -54,6 +57,7 @@
 
 - code: "CSCE 5214"
   title: "Software Development for AI"
+  created: true
   institution: "University of North Texas"
   taught: "2020"
   syllabi:
@@ -61,6 +65,7 @@
 
 - code: "CSCE 5218/4930"
   title: "Deep Learning"
+  created: true
   institution: "University of North Texas"
   taught: "2020"
   syllabi:
@@ -82,6 +87,7 @@
 
 - code: "COMP 397"
   title: "Research Method Seminar in Computer Science"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2015–2019"
   syllabi:
@@ -89,6 +95,7 @@
 
 - code: "COMP 386"
   title: "Computational Neuroscience"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2015, 2017, 2018"
   syllabi:
@@ -96,6 +103,7 @@
 
 - code: "COMP 399"
   title: "Computer Science Seminar"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2015–2018"
   syllabi:
@@ -115,6 +123,7 @@
 
 - code: "HONORS 204"
   title: "Science and Society: Automated Discrimination"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2016"
   syllabi:
@@ -122,6 +131,7 @@
 
 - code: "COMP 379"
   title: "Machine Learning"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2015"
 
@@ -132,11 +142,13 @@
 
 - code: "HONORS 204"
   title: "Science and Society: Discrimination and Data Science"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2015"
 
 - code: "HONORS 204"
   title: "Science and Society: Network Science"
+  created: true
   institution: "Loyola University Chicago"
   taught: "2014"
 

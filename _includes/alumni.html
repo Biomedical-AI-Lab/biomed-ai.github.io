@@ -5,7 +5,7 @@
 {%- for g in site.data.alumni -%}
 {%- capture rows -%}
 {%- for p in g.people -%}
-<tr><td>{%- if p.link -%}<a href="{{ p.link }}">{{ p.name }}</a>{%- else -%}{{ p.name }}{%- endif -%}</td><td>{{ p.level }}</td><td>{{ p.years }}</td><td>{{ p.next }}</td></tr>
+<tr><td>{%- if p.link -%}<a href="{{ p.link }}">{{ p.name }}</a>{%- else -%}{{ p.name }}{%- endif -%}{%- if p.thesis -%}<br><small><em>{{ p.thesis }}</em></small>{%- endif -%}</td><td>{{ p.level }}</td><td>{{ p.years }}</td><td>{{ p.next }}</td></tr>
 {%- endfor -%}
 {%- endcapture -%}
 {%- capture table -%}<table class="alumni-table"><thead><tr><th>Name</th><th>Role in the lab</th><th>Years</th><th>Next position</th></tr></thead><tbody>{{ rows }}</tbody></table>{%- endcapture -%}

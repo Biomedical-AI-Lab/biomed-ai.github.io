@@ -11,4 +11,4 @@ links:
   linkedin: riyad-bin-rafiq
 ---
 
-Co-advised with Dr. Weishi Shi. Riyad builds wearable gesture-recognition systems for people who are unable to speak.
+Co-advised with Dr. Weishi Shi. Riyad's dissertation is on fast, flexible, user-defined wearable hand gesture recognition with deep learning, for people with motor and speech impairments.
