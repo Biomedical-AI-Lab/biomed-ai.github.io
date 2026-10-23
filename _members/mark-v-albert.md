@@ -1,6 +1,6 @@
 ---
 name: Mark V. Albert
-image: images/team/mark-v-albert.jpg
+image: images/team/mark-v-albert-unt.jpg
 role: principal-investigator
 description: Director · Chair of Information Science · Associate Professor
 summary: >-
