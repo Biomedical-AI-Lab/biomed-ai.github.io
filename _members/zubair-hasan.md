@@ -2,6 +2,7 @@
 name: "Muhammad Zubair Hasan"
 image: images/team/zubair-hasan.jpg
 role: phd
+email: "zubairhasan@my.unt.edu"
 description: "PhD Student · Lab Manager"
 aliases:
   - "MZ Hasan"
