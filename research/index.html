@@ -390,7 +390,7 @@
 
 
 
-<header class="background" style="--image: url('')" data-dark="true">
+<header class="background" style="--image: url('')" data-dark="false">
   <a href="/" class="home">
     
       <span class="logo">
@@ -406,8 +406,6 @@
         
         
         
-          <span class="subtitle">University of North Texas</span>
-        
       </span>
     
   </a>
@@ -418,14 +416,8 @@
     
     
       
-        <a href="/research/" data-tooltip="Research themes">
+        <a href="/research/" data-tooltip="Research highlights">
           Research
-        </a>
-      
-    
-      
-        <a href="/publications/" data-tooltip="Papers, patents and book">
-          Publications
         </a>
       
     
@@ -436,14 +428,20 @@
       
     
       
-        <a href="/software/" data-tooltip="Apps, code and datasets">
-          Software &amp; Data
+        <a href="/publications/" data-tooltip="Selected publications">
+          Publications
         </a>
       
     
       
-        <a href="/news/" data-tooltip="Papers, awards, talks and lab news">
+        <a href="/news/" data-tooltip="Lab news">
           News
+        </a>
+      
+    
+      
+        <a href="/software/" data-tooltip="Apps, code and datasets">
+          Software &amp; Data
         </a>
       
     
@@ -480,33 +478,12 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="research">
-<i class="icon fa-solid fa-microscope"></i>Research</h1>
+    <h1 id="research-in-the-biomedical-ai-lab">Research in the Biomedical AI Lab</h1>
 
-<p>We build machine learning methods that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images.
-Our work is organized into four themes, and most projects cross more than one.</p>
+<p class="page-sub">We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are a few highlights from each area.</p>
 
-<div class="theme-grid">
-<a class="theme-tile" href="/research#gait">
-<i class="fa-solid fa-person-walking" aria-hidden="true"></i>
-<span class="theme-title">Movement &amp; Gait Intelligence</span>
-<span class="theme-text">Scoring and classifying movement from instrumented gait, prosthetic and balance data.</span>
-</a>
-<a class="theme-tile" href="/research#wearables">
-<i class="fa-solid fa-mobile-screen" aria-hidden="true"></i>
-<span class="theme-title">Wearable &amp; Mobile Health Sensing</span>
-<span class="theme-text">Phones and wearables that detect falls and recognize activity and hand gestures.</span>
-</a>
-<a class="theme-tile" href="/research#language">
-<i class="fa-solid fa-comment-medical" aria-hidden="true"></i>
-<span class="theme-title">Language Models for Health &amp; Humanitarian Text</span>
-<span class="theme-text">Language models on medical records, and on conflict and human-rights text.</span>
-</a>
-<a class="theme-tile" href="/research#imaging">
-<i class="fa-solid fa-x-ray" aria-hidden="true"></i>
-<span class="theme-title">Medical Imaging &amp; Multimodal AI</span>
-<span class="theme-text">Radiology report generation, visual question answering and vision-language models.</span>
-</a>
+<div class="jump-links">
+<a href="#gait">Movement &amp; Gait</a><a href="#wearables">Wearables</a><a href="#language">Language Models</a><a href="#imaging">Multimodal AI</a><a href="#neuroscience">Foundations</a>
 </div>
   </section>
 
@@ -521,302 +498,38 @@ Our work is organized into four themes, and most projects cross more than one.</
   <size></size>
 -->
 
-<h2 id="gait">Movement &amp; Gait Intelligence</h2>
+<p><span class="kicker" id="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i>  Movement &amp; Gait</span></p>
 
-<p>We turn instrumented gait, prosthetic and balance data into single, interpretable scores of movement quality.
-This includes the Shriners Gait Index, an autoencoder-based summary of gait for children with cerebral palsy, validated across clinical sites; data-driven phenotyping of hemiplegic gait; and composite scores of prosthetic performance after lower-limb amputation.</p>
+<h3 id="movement-and-gait-intelligence">Movement and Gait Intelligence</h3>
 
-<h3 id="2025">2025</h3>
+<p class="focus-line"><strong>Focus:</strong> Turning instrumented gait, balance and prosthetic data into single, interpretable scores clinicians can act on.</p>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9c" class="citation-image" aria-label="Scoping Review of Machine Learning Techniques in Marker-Based Clinical Gait Analysis">
-        <img src="" alt="Scoping Review of Machine Learning Techniques in Marker-Based Clinical Gait Analysis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9c" class="citation-title">
-        Scoping Review of Machine Learning Techniques in Marker-Based Clinical Gait Analysis
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Kevin N. Dibbern, Maddalena G. Krzak, Alejandro Olivas, Mark V. Albert, Joseph J. Krzak, Karen M. Kruger
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Bioengineering</span>
-         · 
-        <span class="citation-date">30 May 2025</span>
-         · 
-        <span class="citation-id">doi:10.3390/bioengineering12060591</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20gait%22" class="tag" data-tooltip='Show items with the tag "gait"'>
-        gait
-      </a>
-    
-      <a href="/research/?search=%22tag:%20featured%22" class="tag" data-tooltip='Show items with the tag "featured"'>
-        featured
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="highlight-grid">
+<article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>The Shriners Gait Index: a deep autoencoder summary of gait quality</h4>
+<span class="venue">Journal of Biomechanics, 2024 · IEEE ICHI, 2025</span><p>An autoencoder compresses whole-body gait data from children with cerebral palsy into one score of gait quality, so surgeons can compare outcomes before and after treatment. A cross-site study validated the index across Shriners Children's hospitals.</p>
+<div class="tag-row">
+<span class="tag-pill">cerebral palsy</span><span class="tag-pill">autoencoders</span><span class="tag-pill">clinical outcomes</span>
 </div>
-
-<h3 id="2024">2024</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9j" class="citation-image" aria-label="Creating an autoencoder single summary metric to assess gait quality to compare surgical outcomes in children with cerebral palsy: The Shriners Gait Index SGI">
-        <img src="" alt="Creating an autoencoder single summary metric to assess gait quality to compare surgical outcomes in children with cerebral palsy: The Shriners Gait Index SGI" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9j" class="citation-title">
-        Creating an autoencoder single summary metric to assess gait quality to compare surgical outcomes in children with cerebral palsy: The Shriners Gait Index (SGI)
-      </a>
-
-      <div class="citation-authors" data-tooltip="Shou-Jen Wang, Thasina Tabashum, Karen M. Kruger, Joseph J. Krzak, Adam Graf, Ross S. Chafetz, Judi Linton, Jon Davids, Anita Bagley, Kanav Bengani, Mark V. Albert" tabindex="0">
-        Shou-Jen Wang, Thasina Tabashum, Karen M. Kruger, Joseph J. Krzak, Adam Graf, …, Judi Linton, Jon Davids, Anita Bagley, Kanav Bengani, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of Biomechanics</span>
-         · 
-        <span class="citation-date">01 May 2024</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.jbiomech.2024.112092</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20gait%22" class="tag" data-tooltip='Show items with the tag "gait"'>
-        gait
-      </a>
-    
-      <a href="/research/?search=%22tag:%20featured%22" class="tag" data-tooltip='Show items with the tag "featured"'>
-        featured
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1016/j.jbiomech.2024.112092">[Paper]</a></div>
+</div></article><article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Machine learning in marker-based clinical gait analysis</h4>
+<span class="venue">Bioengineering, 2025</span><p>A scoping review of how machine learning is used in clinical motion-capture gait analysis, from classification and phenotyping to outcome prediction, and where the field needs better validation.</p>
+<div class="tag-row">
+<span class="tag-pill">review</span><span class="tag-pill">motion capture</span><span class="tag-pill">gait</span>
 </div>
-
-<h3 id="2022">2022</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9d" class="citation-image" aria-label="Autoencoder Composite Scoring to Evaluate Prosthetic Performance in Individuals with Lower Limb Amputation">
-        <img src="" alt="Autoencoder Composite Scoring to Evaluate Prosthetic Performance in Individuals with Lower Limb Amputation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9d" class="citation-title">
-        Autoencoder Composite Scoring to Evaluate Prosthetic Performance in Individuals with Lower Limb Amputation
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Thasina Tabashum, Ting Xiao, Chandrasekaran Jayaraman, Chaithanya K. Mummidisetty, Arun Jayaraman, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Bioengineering</span>
-         · 
-        <span class="citation-date">18 Oct 2022</span>
-         · 
-        <span class="citation-id">doi:10.3390/bioengineering9100572</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20gait%22" class="tag" data-tooltip='Show items with the tag "gait"'>
-        gait
-      </a>
-    
-      <a href="/research/?search=%22tag:%20amputation%22" class="tag" data-tooltip='Show items with the tag "amputation"'>
-        amputation
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.3390/bioengineering12060591">[Paper]</a></div>
+</div></article><article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Predicting Parkinson's motor symptoms from force plates</h4>
+<span class="venue">IEEE Journal of Biomedical and Health Informatics, 2022</span><p>Machine learning on short quiet-standing recordings estimates UPDRS motor scores, pointing to a quick, low-cost balance test for tracking Parkinson's disease.</p>
+<div class="tag-row">
+<span class="tag-pill">Parkinson's disease</span><span class="tag-pill">balance</span><span class="tag-pill">force plates</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9m" class="citation-image" aria-label="Predicting UPDRS Motor Symptoms in Individuals With Parkinson s Disease From Force Plates Using Machine Learning">
-        <img src="" alt="Predicting UPDRS Motor Symptoms in Individuals With Parkinson s Disease From Force Plates Using Machine Learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9m" class="citation-title">
-        Predicting UPDRS Motor Symptoms in Individuals With Parkinson's Disease From Force Plates Using Machine Learning
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Trevor Exley, Sarah Moudy, Rita M. Patterson, Joonghyun Kim, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">IEEE Journal of Biomedical and Health Informatics</span>
-         · 
-        <span class="citation-date">01 Jul 2022</span>
-         · 
-        <span class="citation-id">doi:10.1109/JBHI.2022.3157518</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20gait%22" class="tag" data-tooltip='Show items with the tag "gait"'>
-        gait
-      </a>
-    
-      <a href="/research/?search=%22tag:%20parkinsons%22" class="tag" data-tooltip='Show items with the tag "parkinsons"'>
-        parkinsons
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9k" class="citation-image" aria-label="Using a microprocessor knee C-Leg with appropriate foot transitioned individuals with dysvascular transfemoral amputations to higher performance levels: a longitudinal randomized clinical trial">
-        <img src="" alt="Using a microprocessor knee C-Leg with appropriate foot transitioned individuals with dysvascular transfemoral amputations to higher performance levels: a longitudinal randomized clinical trial" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9k" class="citation-title">
-        Using a microprocessor knee (C-Leg) with appropriate foot transitioned individuals with dysvascular transfemoral amputations to higher performance levels: a longitudinal randomized clinical trial
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Chandrasekaran Jayaraman, Chaithanya K. Mummidisetty, Mark V. Albert, Robert Lipschutz, Shenan Hoppe-Ludwig, Gayatri Mathur, Arun Jayaraman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of NeuroEngineering and Rehabilitation</span>
-         · 
-        <span class="citation-date">25 May 2021</span>
-         · 
-        <span class="citation-id">doi:10.1186/s12984-021-00879-3</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20gait%22" class="tag" data-tooltip='Show items with the tag "gait"'>
-        gait
-      </a>
-    
-      <a href="/research/?search=%22tag:%20amputation%22" class="tag" data-tooltip='Show items with the tag "amputation"'>
-        amputation
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1109/JBHI.2022.3157518">[Paper]</a></div>
+</div></article>
 </div>
   </section>
 
@@ -831,630 +544,30 @@ This includes the Shriners Gait Index, an autoencoder-based summary of gait for 
   <size></size>
 -->
 
-<h2 id="wearables">Wearable &amp; Mobile Health Sensing</h2>
+<p><span class="kicker" id="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i>  Wearables</span></p>
 
-<p>We use phones and wearable sensors to recognize activity and posture, detect falls and respond in real time, and measure how well everyday activities are performed.
-Our work has covered Parkinson’s disease, incomplete spinal cord injury, transfemoral amputation, stroke and toddlers, and now includes wearable hand-gesture recognition for people who cannot speak.</p>
+<h3 id="wearable-and-mobile-health-sensing">Wearable and Mobile Health Sensing</h3>
 
-<h3 id="2024">2024</h3>
+<p class="focus-line"><strong>Focus:</strong> Phones and wearable sensors that recognize activity, detect falls and give a voice to people who cannot speak.</p>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkb8" class="citation-image" aria-label="Wearable Sensor-Based Few-Shot Continual Learning on Hand Gestures for Motor-Impaired Individuals via Latent Embedding Exploitation">
-        <img src="" alt="Wearable Sensor-Based Few-Shot Continual Learning on Hand Gestures for Motor-Impaired Individuals via Latent Embedding Exploitation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkb8" class="citation-title">
-        Wearable Sensor-Based Few-Shot Continual Learning on Hand Gestures for Motor-Impaired Individuals via Latent Embedding Exploitation
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Riyad Bin Rafiq, Weishi Shi, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2024</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2405.08969</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="highlight-grid">
+<article class="highlight"><div class="thumb" data-theme="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Wearable gesture recognition for motor-impaired users</h4>
+<span class="venue">IJCAI, 2024 · ECML PKDD, 2026</span><p>Few-shot continual learning, and now knowledge-attentive representation learning (KARL), let a wearable sensor learn new, user-defined hand gestures from motor-impaired individuals, building on the lab's gesture-to-speech app.</p>
+<div class="tag-row">
+<span class="tag-pill">gesture recognition</span><span class="tag-pill">few-shot learning</span><span class="tag-pill">assistive tech</span>
 </div>
-
-<h3 id="2023">2023</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9n" class="citation-image" aria-label="An LSTM-based Gesture-to-Speech Recognition System">
-        <img src="" alt="An LSTM-based Gesture-to-Speech Recognition System" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9n" class="citation-title">
-        An LSTM-based Gesture-to-Speech Recognition System
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Riyad Bin Rafiq, Syed Araib Karim, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)</span>
-         · 
-        <span class="citation-date">26 Jun 2023</span>
-         · 
-        <span class="citation-id">doi:10.1109/ICHI57859.2023.00062</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2405.08969">[Paper]</a></div>
+</div></article><article class="highlight"><div class="thumb" data-theme="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Fall classification with mobile phones</h4>
+<span class="venue">PLoS ONE, 2012</span><p>One of the early demonstrations that a phone's accelerometer, with machine learning, can detect and classify falls, later extended to real-world falls in people with amputations and to wearable airbags after stroke.</p>
+<div class="tag-row">
+<span class="tag-pill">fall detection</span><span class="tag-pill">smartphones</span><span class="tag-pill">rehabilitation</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9g" class="citation-image" aria-label="A Low-Power Wireless System for Predicting Early Signs of Sudden Cardiac Arrest Incorporating an Optimized CNN Model Implemented on NVIDIA Jetson">
-        <img src="" alt="A Low-Power Wireless System for Predicting Early Signs of Sudden Cardiac Arrest Incorporating an Optimized CNN Model Implemented on NVIDIA Jetson" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9g" class="citation-title">
-        A Low-Power Wireless System for Predicting Early Signs of Sudden Cardiac Arrest Incorporating an Optimized CNN Model Implemented on NVIDIA Jetson
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Venkata Deepa Kota, Himanshu Sharma, Mark V. Albert, Ifana Mahbub, Gayatri Mehta, Kamesh Namuduri
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Sensors</span>
-         · 
-        <span class="citation-date">17 Feb 2023</span>
-         · 
-        <span class="citation-id">doi:10.3390/s23042270</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9s" class="citation-image" aria-label="A Collaborative and Adaptive Feedback System for Physical Exercises">
-        <img src="" alt="A Collaborative and Adaptive Feedback System for Physical Exercises" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9s" class="citation-title">
-        A Collaborative and Adaptive Feedback System for Physical Exercises
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ishan Ranasinghe, Chengping Yuan, Ram Dantu, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2021 IEEE 7th International Conference on Collaboration and Internet Computing (CIC)</span>
-         · 
-        <span class="citation-date">01 Dec 2021</span>
-         · 
-        <span class="citation-id">doi:10.1109/CIC52973.2021.00012</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2020">2020</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9p" class="citation-image" aria-label="Wearable spasticity estimation and validation using machine learning">
-        <img src="" alt="Wearable spasticity estimation and validation using machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9p" class="citation-title">
-        Wearable spasticity estimation and validation using machine learning
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Shou-Jen Wang, Jeong-Ho Park, Hyung-Soon Park, Devak Nanda, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</span>
-         · 
-        <span class="citation-date">16 Dec 2020</span>
-         · 
-        <span class="citation-id">doi:10.1109/BIBM49941.2020.9313130</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9q" class="citation-image" aria-label="Accelerometer-Based Automated Counting of Ten Exercises without Exercise-Specific Training or Tuning">
-        <img src="" alt="Accelerometer-Based Automated Counting of Ten Exercises without Exercise-Specific Training or Tuning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9q" class="citation-title">
-        Accelerometer-Based Automated Counting of Ten Exercises without Exercise-Specific Training or Tuning
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Samuel Zelman, Michael Dow, Thasina Tabashum, Ting Xiao, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of Healthcare Engineering</span>
-         · 
-        <span class="citation-date">10 Oct 2020</span>
-         · 
-        <span class="citation-id">doi:10.1155/2020/8869134</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2017">2017</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gb259q" class="citation-image" aria-label="Fall Detection in Individuals With Lower Limb Amputations Using Mobile Phones: Machine Learning Enhances Robustness for Real-World Applications">
-        <img src="" alt="Fall Detection in Individuals With Lower Limb Amputations Using Mobile Phones: Machine Learning Enhances Robustness for Real-World Applications" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/gb259q" class="citation-title">
-        Fall Detection in Individuals With Lower Limb Amputations Using Mobile Phones: Machine Learning Enhances Robustness for Real-World Applications
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Nicholas Shawen, Luca Lonini, Chaithanya Krishna Mummidisetty, Ilona Shparii, Mark V Albert, Konrad Kording, Arun Jayaraman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">JMIR mHealth and uHealth</span>
-         · 
-        <span class="citation-date">11 Oct 2017</span>
-         · 
-        <span class="citation-id">doi:10.2196/mhealth.8201</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-      <a href="/research/?search=%22tag:%20falls%22" class="tag" data-tooltip='Show items with the tag "falls"'>
-        falls
-      </a>
-    
-      <a href="/research/?search=%22tag:%20amputation%22" class="tag" data-tooltip='Show items with the tag "amputation"'>
-        amputation
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9r" class="citation-image" aria-label="In-lab versus at-home activity recognition in ambulatory subjects with incomplete spinal cord injury">
-        <img src="" alt="In-lab versus at-home activity recognition in ambulatory subjects with incomplete spinal cord injury" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9r" class="citation-title">
-        In-lab versus at-home activity recognition in ambulatory subjects with incomplete spinal cord injury
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mark V. Albert, Yohannes Azeze, Michael Courtois, Arun Jayaraman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of NeuroEngineering and Rehabilitation</span>
-         · 
-        <span class="citation-date">06 Feb 2017</span>
-         · 
-        <span class="citation-id">doi:10.1186/s12984-017-0222-5</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2013">2013</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/f476zm" class="citation-image" aria-label="Monitoring Functional Capability of Individuals with Lower Limb Amputations Using Mobile Phones">
-        <img src="" alt="Monitoring Functional Capability of Individuals with Lower Limb Amputations Using Mobile Phones" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/f476zm" class="citation-title">
-        Monitoring Functional Capability of Individuals with Lower Limb Amputations Using Mobile Phones
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mark V. Albert, Cliodhna McCarthy, Juliana Valentin, Megan Herrmann, Konrad Kording, Arun Jayaraman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">PLoS ONE</span>
-         · 
-        <span class="citation-date">04 Jun 2013</span>
-         · 
-        <span class="citation-id">doi:10.1371/journal.pone.0065340</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-      <a href="/research/?search=%22tag:%20amputation%22" class="tag" data-tooltip='Show items with the tag "amputation"'>
-        amputation
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2012">2012</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/f3x2bd" class="citation-image" aria-label="Fall Classification by Machine Learning Using Mobile Phones">
-        <img src="" alt="Fall Classification by Machine Learning Using Mobile Phones" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/f3x2bd" class="citation-title">
-        Fall Classification by Machine Learning Using Mobile Phones
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mark V. Albert, Konrad Kording, Megan Herrmann, Arun Jayaraman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">PLoS ONE</span>
-         · 
-        <span class="citation-date">07 May 2012</span>
-         · 
-        <span class="citation-id">doi:10.1371/journal.pone.0036556</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-      <a href="/research/?search=%22tag:%20falls%22" class="tag" data-tooltip='Show items with the tag "falls"'>
-        falls
-      </a>
-    
-      <a href="/research/?search=%22tag:%20featured%22" class="tag" data-tooltip='Show items with the tag "featured"'>
-        featured
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpj9f" class="citation-image" aria-label="Using Mobile Phones for Activity Recognition in Parkinson s Patients">
-        <img src="" alt="Using Mobile Phones for Activity Recognition in Parkinson s Patients" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpj9f" class="citation-title">
-        Using Mobile Phones for Activity Recognition in Parkinson’s Patients
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mark V. Albert, Santiago Toledo, Mark Shapiro, Konrad Kording
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Frontiers in Neurology</span>
-         · 
-        <span class="citation-date">01 Jan 2012</span>
-         · 
-        <span class="citation-id">doi:10.3389/fneur.2012.00158</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20wearables%22" class="tag" data-tooltip='Show items with the tag "wearables"'>
-        wearables
-      </a>
-    
-      <a href="/research/?search=%22tag:%20parkinsons%22" class="tag" data-tooltip='Show items with the tag "parkinsons"'>
-        parkinsons
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1371/journal.pone.0036556">[Paper]</a></div>
+</div></article>
 </div>
   </section>
 
@@ -1469,333 +582,36 @@ Our work has covered Parkinson’s disease, incomplete spinal cord injury, trans
   <size></size>
 -->
 
-<h2 id="language">Language Models for Health &amp; Humanitarian Text</h2>
+<p><span class="kicker" id="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i>  Language Models</span></p>
 
-<p>We fine-tune and probe language models for clinical records, such as pediatric fall risk and pain assessment, and for humanitarian text, such as human-rights annotation, conflict forecasting and peacebuilding reports.
-We also study how to explain, distill and fairly evaluate these models.</p>
+<h3 id="language-models-for-health-and-humanitarian-text">Language Models for Health and Humanitarian Text</h3>
 
-<h3 id="2026">2026</h3>
+<p class="focus-line"><strong>Focus:</strong> Fine-tuning, probing and evaluating language models on clinical records and on high-stakes humanitarian text.</p>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkb9" class="citation-image" aria-label="LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text">
-        <img src="" alt="LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkb9" class="citation-title">
-        LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        George Mihaila, Suleyman Olcay Polat, Poli Nemkova, Himanshu Sharma, Namratha V. Urs, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2026</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2601.11746</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="highlight-grid">
+<article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Instruction-tuned language models for pediatric fall risk</h4>
+<span class="venue">IEEE ICHI, 2026</span><p>An instruction fine-tuned model, trained iteratively with generated clinical texts, assesses fall risk from the records of children with cerebral palsy, with related work on pain assessment tuned to a single hospital system.</p>
+<div class="tag-row">
+<span class="tag-pill">EHR</span><span class="tag-pill">LLM fine-tuning</span><span class="tag-pill">pediatrics</span>
 </div>
-
-<h3 id="2025">2025</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkcf" class="citation-image" aria-label="Do Large Language Models Know Conflict Investigating Parametric vs. Non-Parametric Knowledge of LLMs for Conflict Forecasting">
-        <img src="" alt="Do Large Language Models Know Conflict Investigating Parametric vs. Non-Parametric Knowledge of LLMs for Conflict Forecasting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkcf" class="citation-title">
-        Do Large Language Models Know Conflict? Investigating Parametric vs. Non-Parametric Knowledge of LLMs for Conflict Forecasting
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Apollinaire Poli Nemkova, Sarath Chandra Lingareddy, Sagnik Ray Choudhury, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2505.09852</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+</div></article><article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Cross-lingual stability and bias in humanitarian NLP</h4>
+<span class="venue">LREC, 2026</span><p>Measures how instruction-tuned models change their judgments across Russian, Ukrainian and English prompts when classifying human-rights violations, with companion work on conflict forecasting and peacebuilding reports.</p>
+<div class="tag-row">
+<span class="tag-pill">multilingual</span><span class="tag-pill">bias</span><span class="tag-pill">social good</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkcd" class="citation-image" aria-label="Towards Automated Situation Awareness: A RAG-Based Framework for Peacebuilding Reports">
-        <img src="" alt="Towards Automated Situation Awareness: A RAG-Based Framework for Peacebuilding Reports" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkcd" class="citation-title">
-        Towards Automated Situation Awareness: A RAG-Based Framework for Peacebuilding Reports
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Poli A. Nemkova, Suleyman O. Polat, Rafid I. Jahan, Sagnik Ray Choudhury, Sun-joo Lee, Shouryadipta Sarkar, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2505.10586</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+</div></article><article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>LIME-LLM: probing models with fluent counterfactuals</h4>
+<span class="venue">arXiv, 2026</span><p>Explains language-model predictions with fluent, meaningful counterfactual edits instead of the broken text that classic perturbation methods produce.</p>
+<div class="tag-row">
+<span class="tag-pill">explainability</span><span class="tag-pill">counterfactuals</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkcc" class="citation-image" aria-label="Comparing LLM Text Annotation Skills: A Study on Human Rights Violations in Social Media Data">
-        <img src="" alt="Comparing LLM Text Annotation Skills: A Study on Human Rights Violations in Social Media Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkcc" class="citation-title">
-        Comparing LLM Text Annotation Skills: A Study on Human Rights Violations in Social Media Data
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Poli Apollinaire Nemkova, Solomon Ubani, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2505.10260</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkcb" class="citation-image" aria-label="Synthetic Adaptive Guided Embeddings SAGE : A Novel Knowledge Distillation Method">
-        <img src="" alt="Synthetic Adaptive Guided Embeddings SAGE : A Novel Knowledge Distillation Method" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkcb" class="citation-title">
-        Synthetic Adaptive Guided Embeddings (SAGE): A Novel Knowledge Distillation Method
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Suleyman Olcay Polat, Poli A. Nemkova, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">arXiv</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.48550/arXiv.2508.14783</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g58tmf" class="citation-image" aria-label="Automatic trend detection: Time-biased document clustering">
-        <img src="" alt="Automatic trend detection: Time-biased document clustering" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/g58tmf" class="citation-title">
-        Automatic trend detection: Time-biased document clustering
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Sahar Behpour, Mohammadmahdi Mohammadi, Mark V. Albert, Zinat S. Alam, Lingling Wang, Ting Xiao
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Knowledge-Based Systems</span>
-         · 
-        <span class="citation-date">01 May 2021</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.knosys.2021.106907</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20language%22" class="tag" data-tooltip='Show items with the tag "language"'>
-        language
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2601.11746">[Paper]</a></div>
+</div></article>
 </div>
   </section>
 
@@ -1810,232 +626,29 @@ We also study how to explain, distill and fairly evaluate these models.</p>
   <size></size>
 -->
 
-<h2 id="imaging">Medical Imaging &amp; Multimodal AI</h2>
+<p><span class="kicker" id="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i>  Multimodal AI</span></p>
 
-<p>We build multi-agent and multimodal systems for radiology report generation and visual question answering, and survey where small vision-language models and multimodal language models are headed in medicine.</p>
+<h3 id="medical-imaging-and-multimodal-ai">Medical Imaging and Multimodal AI</h3>
 
-<h3 id="2026">2026</h3>
+<p class="focus-line"><strong>Focus:</strong> Multi-agent and multimodal systems that read medical images and write about them.</p>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkbv" class="citation-image" aria-label="Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language Models">
-        <img src="" alt="Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkbv" class="citation-title">
-        Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language Models
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Sheikh Iftekhar Ahmed, Muhammad Zubair Hasan, Abrar Jahin Niloy, Syed Mostofa Monsur, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Information Fusion</span>
-         · 
-        <span class="citation-date">01 Mar 2026</span>
-         · 
-        <span class="citation-id">doi:10.1016/j.inffus.2025.103805</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20imaging%22" class="tag" data-tooltip='Show items with the tag "imaging"'>
-        imaging
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="highlight-grid">
+<article class="highlight"><div class="thumb" data-theme="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Multi-agent reasoning for radiology visual question answering</h4>
+<span class="venue">ACM/IEEE JCDL, 2025</span><p>Specialized agents divide up complex radiology questions, retrieving evidence and checking each other, with a companion multi-agent framework for generating full radiology reports.</p>
+<div class="tag-row">
+<span class="tag-pill">radiology</span><span class="tag-pill">agents</span><span class="tag-pill">VQA</span>
 </div>
-
-<h3 id="2025">2025</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkbt" class="citation-image" aria-label="A Survey on Multimodal Large Language Models in Radiology for Report Generation and Visual Question Answering">
-        <img src="" alt="A Survey on Multimodal Large Language Models in Radiology for Report Generation and Visual Question Answering" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkbt" class="citation-title">
-        A Survey on Multimodal Large Language Models in Radiology for Report Generation and Visual Question Answering
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ziruo Yi, Ting Xiao, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Information</span>
-         · 
-        <span class="citation-date">12 Feb 2025</span>
-         · 
-        <span class="citation-id">doi:10.3390/info16020136</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20imaging%22" class="tag" data-tooltip='Show items with the tag "imaging"'>
-        imaging
-      </a>
-    
-      <a href="/research/?search=%22tag:%20featured%22" class="tag" data-tooltip='Show items with the tag "featured"'>
-        featured
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+</div></article><article class="highlight"><div class="thumb" data-theme="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Small vision-language models: a survey</h4>
+<span class="venue">Information Fusion, 2026</span><p>A survey of compact vision-language models, their architectures, training and efficiency trade-offs, and where they fit when large models are impractical, including clinical settings.</p>
+<div class="tag-row">
+<span class="tag-pill">vision-language models</span><span class="tag-pill">efficiency</span><span class="tag-pill">survey</span>
 </div>
-
-<h3 id="2024">2024</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hb7b2f" class="citation-image" aria-label="AI organoid integrated systems for biomedical studies and applications">
-        <img src="" alt="AI organoid integrated systems for biomedical studies and applications" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hb7b2f" class="citation-title">
-        AI‐organoid integrated systems for biomedical studies and applications
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Sudhiksha Maramraju, Andrew Kowalczewski, Anirudh Kaza, Xiyuan Liu, Jathin Pranav Singaraju, Mark V. Albert, Zhen Ma, Huaxiao Yang
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Bioengineering &amp; Translational Medicine</span>
-         · 
-        <span class="citation-date">20 Jan 2024</span>
-         · 
-        <span class="citation-id">doi:10.1002/btm2.10641</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20imaging%22" class="tag" data-tooltip='Show items with the tag "imaging"'>
-        imaging
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2020">2020</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkbw" class="citation-image" aria-label="Phantom Tumor Tracking in Dual-Energy Fluoroscopy using a Kalman Filter">
-        <img src="" alt="Phantom Tumor Tracking in Dual-Energy Fluoroscopy using a Kalman Filter" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkbw" class="citation-title">
-        Phantom Tumor Tracking in Dual-Energy Fluoroscopy using a Kalman Filter
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Abolfazl Meyarian, Himan Namdari, Xiaohui Yuan, Mark V. Albert, John C. Roeske
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</span>
-         · 
-        <span class="citation-date">16 Dec 2020</span>
-         · 
-        <span class="citation-id">doi:10.1109/BIBM49941.2020.9313322</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20imaging%22" class="tag" data-tooltip='Show items with the tag "imaging"'>
-        imaging
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1016/j.inffus.2025.103805">[Paper]</a></div>
+</div></article>
 </div>
   </section>
 
@@ -2050,246 +663,30 @@ We also study how to explain, distill and fairly evaluate these models.</p>
   <size></size>
 -->
 
-<h2 id="foundations">Foundations</h2>
+<p><span class="kicker" id="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i>  Foundations</span></p>
 
-<p>The lab’s roots include computational neuroscience: efficient-coding models of how early visual and auditory systems learn from natural input.
-See the <a href="software">neural efficient coding notebook</a> and Prof. Albert’s <a href="/members/mark-v-albert#teaching">teaching and book</a>.</p>
+<h3 id="brain-inspired-learning">Brain-Inspired Learning</h3>
 
-<h3 id="2021">2021</h3>
+<p class="focus-line"><strong>Focus:</strong> Efficient-coding models of how the early visual and auditory systems learn, the lab's computational-neuroscience roots.</p>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkb5" class="citation-image" aria-label="On the Role of LGN V1 Spontaneous Activity as an Innate Learning Pattern for Visual Development">
-        <img src="" alt="On the Role of LGN V1 Spontaneous Activity as an Innate Learning Pattern for Visual Development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkb5" class="citation-title">
-        On the Role of LGN/V1 Spontaneous Activity as an Innate Learning Pattern for Visual Development
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Sahar Behpour, David J. Field, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Frontiers in Physiology</span>
-         · 
-        <span class="citation-date">27 Oct 2021</span>
-         · 
-        <span class="citation-id">doi:10.3389/fphys.2021.695431</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20neuroscience%22" class="tag" data-tooltip='Show items with the tag "neuroscience"'>
-        neuroscience
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="highlight-grid">
+<article class="highlight"><div class="thumb" data-theme="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Innate visual learning through spontaneous activity</h4>
+<span class="venue">PLoS Computational Biology, 2008</span><p>Shows that the brain's spontaneous activity before birth can act as training data, letting efficient-coding models develop visual receptive fields before the eyes open.</p>
+<div class="tag-row">
+<span class="tag-pill">efficient coding</span><span class="tag-pill">visual development</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkb7" class="citation-image" aria-label="Unsupervised learning in images and audio to produce neural receptive fields: a primer and accessible notebook">
-        <img src="" alt="Unsupervised learning in images and audio to produce neural receptive fields: a primer and accessible notebook" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkb7" class="citation-title">
-        Unsupervised learning in images and audio to produce neural receptive fields: a primer and accessible notebook
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Namratha Urs, Sahar Behpour, Angie Georgaras, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Artificial Intelligence Review</span>
-         · 
-        <span class="citation-date">19 Oct 2021</span>
-         · 
-        <span class="citation-id">doi:10.1007/s10462-021-10047-7</span>
-      </div>
-
-      
-        
-
-        
-          <div class="citation-buttons">
-            
-              
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://docs.google.com/document/d/1GxwGyiuU0rO4OKGNDh-R2I5RFyaqZNZXlhPGwXBAxpE/edit?usp=sharing" data-tooltip="Source code" data-style="bare" aria-label="Source code">
-      <i class="icon fa-solid fa-code"></i>
-      
-        <span>Data and code</span>
-      
-    </a>
-  </div>
-
-
-            
-          </div>
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20neuroscience%22" class="tag" data-tooltip='Show items with the tag "neuroscience"'>
-        neuroscience
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1371/journal.pcbi.1000137">[Paper]</a></div>
+</div></article><article class="highlight"><div class="thumb" data-theme="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
+<div class="highlight-body">
+<h4>Neural receptive fields from images and audio: a notebook</h4>
+<span class="venue">Artificial Intelligence Review, 2022</span><p>An accessible survey and Jupyter notebook that derives visual and auditory receptive fields from natural inputs, for anyone curious about the link between computing and neuroscience.</p>
+<div class="tag-row">
+<span class="tag-pill">tutorial</span><span class="tag-pill">unsupervised learning</span>
 </div>
-
-<h3 id="2016">2016</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hcpkb6" class="citation-image" aria-label="Bayesian Analysis of Perceived Eye Level">
-        <img src="" alt="Bayesian Analysis of Perceived Eye Level" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/hcpkb6" class="citation-title">
-        Bayesian Analysis of Perceived Eye Level
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Elaine E. Orendorff, Laurynas Kalesinskas, Robert T. Palumbo, Mark V. Albert
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Frontiers in Computational Neuroscience</span>
-         · 
-        <span class="citation-date">15 Dec 2016</span>
-         · 
-        <span class="citation-id">doi:10.3389/fncom.2016.00135</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20neuroscience%22" class="tag" data-tooltip='Show items with the tag "neuroscience"'>
-        neuroscience
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2008">2008</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/dbqftz" class="citation-image" aria-label="Innate Visual Learning through Spontaneous Activity Patterns">
-        <img src="" alt="Innate Visual Learning through Spontaneous Activity Patterns" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-      
-      
-
-      <a href="https://doi.org/dbqftz" class="citation-title">
-        Innate Visual Learning through Spontaneous Activity Patterns
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Mark V. Albert, Adam Schnabel, David J. Field
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">PLoS Computational Biology</span>
-         · 
-        <span class="citation-date">01 Aug 2008</span>
-         · 
-        <span class="citation-id">doi:10.1371/journal.pcbi.1000137</span>
-      </div>
-
-      
-        
-
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/research/?search=%22tag:%20neuroscience%22" class="tag" data-tooltip='Show items with the tag "neuroscience"'>
-        neuroscience
-      </a>
-    
-  </div>
-
-
-        
-      
-    </div>
-  </div>
+<div class="text-links"><a href="https://doi.org/10.1007/s10462-021-10047-7">[Paper]</a></div>
+</div></article>
 </div>
   </section>
 
@@ -2304,104 +701,106 @@ See the <a href="software">neural efficient coding notebook</a> and Prof. Albert
   <size></size>
 -->
 
-<h2 id="funding">Funding</h2>
+<h2 id="all-of-our-work">All of our work</h2>
 
-<p>Current and recent projects, newest first.</p>
+<p>These are highlights only. For the complete, up-to-date list of papers and citations, see Prof. Albert’s Google Scholar profile.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>Sponsor</th>
-      <th>Role</th>
-      <th>Years</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury: A Machine Learning Approach</td>
-      <td>Shriners Children’s</td>
-      <td>Site PI</td>
-      <td>2026–2027</td>
-    </tr>
-    <tr>
-      <td>Advancing Digital Health Technology: A Summer Research Program for High School and Community College Educators</td>
-      <td>NIH (R25)</td>
-      <td>Co-PI</td>
-      <td>2025–2030</td>
-    </tr>
-    <tr>
-      <td>REU Site: Making Generative Artificial Intelligence Responsible</td>
-      <td>NSF</td>
-      <td>Co-PI</td>
-      <td>2025–2028</td>
-    </tr>
-    <tr>
-      <td>Pilot development of a precision gesture-to-speech system for speech-impaired individuals with limited mobility</td>
-      <td>C-STAR, Shirley Ryan AbilityLab (NIH P2CHD101899)</td>
-      <td>Subcontract</td>
-      <td>2024</td>
-    </tr>
-    <tr>
-      <td>Improving Orthopaedic Outcomes through Machine Learning</td>
-      <td>Shriners Children’s</td>
-      <td>Site PI</td>
-      <td>2023–2026</td>
-    </tr>
-    <tr>
-      <td>Using the Fitbit for Early Detection of Infection after Discharge in Pediatric Surgical Patients</td>
-      <td>NIH (R01), with Lurie Children’s Hospital of Chicago</td>
-      <td>Co-I</td>
-      <td>2023–2027</td>
-    </tr>
-    <tr>
-      <td>Predicting Fall Risk in Older Adults Using Machine Learning</td>
-      <td>Johns Hopkins AI and Technology Collaboratory for Aging Research, with UNT Health Science Center</td>
-      <td>Subaward</td>
-      <td>2023–2024</td>
-    </tr>
-    <tr>
-      <td>Hierarchically Structured Materials Systems for Enhanced Dynamic Performance</td>
-      <td>U.S. Army Research Laboratory</td>
-      <td>Co-PI</td>
-      <td>2023–2024</td>
-    </tr>
-    <tr>
-      <td>AI4All College Pathways</td>
-      <td>AI4All</td>
-      <td>Co-PI</td>
-      <td>2022–2023</td>
-    </tr>
-    <tr>
-      <td>Physical Activity Measurement in Toddlers</td>
-      <td>NIH (R01), with Lurie Children’s Hospital of Chicago</td>
-      <td>Co-I</td>
-      <td>2021–2026</td>
-    </tr>
-    <tr>
-      <td>REU Site: Accelerated Deep Learning through a Hardware-Software Collaborative Approach</td>
-      <td>NSF</td>
-      <td>Co-PI</td>
-      <td>2021–2023</td>
-    </tr>
-    <tr>
-      <td>Machine learning prediction using quantitative gait analysis data for pediatric patients with movement disorders</td>
-      <td>Shriners Children’s</td>
-      <td>Site PI</td>
-      <td>2020–2021</td>
-    </tr>
-    <tr>
-      <td>Fall Catcher: Wearable Airbag Technology to Mitigate Falls in Individuals with Stroke</td>
-      <td>Rehabilitation Engineering Research Center, with Shirley Ryan AbilityLab</td>
-      <td>Subcontract</td>
-      <td>2018–2023</td>
-    </tr>
-  </tbody>
-</table>
+<div class="cta-row">
+<a class="cta" href="https://scholar.google.com/citations?user=LPzMx1IAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+<a class="cta ghost" href="/publications">Selected publications</a>
+</div>
 
-<h2 id="collaborators">Collaborators</h2>
+<details class="alumni-group">
+  <summary>Funding: current and recent projects</summary>
 
-<p>Shriners Children’s · Shirley Ryan AbilityLab · Lurie Children’s Hospital of Chicago · UNT Health Science Center · Northwestern University Feinberg School of Medicine</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Sponsor</th>
+        <th>Role</th>
+        <th>Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury</td>
+        <td>Shriners Children’s</td>
+        <td>Site PI</td>
+        <td>2026–2027</td>
+      </tr>
+      <tr>
+        <td>Advancing Digital Health Technology: A Summer Research Program for Educators</td>
+        <td>NIH (R25)</td>
+        <td>Co-PI</td>
+        <td>2025–2030</td>
+      </tr>
+      <tr>
+        <td>REU Site: Making Generative Artificial Intelligence Responsible</td>
+        <td>NSF</td>
+        <td>Co-PI</td>
+        <td>2025–2028</td>
+      </tr>
+      <tr>
+        <td>Precision gesture-to-speech system for speech-impaired individuals with limited mobility</td>
+        <td>C-STAR, Shirley Ryan AbilityLab (NIH)</td>
+        <td>Subcontract</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>Improving Orthopaedic Outcomes through Machine Learning</td>
+        <td>Shriners Children’s</td>
+        <td>Site PI</td>
+        <td>2023–2026</td>
+      </tr>
+      <tr>
+        <td>Using the Fitbit for Early Detection of Infection after Discharge in Pediatric Surgical Patients</td>
+        <td>NIH (R01), with Lurie Children’s Hospital</td>
+        <td>Co-I</td>
+        <td>2023–2027</td>
+      </tr>
+      <tr>
+        <td>Predicting Fall Risk in Older Adults Using Machine Learning</td>
+        <td>Johns Hopkins AITC for Aging Research, with UNT Health Science Center</td>
+        <td>Subaward</td>
+        <td>2023–2024</td>
+      </tr>
+      <tr>
+        <td>Hierarchically Structured Materials Systems for Enhanced Dynamic Performance</td>
+        <td>U.S. Army Research Laboratory</td>
+        <td>Co-PI</td>
+        <td>2023–2024</td>
+      </tr>
+      <tr>
+        <td>AI4All College Pathways</td>
+        <td>AI4All</td>
+        <td>Co-PI</td>
+        <td>2022–2023</td>
+      </tr>
+      <tr>
+        <td>Physical Activity Measurement in Toddlers</td>
+        <td>NIH (R01), with Lurie Children’s Hospital</td>
+        <td>Co-I</td>
+        <td>2021–2026</td>
+      </tr>
+      <tr>
+        <td>REU Site: Accelerated Deep Learning through a Hardware-Software Collaborative Approach</td>
+        <td>NSF</td>
+        <td>Co-PI</td>
+        <td>2021–2023</td>
+      </tr>
+      <tr>
+        <td>Fall Catcher: Wearable Airbag Technology to Mitigate Falls after Stroke</td>
+        <td>RERC, with Shirley Ryan AbilityLab</td>
+        <td>Subcontract</td>
+        <td>2018–2023</td>
+      </tr>
+    </tbody>
+  </table>
+
+</details>
+
+<p><strong>Collaborators:</strong> Shriners Children’s · Shirley Ryan AbilityLab · Lurie Children’s Hospital of Chicago · UNT Health Science Center · Northwestern University</p>
   </section>
 
 
@@ -2410,11 +809,11 @@ See the <a href="software">neural efficient coding notebook</a> and Prof. Albert
 
 
 
-<footer class="background" style="--image: url('')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('')" data-dark="false" data-size="wide">
   <!-- university mark and address, from _data/affiliation.yaml -->
   <div class="footer-affiliation">
     
-      <a href="https://www.unt.edu">Computer Science and Engineering, University of North Texas</a>
+      <a href="https://www.unt.edu">Department of Information Science, University of North Texas</a>
     
     
       <br>
