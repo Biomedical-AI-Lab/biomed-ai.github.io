@@ -1,2 +1,549 @@
-# GENERATED AUTOMATICALLY by the cite process. Do not edit by hand.
-[]
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.3390/bioengineering12060591
+  title: Scoping Review of Machine Learning Techniques in Marker-Based Clinical Gait
+    Analysis
+  authors:
+  - Kevin N. Dibbern
+  - Maddalena G. Krzak
+  - Alejandro Olivas
+  - Mark V. Albert
+  - Joseph J. Krzak
+  - Karen M. Kruger
+  publisher: Bioengineering
+  date: '2025-05-30'
+  link: https://doi.org/hcpj9c
+  tags:
+  - gait
+  - featured
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/bioengineering9100572
+  title: Autoencoder Composite Scoring to Evaluate Prosthetic Performance in Individuals
+    with Lower Limb Amputation
+  authors:
+  - Thasina Tabashum
+  - Ting Xiao
+  - Chandrasekaran Jayaraman
+  - Chaithanya K. Mummidisetty
+  - Arun Jayaraman
+  - Mark V. Albert
+  publisher: Bioengineering
+  date: '2022-10-18'
+  link: https://doi.org/hcpj9d
+  tags:
+  - gait
+  - amputation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jbiomech.2024.112092
+  title: 'Creating an autoencoder single summary metric to assess gait quality to
+    compare surgical outcomes in children with cerebral palsy: The Shriners Gait Index
+    (SGI)'
+  authors:
+  - Shou-Jen Wang
+  - Thasina Tabashum
+  - Karen M. Kruger
+  - Joseph J. Krzak
+  - Adam Graf
+  - Ross S. Chafetz
+  - Judi Linton
+  - Jon Davids
+  - Anita Bagley
+  - Kanav Bengani
+  - Mark V. Albert
+  publisher: Journal of Biomechanics
+  date: '2024-05-01'
+  link: https://doi.org/hcpj9j
+  tags:
+  - gait
+  - featured
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12984-021-00879-3
+  title: 'Using a microprocessor knee (C-Leg) with appropriate foot transitioned individuals
+    with dysvascular transfemoral amputations to higher performance levels: a longitudinal
+    randomized clinical trial'
+  authors:
+  - Chandrasekaran Jayaraman
+  - Chaithanya K. Mummidisetty
+  - Mark V. Albert
+  - Robert Lipschutz
+  - Shenan Hoppe-Ludwig
+  - Gayatri Mathur
+  - Arun Jayaraman
+  publisher: Journal of NeuroEngineering and Rehabilitation
+  date: '2021-05-25'
+  link: https://doi.org/hcpj9k
+  tags:
+  - gait
+  - amputation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/JBHI.2022.3157518
+  title: Predicting UPDRS Motor Symptoms in Individuals With Parkinson's Disease From
+    Force Plates Using Machine Learning
+  authors:
+  - Trevor Exley
+  - Sarah Moudy
+  - Rita M. Patterson
+  - Joonghyun Kim
+  - Mark V. Albert
+  publisher: IEEE Journal of Biomedical and Health Informatics
+  date: '2022-07-01'
+  link: https://doi.org/hcpj9m
+  tags:
+  - gait
+  - parkinsons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0036556
+  title: Fall Classification by Machine Learning Using Mobile Phones
+  authors:
+  - Mark V. Albert
+  - Konrad Kording
+  - Megan Herrmann
+  - Arun Jayaraman
+  publisher: PLoS ONE
+  date: '2012-05-07'
+  link: https://doi.org/f3x2bd
+  tags:
+  - wearables
+  - falls
+  - featured
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0065340
+  title: Monitoring Functional Capability of Individuals with Lower Limb Amputations
+    Using Mobile Phones
+  authors:
+  - Mark V. Albert
+  - Cliodhna McCarthy
+  - Juliana Valentin
+  - Megan Herrmann
+  - Konrad Kording
+  - Arun Jayaraman
+  publisher: PLoS ONE
+  date: '2013-06-04'
+  link: https://doi.org/f476zm
+  tags:
+  - wearables
+  - amputation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fneur.2012.00158
+  title: "Using Mobile Phones for Activity Recognition in Parkinson\u2019s Patients"
+  authors:
+  - Mark V. Albert
+  - Santiago Toledo
+  - Mark Shapiro
+  - Konrad Kording
+  publisher: Frontiers in Neurology
+  date: '2012-01-01'
+  link: https://doi.org/hcpj9f
+  tags:
+  - wearables
+  - parkinsons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/s23042270
+  title: A Low-Power Wireless System for Predicting Early Signs of Sudden Cardiac
+    Arrest Incorporating an Optimized CNN Model Implemented on NVIDIA Jetson
+  authors:
+  - Venkata Deepa Kota
+  - Himanshu Sharma
+  - Mark V. Albert
+  - Ifana Mahbub
+  - Gayatri Mehta
+  - Kamesh Namuduri
+  publisher: Sensors
+  date: '2023-02-17'
+  link: https://doi.org/hcpj9g
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICHI57859.2023.00062
+  title: An LSTM-based Gesture-to-Speech Recognition System
+  authors:
+  - Riyad Bin Rafiq
+  - Syed Araib Karim
+  - Mark V. Albert
+  publisher: 2023 IEEE 11th International Conference on Healthcare Informatics (ICHI)
+  date: '2023-06-26'
+  link: https://doi.org/hcpj9n
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/BIBM49941.2020.9313130
+  title: Wearable spasticity estimation and validation using machine learning
+  authors:
+  - Shou-Jen Wang
+  - Jeong-Ho Park
+  - Hyung-Soon Park
+  - Devak Nanda
+  - Mark V. Albert
+  publisher: 2020 IEEE International Conference on Bioinformatics and Biomedicine
+    (BIBM)
+  date: '2020-12-16'
+  link: https://doi.org/hcpj9p
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1155/2020/8869134
+  title: Accelerometer-Based Automated Counting of Ten Exercises without Exercise-Specific
+    Training or Tuning
+  authors:
+  - Samuel Zelman
+  - Michael Dow
+  - Thasina Tabashum
+  - Ting Xiao
+  - Mark V. Albert
+  publisher: Journal of Healthcare Engineering
+  date: '2020-10-10'
+  link: https://doi.org/hcpj9q
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2196/mhealth.8201
+  title: 'Fall Detection in Individuals With Lower Limb Amputations Using Mobile Phones:
+    Machine Learning Enhances Robustness for Real-World Applications'
+  authors:
+  - Nicholas Shawen
+  - Luca Lonini
+  - Chaithanya Krishna Mummidisetty
+  - Ilona Shparii
+  - Mark V Albert
+  - Konrad Kording
+  - Arun Jayaraman
+  publisher: JMIR mHealth and uHealth
+  date: '2017-10-11'
+  link: https://doi.org/gb259q
+  tags:
+  - wearables
+  - falls
+  - amputation
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12984-017-0222-5
+  title: In-lab versus at-home activity recognition in ambulatory subjects with incomplete
+    spinal cord injury
+  authors:
+  - Mark V. Albert
+  - Yohannes Azeze
+  - Michael Courtois
+  - Arun Jayaraman
+  publisher: Journal of NeuroEngineering and Rehabilitation
+  date: '2017-02-06'
+  link: https://doi.org/hcpj9r
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CIC52973.2021.00012
+  title: A Collaborative and Adaptive Feedback System for Physical Exercises
+  authors:
+  - Ishan Ranasinghe
+  - Chengping Yuan
+  - Ram Dantu
+  - Mark V. Albert
+  publisher: 2021 IEEE 7th International Conference on Collaboration and Internet
+    Computing (CIC)
+  date: '2021-12-01'
+  link: https://doi.org/hcpj9s
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2601.11746
+  title: 'LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text'
+  authors:
+  - George Mihaila
+  - Suleyman Olcay Polat
+  - Poli Nemkova
+  - Himanshu Sharma
+  - Namratha V. Urs
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2026-01-21'
+  link: https://arxiv.org/abs/2601.11746
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.knosys.2021.106907
+  title: 'Automatic trend detection: Time-biased document clustering'
+  authors:
+  - Sahar Behpour
+  - Mohammadmahdi Mohammadi
+  - Mark V. Albert
+  - Zinat S. Alam
+  - Lingling Wang
+  - Ting Xiao
+  publisher: Knowledge-Based Systems
+  date: '2021-05-01'
+  link: https://doi.org/g58tmf
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/info16020136
+  title: A Survey on Multimodal Large Language Models in Radiology for Report Generation
+    and Visual Question Answering
+  authors:
+  - Ziruo Yi
+  - Ting Xiao
+  - Mark V. Albert
+  publisher: Information
+  date: '2025-02-12'
+  link: https://doi.org/hcpkbt
+  tags:
+  - imaging
+  - featured
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.inffus.2025.103805
+  title: 'Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language
+    Models'
+  authors:
+  - Sheikh Iftekhar Ahmed
+  - Muhammad Zubair Hasan
+  - Abrar Jahin Niloy
+  - Syed Mostofa Monsur
+  - Mark V. Albert
+  publisher: Information Fusion
+  date: '2026-03-01'
+  link: https://doi.org/hcpkbv
+  tags:
+  - imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/btm2.10641
+  title: "AI\u2010organoid integrated systems for biomedical studies and applications"
+  authors:
+  - Sudhiksha Maramraju
+  - Andrew Kowalczewski
+  - Anirudh Kaza
+  - Xiyuan Liu
+  - Jathin Pranav Singaraju
+  - Mark V. Albert
+  - Zhen Ma
+  - Huaxiao Yang
+  publisher: Bioengineering &amp; Translational Medicine
+  date: '2024-01-20'
+  link: https://doi.org/hb7b2f
+  tags:
+  - imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/BIBM49941.2020.9313322
+  title: Phantom Tumor Tracking in Dual-Energy Fluoroscopy using a Kalman Filter
+  authors:
+  - Abolfazl Meyarian
+  - Himan Namdari
+  - Xiaohui Yuan
+  - Mark V. Albert
+  - John C. Roeske
+  publisher: 2020 IEEE International Conference on Bioinformatics and Biomedicine
+    (BIBM)
+  date: '2020-12-16'
+  link: https://doi.org/hcpkbw
+  tags:
+  - imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2196/50117
+  title: 'Machine Learning Models for Parkinson Disease: Systematic Review'
+  authors:
+  - Thasina Tabashum
+  - Robert Cooper Snyder
+  - Megan K O'Brien
+  - Mark V Albert
+  publisher: JMIR Medical Informatics
+  date: '2024-05-17'
+  link: https://doi.org/hcpkbx
+  tags:
+  - parkinsons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fmed.2021.645293
+  title: Detection of Parkinson's Disease Through Automated Pupil Tracking of the
+    Post-illumination Pupillary Response
+  authors:
+  - Thasina Tabashum
+  - Adnaan Zaffer
+  - Raman Yousefzai
+  - Kalea Colletta
+  - Mary Beth Jost
+  - Youngsook Park
+  - Jasvinder Chawla
+  - Bruce Gaynes
+  - Mark V. Albert
+  - Ting Xiao
+  publisher: Frontiers in Medicine
+  date: '2021-03-25'
+  link: https://doi.org/gkscr8
+  tags:
+  - parkinsons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s10072-021-05245-8
+  title: "Variable abnormality of the melanopsin-derived portion of the pupillary\
+    \ light reflex (PLR) in patients with Parkinson\u2019s disease (PD) and parkinsonism\
+    \ features"
+  authors:
+  - Bruce I. Gaynes
+  - Adnaan Zaffer
+  - Raman Yousefzai
+  - Mario Chazaro-Cortes
+  - Kalea Colletta
+  - Sandra L. Kletzel
+  - Mary Beth Jost
+  - Youngsook Park
+  - Jasvinder Chawla
+  - Mark V. Albert
+  - Ting Xiao
+  publisher: Neurological Sciences
+  date: '2021-05-04'
+  link: https://doi.org/gkczrn
+  tags:
+  - parkinsons
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s41687-023-00567-x
+  title: Feasibility of PROMIS using computerized adaptive testing during inpatient
+    rehabilitation
+  authors:
+  - Riyad Bin Rafiq
+  - Susan Yount
+  - Sara Jerousek
+  - Elliot J. Roth
+  - David Cella
+  - Mark V. Albert
+  - Allen W. Heinemann
+  publisher: Journal of Patient-Reported Outcomes
+  date: '2023-05-10'
+  link: https://doi.org/hcpkbz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1055/s-0044-1791210
+  title: 'A Pilot Dashboard System to Track Cumulative Exposure to Sound Levels during
+    Music Instruction: A Technical Report'
+  authors:
+  - Akansha Goel
+  - Eeshan Joshi
+  - Ted Kwee-Bintoro
+  - Kamakshi V. Gopal
+  - Kris Chesky
+  - Sara Champlin
+  - Mark V. Albert
+  publisher: Journal of the American Academy of Audiology
+  date: '2024-10-01'
+  link: https://doi.org/hcpkb2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.pmrj.2016.09.007
+  title: "Evaluating the Functionality and Usability of Two Novel Wheelchair Anti\u2010\
+    Rollback Devices for Ramp Ascent in Manual Wheelchair Users With Spinal Cord Injury"
+  authors:
+  - "Susan L. Deems\u2010Dluhy"
+  - Chandrasekaran Jayaraman
+  - Steve Green
+  - Mark V. Albert
+  - Arun Jayaraman
+  publisher: PM&amp;R
+  date: '2016-09-21'
+  link: https://doi.org/hcpkb3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.rico.2024.100471
+  title: Multi-agent Dual Level Reinforcement Learning of Strategy and Tactics in
+    Competitive Games
+  authors:
+  - Chengping Yuan
+  - Md Abdullah Al Forhad
+  - Ranak Bansal
+  - Anna Sidorova
+  - Mark V. Albert
+  publisher: Results in Control and Optimization
+  date: '2024-09-01'
+  link: https://doi.org/g8rhzx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/MIPR54900.2022.00077
+  title: 'BAPO: A Large-Scale Multimodal Corpus for Ball Possession Prediction in
+    American Football Games'
+  authors:
+  - Ziruo Yi
+  - Eduardo Blanco
+  - Heng Fan
+  - Mark V. Albert
+  publisher: 2022 IEEE 5th International Conference on Multimedia Information Processing
+    and Retrieval (MIPR)
+  date: '2022-08-01'
+  link: https://doi.org/hcpkb4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pcbi.1000137
+  title: Innate Visual Learning through Spontaneous Activity Patterns
+  authors:
+  - Mark V. Albert
+  - Adam Schnabel
+  - David J. Field
+  publisher: PLoS Computational Biology
+  date: '2008-08-01'
+  link: https://doi.org/dbqftz
+  tags:
+  - neuroscience
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fphys.2021.695431
+  title: On the Role of LGN/V1 Spontaneous Activity as an Innate Learning Pattern
+    for Visual Development
+  authors:
+  - Sahar Behpour
+  - David J. Field
+  - Mark V. Albert
+  publisher: Frontiers in Physiology
+  date: '2021-10-27'
+  link: https://doi.org/hcpkb5
+  tags:
+  - neuroscience
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fncom.2016.00135
+  title: Bayesian Analysis of Perceived Eye Level
+  authors:
+  - Elaine E. Orendorff
+  - Laurynas Kalesinskas
+  - Robert T. Palumbo
+  - Mark V. Albert
+  publisher: Frontiers in Computational Neuroscience
+  date: '2016-12-15'
+  link: https://doi.org/hcpkb6
+  tags:
+  - neuroscience
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s10462-021-10047-7
+  title: 'Unsupervised learning in images and audio to produce neural receptive fields:
+    a primer and accessible notebook'
+  authors:
+  - Namratha Urs
+  - Sahar Behpour
+  - Angie Georgaras
+  - Mark V. Albert
+  publisher: Artificial Intelligence Review
+  date: '2021-10-19'
+  link: https://doi.org/hcpkb7
+  tags:
+  - neuroscience
+  buttons:
+  - type: source
+    text: Data and code
+    link: https://docs.google.com/document/d/1GxwGyiuU0rO4OKGNDh-R2I5RFyaqZNZXlhPGwXBAxpE/edit?usp=sharing
+  plugin: sources.py
+  file: sources.yaml
