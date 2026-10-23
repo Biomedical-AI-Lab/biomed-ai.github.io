@@ -8,6 +8,10 @@ $read: 860px; // reading column
 
 // ---------------------------------------------------------------- shell
 
+html,
+body {
+  overflow-x: clip; // no sideways scroll from full-width bands on narrow screens
+}
 body {
   text-align: left;
   font-size: 1.02rem;
