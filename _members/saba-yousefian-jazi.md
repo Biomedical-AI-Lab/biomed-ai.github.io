@@ -12,6 +12,4 @@ links:
   linkedin: sabayousefianjazi
 ---
 
-Saba is a Computer Science and Engineering PhD candidate. Her dissertation develops physiologically appropriate efficient-coding models of spontaneous neural activity in the LGN and V1 and its role in binocular vision, extended to audio, images and video. She has also worked on markerless tumor tracking in lung imaging, multispectral image analysis, point-cloud clustering and an attention-based U-Net for autonomous lane detection.
-
-Before UNT, at the University of Isfahan, she was first author of an emotion-aware music recommender system (_Multimedia Tools and Applications_, 2021). In Spring 2026 she mentored four senior capstone teams in computer science.
+Saba works on machine learning for vision and perception. Her dissertation develops physiologically appropriate efficient-coding models of spontaneous neural activity in the LGN and V1 and its role in binocular vision, extended to audio, images and video. Her broader work spans computer vision and image processing (an attention-based U-Net for autonomous lane detection, markerless tumor tracking in lung imaging, multispectral image analysis and point-cloud clustering), recommender systems (an emotion-aware music recommender, _Multimedia Tools and Applications_, 2021) and social media analysis, including gender polarity in short social media content (2025).

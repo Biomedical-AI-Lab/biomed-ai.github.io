@@ -7,6 +7,6 @@ links:
   linkedin: ianabeyta
 ---
 
-Co-advised with Dr. Heejun Kim. Ian holds an MPH and is pursuing a PhD in Information Science (Health Informatics), applying machine learning to human biomechanics and clinical data. As a graduate research team lead at UNT since 2024, he guides undergraduate and graduate students building databases, data pipelines and machine learning models that analyze real-time patient data. In UNT's DVXR Lab he built a real-time digital twin of human movement in Unity 3D, driven by six leg-worn inertial sensors, with models that classify movement form.
+Co-advised with Dr. Heejun Kim. Ian's PhD in Information Science (Health Informatics) applies machine learning to human biomechanics and clinical data. In UNT's DVXR Lab he built a real-time digital twin of human movement in Unity 3D, driven by six leg-worn inertial sensors, with random forest and support vector machine models that classify movement form. As a graduate research team lead since 2024, he guides students building databases, data pipelines and machine learning models that analyze real-time patient data for clinical studies.
 
-Before his PhD, Ian spent several years in healthcare analytics and business intelligence, most recently at CHRISTUS Health and Unifeye Vision Partners. He is also a Certified Strength and Conditioning Specialist (CSCS).
+He holds an MPH and is a Certified Strength and Conditioning Specialist, and before his PhD worked for several years in healthcare analytics and business intelligence, most recently at CHRISTUS Health and Unifeye Vision Partners.
