@@ -193,7 +193,14 @@ def cite_with_manubot(_id):
     # run manubot
     try:
         commands = ["manubot", "cite", _id, "--log-level=WARNING"]
-        output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
+        process = subprocess.Popen(commands, stdout=subprocess.PIPE)
+        try:
+            # one slow lookup must not stall the whole run
+            output = process.communicate(timeout=60)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.communicate()
+            raise Exception("Manubot timed out after 60 seconds")
     except Exception as e:
         log(e, indent=3)
         raise Exception("Manubot could not generate citation")
