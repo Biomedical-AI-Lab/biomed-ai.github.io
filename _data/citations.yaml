@@ -146,6 +146,20 @@
   - parkinsons
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.48550/arXiv.2405.08969
+  title: Wearable Sensor-Based Few-Shot Continual Learning on Hand Gestures for Motor-Impaired
+    Individuals via Latent Embedding Exploitation
+  authors:
+  - Riyad Bin Rafiq
+  - Weishi Shi
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hcpkb8
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.3390/s23042270
   title: A Low-Power Wireless System for Predicting Early Signs of Sudden Cardiac
     Arrest Incorporating an Optimized CNN Model Implemented on NVIDIA Jetson
@@ -258,7 +272,7 @@
   - wearables
   plugin: sources.py
   file: sources.yaml
-- id: arxiv:2601.11746
+- id: doi:10.48550/arXiv.2601.11746
   title: 'LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text'
   authors:
   - George Mihaila
@@ -268,8 +282,69 @@
   - Namratha V. Urs
   - Mark V. Albert
   publisher: arXiv
-  date: '2026-01-21'
-  link: https://arxiv.org/abs/2601.11746
+  date: '2026-01-01'
+  link: https://doi.org/hcpkb9
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2508.14783
+  title: 'Synthetic Adaptive Guided Embeddings (SAGE): A Novel Knowledge Distillation
+    Method'
+  authors:
+  - Suleyman Olcay Polat
+  - Poli A. Nemkova
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcpkcb
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2505.10260
+  title: 'Comparing LLM Text Annotation Skills: A Study on Human Rights Violations
+    in Social Media Data'
+  authors:
+  - Poli Apollinaire Nemkova
+  - Solomon Ubani
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcpkcc
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2505.10586
+  title: 'Towards Automated Situation Awareness: A RAG-Based Framework for Peacebuilding
+    Reports'
+  authors:
+  - Poli A. Nemkova
+  - Suleyman O. Polat
+  - Rafid I. Jahan
+  - Sagnik Ray Choudhury
+  - Sun-joo Lee
+  - Shouryadipta Sarkar
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcpkcd
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2505.09852
+  title: Do Large Language Models Know Conflict? Investigating Parametric vs. Non-Parametric
+    Knowledge of LLMs for Conflict Forecasting
+  authors:
+  - Apollinaire Poli Nemkova
+  - Sarath Chandra Lingareddy
+  - Sagnik Ray Choudhury
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcpkcf
   tags:
   - language
   plugin: sources.py
