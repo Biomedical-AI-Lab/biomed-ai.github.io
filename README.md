@@ -1,7 +1,7 @@
 # Biomedical AI Lab website
 
 Source for the Biomedical AI Lab website, built with the [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs) (Jekyll + GitHub Actions).
-The live site will be at **biomed-ai.com** once the domain is pointed here.
+The site is published at **https://biomedical-ai-lab.github.io/** (this needs the repo to be named `biomedical-ai-lab.github.io`). At launch it moves to **biomed-ai.com**.
 
 ## How the site is organized
 
@@ -75,7 +75,7 @@ Add `_posts/YYYY-MM-DD-short-title.md` with a `title` and a few sentences. The h
 3. **Settings → Pages:** deploy from branch `gh-pages`, folder `/ (root)`.
 4. At launch: add `biomed-ai.com` under **Settings → Pages → Custom domain**, update the domain's DNS at its registrar as GitHub's Pages docs describe, and retire the Google Site.
 
-Until the custom domain is set, the site previews at `https://biomedical-ai-lab.github.io/biomed-ai.github.io/`.
+Until the custom domain is set, the site is at `https://biomedical-ai-lab.github.io/`.
 
 ## Still to do
 
