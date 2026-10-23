@@ -178,4 +178,19 @@ details.alumni-group > summary {
   margin-top: 30px;
 }
 
+header .logo img,
+.construction-logo {
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 4px;
+}
+
+.construction-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=brand.css.map */
