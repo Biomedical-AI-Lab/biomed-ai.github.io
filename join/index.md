@@ -39,7 +39,7 @@ Funding is limited. Teaching assistantships come through the department, and res
 
 {% include section.html %}
 
-## MS, undergraduate and TAMS students
+## MS, Undergraduate and TAMS students
 
 You do not need research experience to join. The requirements below are what usually works best, but **we are flexible**: if you miss one of them, reach out anyway and tell us what you can offer.
 
