@@ -9,7 +9,8 @@
   <body class="construction-body">
     <main class="construction" data-dark="true">
       <div class="construction-card">
-        <i class="fa-solid fa-person-digging construction-icon" aria-hidden="true"></i>
+        {% assign labLogo = "images/logo.png" | file_exists %}
+        {% if labLogo %}<img class="construction-logo" src="{{ labLogo | relative_url }}" alt="{{ site.title }} logo">{% else %}<i class="fa-solid fa-person-digging construction-icon" aria-hidden="true"></i>{% endif %}
         <p class="construction-lab">{{ site.title }}</p>
         {% if brand.institution %}
           <p class="construction-affiliation">{{ brand.department }} · {{ brand.institution }}</p>

@@ -24,7 +24,7 @@ The site is published at **https://biomedical-ai-lab.github.io/** (this needs th
 Everything that names a university lives in **`_data/affiliation.yaml`**: institution, department, logo files, address, colors and fonts.
 If the lab moves, edit that file and replace the logos in `images/affiliation/`. No page needs to change.
 
-- The lab's own logo is `images/logo.svg` (shown in the header). Keep it separate from any university mark.
+- The lab's own logo is `images/logo.png` (the turtle, shown in the header). Keep it separate from any university mark.
 - University marks must be the official files from the university's identity guide, unedited.
 - Pages should never write the university's name or a hex color directly; use `{{ site.data.affiliation.institution }}` and the CSS variables instead.
 
@@ -83,8 +83,8 @@ Until the custom domain is set, the site is at `https://biomedical-ai-lab.github
 
 - [ ] Prof. Albert reviews his draft bio in `_members/mark-v-albert.md`
 - [ ] Add his ORCID iD (see above)
-- [ ] Headshots in `images/team/`
-- [ ] Lab logo at `images/logo.svg`; replace `images/icon.png` and `images/share.jpg` with lab images
+- [ ] Headshots in `images/team/` for the members who don't have one yet (13 done)
+- [x] Lab logo (`images/logo.png`), browser icon (`images/icon.png`) and share image (`images/share.jpg`)
 - [ ] Official university logo files in `images/affiliation/`, then set `logo` and `logo_dark` in `affiliation.yaml`
 - [ ] Confirm the Google Docs syllabus links are shared publicly
 - [ ] Links for the 5 tools listed under "In the works" on Software & Data
