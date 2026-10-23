@@ -97,6 +97,77 @@
   - parkinsons
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/ICHI64645.2025.00018
+  title: Cross-site model development and validation of the Shriners Gait Index
+  authors:
+  - Shou-Jen Wang
+  - Thasina Tabashum
+  - Joseph J Krzak
+  - Karen M Kruger
+  - Adam Graf
+  - Ross S Chafetz
+  - Jon R Davids
+  - Anita Bagley
+  - Susan E Sienko
+  - Jeremy P Bauer
+  - Mark V Albert
+  publisher: 2025 IEEE 13th International Conference on Healthcare Informatics (ICHI)
+  date: '2025-06-18'
+  link: https://doi.org/hcppfj
+  tags:
+  - gait
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/URTC68753.2025.11533050
+  title: Phenotyping Using Deep Autoencoders on Instrumented Gait Data of Hemiplegic
+    Subjects
+  authors:
+  - Lakhisha Balaji
+  - Vishal Jonnalagadda
+  - Troy Krupinski
+  - Renugopal Sivaprakasam
+  - Mark V. Albert
+  - Kevin Dibbern
+  publisher: 2025 IEEE MIT Undergraduate Research Technology Conference (URTC)
+  date: '2025-10-10'
+  link: https://doi.org/hcppfk
+  tags:
+  - gait
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.52141/gcmas2022_13
+  title: Developing a gait summary metric using an autoencoder
+  authors:
+  - Shou-Jen Wang
+  - Thasina Tabashum
+  - Karen Kruger
+  - Joseph Krzak
+  - Ross Chafetz
+  - Judi Linton
+  - Christina Bickley
+  - Jon Davids
+  - Anita Bagley
+  - Mark Albert
+  publisher: Abstracts of the 27th Annual Meeting of the GCMAS
+  date: '2022-09-13'
+  link: https://doi.org/hcppfm
+  tags:
+  - gait
+  plugin: sources.py
+  file: sources.yaml
+- title: Autoencoder-derived Single Summary Metric to Assess Gait Quality
+  authors:
+  - Thasina Tabashum
+  - Shou-Jen Wang
+  - K. Kruger
+  - J. Krzak
+  - Mark V. Albert
+  publisher: Archives of Physical Medicine and Rehabilitation (abstract)
+  date: '2021-01-01'
+  tags:
+  - gait
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1371/journal.pone.0036556
   title: Fall Classification by Machine Learning Using Mobile Phones
   authors:
@@ -272,6 +343,108 @@
   - wearables
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1186/s12984-022-01040-4
+  title: Wearable airbag technology and machine learned models to mitigate falls after
+    stroke
+  authors:
+  - Olivia K. Botonis
+  - Yaar Harari
+  - Kyle R. Embry
+  - Chaithanya K. Mummidisetty
+  - David Riopelle
+  - Matt Giffhorn
+  - Mark V. Albert
+  - Vallery Heike
+  - Arun Jayaraman
+  publisher: Journal of NeuroEngineering and Rehabilitation
+  date: '2022-06-17'
+  link: https://doi.org/gqtrfd
+  tags:
+  - wearables
+  - falls
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s12984-021-00918-z
+  title: A smartphone-based online system for fall detection with alert notifications
+    and contextual information of real-life falls
+  authors:
+  - Yaar Harari
+  - Nicholas Shawen
+  - Chaithanya K. Mummidisetty
+  - Mark V. Albert
+  - Konrad P. Kording
+  - Arun Jayaraman
+  publisher: Journal of NeuroEngineering and Rehabilitation
+  date: '2021-08-10'
+  link: https://doi.org/hcppfn
+  tags:
+  - wearables
+  - falls
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1088/1361-6579/ab6ebb
+  title: Hidden Markov model-based activity recognition for toddlers
+  authors:
+  - Mark V Albert
+  - Albert Sugianto
+  - Katherine Nickele
+  - Patricia Zavos
+  - Pinky Sindu
+  - Munazza Ali
+  - Soyang Kwon
+  publisher: Physiological Measurement
+  date: '2020-02-01'
+  link: https://doi.org/hcppfp
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICSC.2020.00083
+  title: 'Conversation Moderator: A Mobile App for Tracking Individual Speaking in
+    Group Conversations'
+  authors:
+  - Ting Xiao
+  - Thasina Tabashum
+  - Bassam Metwally
+  - Mark Albert
+  - Albert Du
+  - Rejoice Jebamalaidass
+  - Marcos Leal
+  - Edgard Oliviera
+  publisher: 2020 IEEE 14th International Conference on Semantic Computing (ICSC)
+  date: '2020-02-01'
+  link: https://doi.org/hcppfq
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- title: A Gesture-to-Speech Recognition Mobile Application Prototype
+  authors:
+  - Riyad Bin Rafiq
+  - Syed Araib Karim
+  - Annie Liu
+  - Mark V. Albert
+  publisher: Archives of Physical Medicine and Rehabilitation (abstract)
+  date: '2021-01-01'
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Cyber-Physiotherapy: Rehabilitation to Training'
+  authors:
+  - Ishan Ranasinghe
+  - R. Dantu
+  - Mark V. Albert
+  - S. Watts
+  - "R. Oca\xF1a"
+  publisher: "2021 IFIP/IEEE International Symposium on Integrated Network Management\
+    \ (IM), pp. 1054\u20131057"
+  date: '2021-05-01'
+  link: https://www.semanticscholar.org/paper/8e43573118e86bdc9036e220a7fb446a696b2093
+  tags:
+  - wearables
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.48550/arXiv.2601.11746
   title: 'LIME-LLM: Probing Models with Fluent Counterfactuals, Not Broken Text'
   authors:
@@ -365,6 +538,95 @@
   - language
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/ICHI69079.2026.00062
+  title: Instruction Fine-Tuned Language Model for Pediatric Fall Risk Assessment
+    via Iterative Training using Generated Clinical Texts
+  authors:
+  - Thasina Tabashum
+  - Fahimda Yasmin Rifat
+  - Shou-Jen Wang
+  - Joseph J. Krzak
+  - Karen M Kruger
+  - Adam Graf
+  - Ross S. Chafetz
+  - Jon R. Davids
+  - Anita Bagley
+  - Jason Woloff
+  - Susan E. Sienko
+  - Jeremy Bauer
+  - Mark V. Albert
+  publisher: 2026 IEEE 14th International Conference on Healthcare Informatics (ICHI)
+  date: '2026-06-01'
+  link: https://doi.org/hcppfr
+  tags:
+  - language
+  - falls
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/BHI62660.2024.10913939
+  title: Language Models for Fall Risk Assessment in Children With Cerebral Palsy
+    Using Electronic Medical Records
+  authors:
+  - Thasina Tabashum
+  - Shou-Jen Wang
+  - Joseph J. Krzak
+  - Karen M Kruger
+  - Adam Graf
+  - Ross S. Chafetz
+  - Jon R. Davids
+  - Anita Bagley
+  - Jason Woloff
+  - Susan E. Sienko
+  - Jeremy Bauer
+  - Mark V. Albert
+  publisher: 2024 IEEE EMBS International Conference on Biomedical and Health Informatics
+    (BHI)
+  date: '2024-11-10'
+  link: https://doi.org/hcppfs
+  tags:
+  - language
+  - falls
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.apmr.2025.01.176
+  title: Improving Pain Assessment by Fine-tuning a Language Model to a Specific Hospital
+    System
+  authors:
+  - Thasina Tabashum
+  - Shou-Jen Wang
+  - Joseph Krzak
+  - Karen Kruger
+  - Adam Graf
+  - Ross Chafetz
+  - Jon Davids
+  - Anita Bagley
+  - Jason Woloff
+  - Susan Sienko
+  - Jeremy Bauer
+  - Mark Albert
+  publisher: Archives of Physical Medicine and Rehabilitation
+  date: '2025-04-01'
+  link: https://doi.org/hcppft
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2510.22823
+  title: Cross-Lingual Stability and Bias in Instruction-Tuned Language Models for
+    Humanitarian NLP
+  authors:
+  - Poli Nemkova
+  - Amrit Adhikari
+  - Matthew Pearson
+  - Vamsi Krishna Sadu
+  - Mark V. Albert
+  publisher: LREC 2026
+  date: '2026-05-01'
+  link: https://doi.org/hcppfv
+  tags:
+  - language
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.3390/info16020136
   title: A Survey on Multimodal Large Language Models in Radiology for Report Generation
     and Visual Question Answering
@@ -426,6 +688,33 @@
     (BIBM)
   date: '2020-12-16'
   link: https://doi.org/hcpkbw
+  tags:
+  - imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/JCDL67857.2025.00025
+  title: A Multi-Agent System for Complex Reasoning in Radiology Visual Question Answering
+  authors:
+  - Ziruo Yi
+  - Jinyu Liu
+  - Mark V. Albert
+  - Ting Xiao
+  publisher: 2025 ACM/IEEE Joint Conference on Digital Libraries (JCDL)
+  date: '2025-12-15'
+  link: https://doi.org/hcppfw
+  tags:
+  - imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2505.09787
+  title: A Multimodal Multi-Agent Framework for Radiology Report Generation
+  authors:
+  - Ziruo Yi
+  - Ting Xiao
+  - Mark V. Albert
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcppfx
   tags:
   - imaging
   plugin: sources.py
@@ -560,6 +849,102 @@
     and Retrieval (MIPR)
   date: '2022-08-01'
   link: https://doi.org/hcpkb4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ISVLSI54635.2022.00056
+  title: Predicting GPU Performance and System Parameter Configuration Using Machine
+    Learning
+  authors:
+  - Zhuren Liu
+  - Trevor Exley
+  - Austin Meek
+  - Rachel Yang
+  - Hui Zhao
+  - Mark V. Albert
+  publisher: 2022 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)
+  date: '2022-07-01'
+  link: https://doi.org/hcppfz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3441369.3441372
+  title: Validation Methods to Promote Real-world Applicability of Machine Learning
+    in Medicine
+  authors:
+  - Riyad Bin Rafiq
+  - Francois Modave
+  - Shion Guha
+  - Mark V. Albert
+  publisher: 2020 3rd International Conference on Digital Medicine and Image Processing
+  date: '2020-11-06'
+  link: https://doi.org/hcppf2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-030-74188-4_2
+  title: 'Big Data in Medical AI: How Larger Data Sets Lead to Robust, Automated Learning
+    for Medicine'
+  authors:
+  - Ting Xiao
+  - Mark V. Albert
+  publisher: Advances in Neuroethics
+  date: '2021-01-01'
+  link: https://doi.org/hcppf3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-030-84729-6
+  title: Bridging Human Intelligence and Artificial Intelligence
+  authors: []
+  publisher: 'Educational Communications and Technology: Issues and Innovations'
+  date: '2022-01-01'
+  link: https://doi.org/hcppf4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3430665.3456364
+  title: 'Design and Assessment of a Task-Driven Introductory Data Science Course
+    Taught Concurrently in Multiple Languages: Python, R, and MATLAB'
+  authors:
+  - Ting Xiao
+  - Ronald I. Greenberg
+  - Mark V. Albert
+  publisher: Proceedings of the 26th ACM Conference on Innovation and Technology in
+    Computer Science Education V. 1
+  date: '2021-06-26'
+  link: https://doi.org/hcppf5
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Play with trained hierarchical reinforcement learning agents in two common
+    games: conference tutorial'
+  authors:
+  - Chengping Yuan
+  - Mark V. Albert
+  - Daniel McGartland
+  - Jakob Smith
+  - A. Solorio
+  publisher: Journal of Computing Sciences in Colleges
+  date: '2021-04-01'
+  link: https://dl.acm.org/doi/10.5555/3469581.3469592
+  plugin: sources.py
+  file: sources.yaml
+- title: 'On-ramp to AI: lessons from the introductory AI course "Software Development
+    for AI": conference tutorial'
+  authors:
+  - Ting Xiao
+  - Mark V. Albert
+  publisher: Journal of Computing Sciences in Colleges
+  date: '2021-04-01'
+  link: https://dl.acm.org/doi/10.5555/3469581.3469593
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Temporal Distance Map: A Warped Isochrone Map Depicting Accurate Travel
+    Times'
+  authors:
+  - Elijah Nacar
+  - Devak Nanda
+  - B. Albert
+  - Christian Panici
+  - Mark V. Albert
+  publisher: "GEOProcessing 2020, pp. 85\u201389"
+  date: '2020-11-01'
+  link: https://personales.upv.es/thinkmind/GEOProcessing/GEOProcessing_2020/geoprocessing_2020_1_150_30097.html
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pcbi.1000137
