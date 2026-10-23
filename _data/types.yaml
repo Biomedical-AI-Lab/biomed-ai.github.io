@@ -85,6 +85,12 @@ cv:
 
 # social media
 
+medium:
+  icon: fa-brands fa-medium
+  text: Medium
+  tooltip: Medium
+  link: https://$VALUE.medium.com
+
 linkedin-company:
   icon: fa-brands fa-linkedin
   text: LinkedIn
