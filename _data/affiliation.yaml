@@ -35,8 +35,8 @@ colors:
 
 # Fonts. "google" is the Google Fonts query for every family used here.
 fonts:
-  body: Open Sans
+  body: Lora
   heading: Open Sans
   heading_stretch: 87.5%      # semi-condensed headings, per the UNT web style
   code: Roboto Mono
-  google: family=Open+Sans:wdth,wght@75..100,300..800&family=Roboto+Mono:wght@400;600
+  google: family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wdth,wght@75..100,300..800&family=Roboto+Mono:wght@400;600
