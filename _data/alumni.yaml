@@ -186,6 +186,15 @@
 
 - group: "Undergraduate and TAMS students"
   people:
+    - name: "Emily Godinez-Martinez"
+      level: "Undergraduate, UR2PhD program"
+      link: "https://www.linkedin.com/in/emily-godinez-martinez-a8297a256/"
+    - name: "Ishani Tamma"
+      level: "TAMS"
+      years: "2025"
+      link: "https://www.linkedin.com/in/ishani-tamma-345224366/"
+    - name: "Aditya Nallaparaju"
+      level: "TAMS"
     - name: "Kaylyn King"
       level: "Undergraduate, UR2PhD program"
       years: "BS 2024"
