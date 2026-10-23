@@ -379,6 +379,7 @@
   <script src="/_scripts/tooltip.js"></script>
 
 
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 
   <body>
@@ -416,7 +417,7 @@
     
     
       
-        <a href="/research/" data-tooltip="Research highlights">
+        <a href="/research/" data-tooltip="Research areas, grants, software and data">
           Research
         </a>
       
@@ -436,12 +437,6 @@
       
         <a href="/news/" data-tooltip="Lab news">
           News
-        </a>
-      
-    
-      
-        <a href="/software/" data-tooltip="Apps, code and datasets">
-          Software &amp; Data
         </a>
       
     
@@ -480,10 +475,10 @@
   <section class="background" data-size="page">
     <h1 id="research-in-the-biomedical-ai-lab">Research in the Biomedical AI Lab</h1>
 
-<p class="page-sub">We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are a few highlights from each area.</p>
+<p class="page-sub">We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are highlights from each area, the grants that fund our work, and the software and data we share.</p>
 
 <div class="jump-links">
-<a href="#gait">Movement &amp; Gait</a><a href="#wearables">Wearables</a><a href="#language">Language Models</a><a href="#imaging">Multimodal AI</a><a href="#neuroscience">Foundations</a>
+<a href="#gait">Movement &amp; Gait</a><a href="#wearables">Wearables</a><a href="#language">Language Models</a><a href="#imaging">Multimodal AI</a><a href="#neuroscience">Foundations</a><a class="jump-strong" href="#grants">Grants</a><a class="jump-strong" href="#software">Software &amp; Data</a>
 </div>
   </section>
 
@@ -498,38 +493,37 @@
   <size></size>
 -->
 
-<p><span class="kicker" id="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i>  Movement &amp; Gait</span></p>
+<h2 class="area-title" id="gait">
+<i class="fa-solid fa-person-walking" aria-hidden="true"></i>Movement and Gait Intelligence</h2>
 
-<h3 id="movement-and-gait-intelligence">Movement and Gait Intelligence</h3>
+<p class="focus-line">Turning instrumented gait, balance and prosthetic data into single, interpretable scores clinicians can act on.</p>
 
-<p class="focus-line"><strong>Focus:</strong> Turning instrumented gait, balance and prosthetic data into single, interpretable scores clinicians can act on.</p>
-
-<div class="highlight-grid">
-<article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>The Shriners Gait Index: a deep autoencoder summary of gait quality</h4>
-<span class="venue">Journal of Biomechanics, 2024 · IEEE ICHI, 2025</span><p>An autoencoder compresses whole-body gait data from children with cerebral palsy into one score of gait quality, so surgeons can compare outcomes before and after treatment. A cross-site study validated the index across Shriners Children's hospitals.</p>
+<div class="rcard-grid">
+<article class="rcard" data-theme="gait"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></span><span class="rcard-venue">Journal of Biomechanics, 2024 · IEEE ICHI, 2025</span>
+</div>
+<h3 class="rcard-title">The Shriners Gait Index: a deep autoencoder summary of gait quality</h3>
+<p class="rcard-text">An autoencoder compresses whole-body gait data from children with cerebral palsy into one score of gait quality, so surgeons can compare outcomes before and after treatment. A cross-site study validated the index across Shriners Children's hospitals.</p>
 <div class="tag-row">
 <span class="tag-pill">cerebral palsy</span><span class="tag-pill">autoencoders</span><span class="tag-pill">clinical outcomes</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1016/j.jbiomech.2024.112092">[Paper]</a></div>
-</div></article><article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Machine learning in marker-based clinical gait analysis</h4>
-<span class="venue">Bioengineering, 2025</span><p>A scoping review of how machine learning is used in clinical motion-capture gait analysis, from classification and phenotyping to outcome prediction, and where the field needs better validation.</p>
+<div class="text-links"><a href="https://doi.org/10.1016/j.jbiomech.2024.112092">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article><article class="rcard" data-theme="gait"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></span><span class="rcard-venue">Bioengineering, 2025</span>
+</div>
+<h3 class="rcard-title">Machine learning in marker-based clinical gait analysis</h3>
+<p class="rcard-text">A scoping review of how machine learning is used in clinical motion-capture gait analysis, from classification and phenotyping to outcome prediction, and where the field needs better validation.</p>
 <div class="tag-row">
 <span class="tag-pill">review</span><span class="tag-pill">motion capture</span><span class="tag-pill">gait</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.3390/bioengineering12060591">[Paper]</a></div>
-</div></article><article class="highlight"><div class="thumb" data-theme="gait"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Predicting Parkinson's motor symptoms from force plates</h4>
-<span class="venue">IEEE Journal of Biomedical and Health Informatics, 2022</span><p>Machine learning on short quiet-standing recordings estimates UPDRS motor scores, pointing to a quick, low-cost balance test for tracking Parkinson's disease.</p>
+<div class="text-links"><a href="https://doi.org/10.3390/bioengineering12060591">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article><article class="rcard" data-theme="gait"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-person-walking" aria-hidden="true"></i></span><span class="rcard-venue">IEEE Journal of Biomedical and Health Informatics, 2022</span>
+</div>
+<h3 class="rcard-title">Predicting Parkinson's motor symptoms from force plates</h3>
+<p class="rcard-text">Machine learning on short quiet-standing recordings estimates UPDRS motor scores, pointing to a quick, low-cost balance test for tracking Parkinson's disease.</p>
 <div class="tag-row">
 <span class="tag-pill">Parkinson's disease</span><span class="tag-pill">balance</span><span class="tag-pill">force plates</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1109/JBHI.2022.3157518">[Paper]</a></div>
-</div></article>
+<div class="text-links"><a href="https://doi.org/10.1109/JBHI.2022.3157518">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>
 </div>
   </section>
 
@@ -544,30 +538,29 @@
   <size></size>
 -->
 
-<p><span class="kicker" id="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i>  Wearables</span></p>
+<h2 class="area-title" id="wearables">
+<i class="fa-solid fa-mobile-screen" aria-hidden="true"></i>Wearable and Mobile Health Sensing</h2>
 
-<h3 id="wearable-and-mobile-health-sensing">Wearable and Mobile Health Sensing</h3>
+<p class="focus-line">Phones and wearable sensors that recognize activity, detect falls and give a voice to people who cannot speak.</p>
 
-<p class="focus-line"><strong>Focus:</strong> Phones and wearable sensors that recognize activity, detect falls and give a voice to people who cannot speak.</p>
-
-<div class="highlight-grid">
-<article class="highlight"><div class="thumb" data-theme="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Wearable gesture recognition for motor-impaired users</h4>
-<span class="venue">IJCAI, 2024 · ECML PKDD, 2026</span><p>Few-shot continual learning, and now knowledge-attentive representation learning (KARL), let a wearable sensor learn new, user-defined hand gestures from motor-impaired individuals, building on the lab's gesture-to-speech app.</p>
+<div class="rcard-grid">
+<article class="rcard" data-theme="wearables"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></span><span class="rcard-venue">IJCAI, 2024 · ECML PKDD, 2026</span>
+</div>
+<h3 class="rcard-title">Wearable gesture recognition for motor-impaired users</h3>
+<p class="rcard-text">Few-shot continual learning, and now knowledge-attentive representation learning (KARL), let a wearable sensor learn new, user-defined hand gestures from motor-impaired individuals, building on the lab's gesture-to-speech app.</p>
 <div class="tag-row">
 <span class="tag-pill">gesture recognition</span><span class="tag-pill">few-shot learning</span><span class="tag-pill">assistive tech</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2405.08969">[Paper]</a></div>
-</div></article><article class="highlight"><div class="thumb" data-theme="wearables"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Fall classification with mobile phones</h4>
-<span class="venue">PLoS ONE, 2012</span><p>One of the early demonstrations that a phone's accelerometer, with machine learning, can detect and classify falls, later extended to real-world falls in people with amputations and to wearable airbags after stroke.</p>
+<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2405.08969">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article><article class="rcard" data-theme="wearables"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></span><span class="rcard-venue">PLoS ONE, 2012</span>
+</div>
+<h3 class="rcard-title">Fall classification with mobile phones</h3>
+<p class="rcard-text">One of the early demonstrations that a phone's accelerometer, with machine learning, can detect and classify falls, later extended to real-world falls in people with amputations and to wearable airbags after stroke.</p>
 <div class="tag-row">
 <span class="tag-pill">fall detection</span><span class="tag-pill">smartphones</span><span class="tag-pill">rehabilitation</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1371/journal.pone.0036556">[Paper]</a></div>
-</div></article>
+<div class="text-links"><a href="https://doi.org/10.1371/journal.pone.0036556">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>
 </div>
   </section>
 
@@ -582,36 +575,35 @@
   <size></size>
 -->
 
-<p><span class="kicker" id="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i>  Language Models</span></p>
+<h2 class="area-title" id="language">
+<i class="fa-solid fa-comment-medical" aria-hidden="true"></i>Language Models for Health and Humanitarian Text</h2>
 
-<h3 id="language-models-for-health-and-humanitarian-text">Language Models for Health and Humanitarian Text</h3>
+<p class="focus-line">Fine-tuning, probing and evaluating language models on clinical records and on high-stakes humanitarian text.</p>
 
-<p class="focus-line"><strong>Focus:</strong> Fine-tuning, probing and evaluating language models on clinical records and on high-stakes humanitarian text.</p>
-
-<div class="highlight-grid">
-<article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Instruction-tuned language models for pediatric fall risk</h4>
-<span class="venue">IEEE ICHI, 2026</span><p>An instruction fine-tuned model, trained iteratively with generated clinical texts, assesses fall risk from the records of children with cerebral palsy, with related work on pain assessment tuned to a single hospital system.</p>
+<div class="rcard-grid">
+<article class="rcard" data-theme="language"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></span><span class="rcard-venue">IEEE ICHI, 2026</span>
+</div>
+<h3 class="rcard-title">Instruction-tuned language models for pediatric fall risk</h3>
+<p class="rcard-text">An instruction fine-tuned model, trained iteratively with generated clinical texts, assesses fall risk from the records of children with cerebral palsy, with related work on pain assessment tuned to a single hospital system.</p>
 <div class="tag-row">
 <span class="tag-pill">EHR</span><span class="tag-pill">LLM fine-tuning</span><span class="tag-pill">pediatrics</span>
+</div></article><article class="rcard" data-theme="language"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></span><span class="rcard-venue">LREC, 2026</span>
 </div>
-</div></article><article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Cross-lingual stability and bias in humanitarian NLP</h4>
-<span class="venue">LREC, 2026</span><p>Measures how instruction-tuned models change their judgments across Russian, Ukrainian and English prompts when classifying human-rights violations, with companion work on conflict forecasting and peacebuilding reports.</p>
+<h3 class="rcard-title">Cross-lingual stability and bias in humanitarian NLP</h3>
+<p class="rcard-text">Measures how instruction-tuned models change their judgments across Russian, Ukrainian and English prompts when classifying human-rights violations, with companion work on conflict forecasting and peacebuilding reports.</p>
 <div class="tag-row">
 <span class="tag-pill">multilingual</span><span class="tag-pill">bias</span><span class="tag-pill">social good</span>
+</div></article><article class="rcard" data-theme="language"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></span><span class="rcard-venue">arXiv, 2026</span>
 </div>
-</div></article><article class="highlight"><div class="thumb" data-theme="language"><i class="fa-solid fa-comment-medical" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>LIME-LLM: probing models with fluent counterfactuals</h4>
-<span class="venue">arXiv, 2026</span><p>Explains language-model predictions with fluent, meaningful counterfactual edits instead of the broken text that classic perturbation methods produce.</p>
+<h3 class="rcard-title">LIME-LLM: probing models with fluent counterfactuals</h3>
+<p class="rcard-text">Explains language-model predictions with fluent, meaningful counterfactual edits instead of the broken text that classic perturbation methods produce.</p>
 <div class="tag-row">
 <span class="tag-pill">explainability</span><span class="tag-pill">counterfactuals</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2601.11746">[Paper]</a></div>
-</div></article>
+<div class="text-links"><a href="https://doi.org/10.48550/arXiv.2601.11746">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>
 </div>
   </section>
 
@@ -626,29 +618,28 @@
   <size></size>
 -->
 
-<p><span class="kicker" id="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i>  Multimodal AI</span></p>
+<h2 class="area-title" id="imaging">
+<i class="fa-solid fa-x-ray" aria-hidden="true"></i>Medical Imaging and Multimodal AI</h2>
 
-<h3 id="medical-imaging-and-multimodal-ai">Medical Imaging and Multimodal AI</h3>
+<p class="focus-line">Multi-agent and multimodal systems that read medical images and write about them.</p>
 
-<p class="focus-line"><strong>Focus:</strong> Multi-agent and multimodal systems that read medical images and write about them.</p>
-
-<div class="highlight-grid">
-<article class="highlight"><div class="thumb" data-theme="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Multi-agent reasoning for radiology visual question answering</h4>
-<span class="venue">ACM/IEEE JCDL, 2025</span><p>Specialized agents divide up complex radiology questions, retrieving evidence and checking each other, with a companion multi-agent framework for generating full radiology reports.</p>
+<div class="rcard-grid">
+<article class="rcard" data-theme="imaging"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></span><span class="rcard-venue">ACM/IEEE JCDL, 2025</span>
+</div>
+<h3 class="rcard-title">Multi-agent reasoning for radiology visual question answering</h3>
+<p class="rcard-text">Specialized agents divide up complex radiology questions, retrieving evidence and checking each other, with a companion multi-agent framework for generating full radiology reports.</p>
 <div class="tag-row">
 <span class="tag-pill">radiology</span><span class="tag-pill">agents</span><span class="tag-pill">VQA</span>
+</div></article><article class="rcard" data-theme="imaging"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></span><span class="rcard-venue">Information Fusion, 2026</span>
 </div>
-</div></article><article class="highlight"><div class="thumb" data-theme="imaging"><i class="fa-solid fa-x-ray" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Small vision-language models: a survey</h4>
-<span class="venue">Information Fusion, 2026</span><p>A survey of compact vision-language models, their architectures, training and efficiency trade-offs, and where they fit when large models are impractical, including clinical settings.</p>
+<h3 class="rcard-title">Small vision-language models: a survey</h3>
+<p class="rcard-text">A survey of compact vision-language models, their architectures, training and efficiency trade-offs, and where they fit when large models are impractical, including clinical settings.</p>
 <div class="tag-row">
 <span class="tag-pill">vision-language models</span><span class="tag-pill">efficiency</span><span class="tag-pill">survey</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1016/j.inffus.2025.103805">[Paper]</a></div>
-</div></article>
+<div class="text-links"><a href="https://doi.org/10.1016/j.inffus.2025.103805">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>
 </div>
   </section>
 
@@ -663,31 +654,473 @@
   <size></size>
 -->
 
-<p><span class="kicker" id="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i>  Foundations</span></p>
+<h2 class="area-title" id="neuroscience">
+<i class="fa-solid fa-brain" aria-hidden="true"></i>Brain-Inspired Learning</h2>
 
-<h3 id="brain-inspired-learning">Brain-Inspired Learning</h3>
+<p class="focus-line">Efficient-coding models of how the early visual and auditory systems learn, the lab's computational-neuroscience roots.</p>
 
-<p class="focus-line"><strong>Focus:</strong> Efficient-coding models of how the early visual and auditory systems learn, the lab's computational-neuroscience roots.</p>
-
-<div class="highlight-grid">
-<article class="highlight"><div class="thumb" data-theme="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Innate visual learning through spontaneous activity</h4>
-<span class="venue">PLoS Computational Biology, 2008</span><p>Shows that the brain's spontaneous activity before birth can act as training data, letting efficient-coding models develop visual receptive fields before the eyes open.</p>
+<div class="rcard-grid">
+<article class="rcard" data-theme="neuroscience"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-brain" aria-hidden="true"></i></span><span class="rcard-venue">PLoS Computational Biology, 2008</span>
+</div>
+<h3 class="rcard-title">Innate visual learning through spontaneous activity</h3>
+<p class="rcard-text">Shows that the brain's spontaneous activity before birth can act as training data, letting efficient-coding models develop visual receptive fields before the eyes open.</p>
 <div class="tag-row">
 <span class="tag-pill">efficient coding</span><span class="tag-pill">visual development</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1371/journal.pcbi.1000137">[Paper]</a></div>
-</div></article><article class="highlight"><div class="thumb" data-theme="neuroscience"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
-<div class="highlight-body">
-<h4>Neural receptive fields from images and audio: a notebook</h4>
-<span class="venue">Artificial Intelligence Review, 2022</span><p>An accessible survey and Jupyter notebook that derives visual and auditory receptive fields from natural inputs, for anyone curious about the link between computing and neuroscience.</p>
+<div class="text-links"><a href="https://doi.org/10.1371/journal.pcbi.1000137">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article><article class="rcard" data-theme="neuroscience"><div class="rcard-top">
+<span class="rcard-icon"><i class="fa-solid fa-brain" aria-hidden="true"></i></span><span class="rcard-venue">Artificial Intelligence Review, 2022</span>
+</div>
+<h3 class="rcard-title">Neural receptive fields from images and audio: a notebook</h3>
+<p class="rcard-text">An accessible survey and Jupyter notebook that derives visual and auditory receptive fields from natural inputs, for anyone curious about the link between computing and neuroscience.</p>
 <div class="tag-row">
 <span class="tag-pill">tutorial</span><span class="tag-pill">unsupervised learning</span>
 </div>
-<div class="text-links"><a href="https://doi.org/10.1007/s10462-021-10047-7">[Paper]</a></div>
+<div class="text-links"><a href="https://doi.org/10.1007/s10462-021-10047-7">Read the paper <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></article>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="grants">
+<i class="fa-solid fa-sack-dollar" aria-hidden="true"></i>Grants and funding</h2>
+
+<p>Our research is supported by federal agencies, children’s hospitals, foundations and the university. Every award Dr. Albert has led or joined is listed below with its amount.</p>
+
+<div class="stat-grid">
+<div class="stat stat-main">
+<span class="stat-value">$3.56M</span><span class="stat-label">Total research funding</span><span class="stat-note">$3,560,666 across 29 grants and contracts</span>
+</div>
+<div class="stat stat-nsf">
+<span class="stat-value">$1.73M</span><span class="stat-label">National Science Foundation</span><span class="stat-note">$1,730,643 across 4 REU site grants</span>
+</div>
+<div class="stat stat-nih">
+<span class="stat-value">$715K</span><span class="stat-label">National Institutes of Health</span><span class="stat-note">$714,967 across 5 awards, including R25 and R01</span>
+</div>
+<div class="stat">
+<span class="stat-value">$315K</span><span class="stat-label">Fellowships and scholarships</span><span class="stat-note">$315,000 across 9 awards</span>
+</div>
+</div>
+<p class="grant-summary">Federal sponsors (NSF, NIH, the U.S. Army Research Laboratory and the Department of Health and Human Services) account for <strong>$2,798,767</strong> of research funding. Counting fellowships and scholarships, which include <strong>$120,000</strong> in NSF fellowships, the lab and Dr. Albert have received <strong>$3,875,666</strong> in total.</p>
+<div class="grant-group" id="grants-nsf">
+<div class="grant-group-head">
+<h3>National Science Foundation (NSF)</h3>
+<span class="grant-sub">$1,730,643 · 4 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">NSF REU Site: Knowledge Beyond Language with Vector Embeddings</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation· Team member (PI Ting Xiao)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$464,978</span><span class="grant-years">2026–2029</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">REU Site: Making Generative Artificial Intelligence Responsible</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation· Co-PI (PI Yunhe Feng)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$463,434</span><span class="grant-years">2025–2028</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">NSF REU Site: Beyond Language: Training to Create and Share Vector Embeddings across Applications</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation· Team member (PI Ting Xiao)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$403,547</span><span class="grant-years">2023–2025</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">REU Site: Interdisciplinary Research Experience on Accelerated Deep Learning through a Hardware-Software Collaborative Approach</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation· Co-PI (with Hui Zhao)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$398,684</span><span class="grant-years">2021–2024</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-nih">
+<div class="grant-group-head">
+<h3>National Institutes of Health (NIH)</h3>
+<span class="grant-sub">$714,967 · 5 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Advancing Digital Health Technology: A Summer Research Program for High School and Community College Educators</span><span class="grant-meta"><span class="grant-badge" data-badge="nih">NIH</span> National Institutes of Health (R25)· Co-PI (PI Mahdi Pedram)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$530,742</span><span class="grant-years">2026–2030</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Using the Fitbit for Early Detection of Infection and Reduction of Healthcare Utilization after Discharge in Pediatric Surgical Patients</span><span class="grant-meta"><span class="grant-badge" data-badge="nih">NIH</span> NIH (R01), subaward from Lurie Children's Hospital· Co-I</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$72,292</span><span class="grant-years">2023–2027</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Physical Activity Measurement in Toddlers</span><span class="grant-meta"><span class="grant-badge" data-badge="nih">NIH</span> NIH (R01), with Lurie Children's Hospital of Chicago· Co-I</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$70,808</span><span class="grant-years">2021–2026</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Pilot Development and Assessment of a Precision Gesture-to-Speech System for Speech-Impaired Individuals with Limited Mobility</span><span class="grant-meta"><span class="grant-badge" data-badge="nih">NIH</span> NIH-funded C-STAR center, Shirley Ryan AbilityLab· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$37,125</span><span class="grant-years">2023–2025</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Understanding Real-Life Falls in Amputees using Mobile Phone Technology</span><span class="grant-meta"><span class="grant-badge" data-badge="nih">NIH</span> NIH (R01) subcontract, Shirley Ryan AbilityLab· Subcontract</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$4,000</span><span class="grant-years">2017</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-federal">
+<div class="grant-group-head">
+<h3>Other federal sponsors</h3>
+<span class="grant-sub">$353,157 · 3 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Hierarchically Structured Materials Systems for Enhanced Dynamic Performance</span><span class="grant-meta">U.S. Army Research Laboratory· Co-PI</span><span class="grant-note">Dr. Albert's share of a $5M award</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$200,000</span><span class="grant-years">2023–2024</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Fall Catcher: Wearable Airbag Technology to Mitigate Falls in Individuals with Stroke</span><span class="grant-meta">U.S. Department of Health and Human Services (RERC subcontract through Shirley Ryan AbilityLab)· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$97,000</span><span class="grant-years">2020–2023</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Predicting Fall Risk in Older Adults Using Machine Learning</span><span class="grant-meta">Johns Hopkins AI and Technology Collaboratory for Aging Research, subaward through UNT Health Science Center· Co-PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$56,157</span><span class="grant-years">2023–2024</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-foundations">
+<div class="grant-group-head">
+<h3>Hospitals, foundations and other sponsors</h3>
+<span class="grant-sub">$614,875 · 9 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Improving Orthopaedic Outcomes through Machine Learning</span><span class="grant-meta">Shriners Children's· Site PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$289,770</span><span class="grant-years">2022–2025</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury</span><span class="grant-meta">Shriners Children's· Site PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$114,363</span><span class="grant-years">2026–2027</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Machine Learning Prediction Using Quantitative Gait Analysis Data to Suggest and Support Interventions for Pediatric Patients with Movement Disorders</span><span class="grant-meta">Shriners Children's (system-wide)· PI</span><span class="grant-note">also recorded as project 79151, "Machine Learning Techniques for Gait Data to Support Evidence Based Decision Making"</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$111,218</span><span class="grant-years">2020–2021</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Computer Science Summer Research Program</span><span class="grant-meta">Institute of International Education (Brazil Scientific Mobility Program)· PI</span><span class="grant-note">summer research for 14 visiting students</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$65,000</span><span class="grant-years">2016</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">AI4ALL College Pathways Program</span><span class="grant-meta">AI4ALL· Co-PI (PI Ting Xiao)</span><span class="grant-note">four yearly awards of $2,468, $9,503, $7,035 and $3,517.50</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$22,524</span><span class="grant-years">2020–2024</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Modeling Aspects of Early Binocular Visual Development by Optimizing Depth Perception</span><span class="grant-meta">Google Cloud Platform research credit· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$5,000</span><span class="grant-years">2018–2019</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Machine Learning to Human Learning: Leveraging Applied Computational Strategies to Understand Human Cognition</span><span class="grant-meta">Sapienza University of Rome (contract)· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$4,000</span><span class="grant-years">2015</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Visiting scholars program</span><span class="grant-meta">Universities Research Association</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$3,000</span><span class="grant-years">2022</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Technologies to Evaluate and Advance Manipulation and Mobility (TEAMM) RERC</span><span class="grant-meta">Shirley Ryan AbilityLab· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">amount not recorded</span><span class="grant-years">2019–2021</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-internal">
+<div class="grant-group-head">
+<h3>University and internal funding</h3>
+<span class="grant-sub">$147,024 · 8 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">2020 Health Disparities Strategic Initiative: computer science support</span><span class="grant-meta">Loyola University Chicago· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$88,000</span><span class="grant-years">2017–2018</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">2020 Health Disparities Strategic Initiative: computer science support</span><span class="grant-meta">Loyola University Chicago· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$20,224</span><span class="grant-years">2017</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Tracing Self-Regulated Learning in AI-Supported Vibe Coding: Implications for Computational Thinking</span><span class="grant-meta">UNT Learning Institute· Co-PI (PI Ting Xiao)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$10,000</span><span class="grant-years">2026–2027</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Characterising the Warm Envelope Surrounding the Milky Way Disk with Machine Learning</span><span class="grant-meta">UNT College of Science and College of Engineering seed grant· Co-PI (with Yuan Li)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$10,000</span><span class="grant-years">2021</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Clinical Trial in a Dish for Studying Antihypertensive Drug-Induced Cardiovascular Malformation and Dysfunction in Gestational Hypertension</span><span class="grant-meta">UNT seed grant· Co-I (with Huaxiao Yang and Johnathan Tune)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$7,800</span><span class="grant-years">2021–2022</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Behaviorally-Relevant Scoring of Binocular Visual Development Models by Depth Perception</span><span class="grant-meta">Loyola University Chicago summer research stipend· PI</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$7,000</span><span class="grant-years">2017</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Computer Science seminar series</span><span class="grant-meta">Loyola College of Arts and Sciences· Co-PI (with R. I. Greenberg and A. N. Harrington)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$2,000</span><span class="grant-years">2014–2015</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Summer "SAGE Days" workshop</span><span class="grant-meta">Loyola University Chicago· Co-PI (with P. Tingley and A. Lauve)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$2,000</span><span class="grant-years">2014</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-student-fellowships">
+<div class="grant-group-head">
+<h3>Student research fellowships</h3>
+<span class="grant-sub">$55,000 · 4 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Rehabilitation Institute of Chicago Student Fellowships</span><span class="grant-meta">Rehabilitation Institute of Chicago· Mentor</span><span class="grant-note">two $12,000 fellowships</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$24,000</span><span class="grant-years">2016</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Development of a Neural Connectivity Toolbox for Human Scalp EEG Recordings and Its Application to the Study of Cognitive Aging</span><span class="grant-meta">LUROP Carbon Scholars Program, Loyola University Chicago· Mentor (fellow J. Yanar)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$15,000</span><span class="grant-years">2015–2017</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Impact of Retrotransposons on Plant Evolution</span><span class="grant-meta">Research fellowship (sponsor not recorded)</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$15,000</span><span class="grant-years">2014–2016</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Automated Depth Perception as a Behaviorally-Relevant Metric for the Innate Learning Paradigm</span><span class="grant-meta">Loyola Provost Fellowship (student Gordon Kratz)· Mentor</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$1,000</span><span class="grant-years">2014</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="grant-group" id="grants-albert-fellowships">
+<div class="grant-group-head">
+<h3>Dr. Albert's fellowships and scholarships</h3>
+<span class="grant-sub">$260,000 · 5 awards</span>
+</div>
+<ul class="grant-list">
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">NSF Graduate Research Fellowship</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$90,000</span><span class="grant-years">2005–2008</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">NSF Nonlinear Systems IGERT Fellowship</span><span class="grant-meta"><span class="grant-badge" data-badge="nsf">NSF</span> National Science Foundation</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$30,000</span><span class="grant-years">2004–2005</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Fulbright Fellowship</span><span class="grant-meta">Fulbright Program</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$20,000</span><span class="grant-years">2000–2001</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Goldwater Scholarship</span><span class="grant-meta">Barry Goldwater Scholarship Foundation</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$20,000</span><span class="grant-years">1999–2000</span>
+</div>
+</li>
+<li class="grant">
+<div class="grant-main">
+<span class="grant-title">Presidential Scholarship</span><span class="grant-meta">Pittsburg State University</span>
+</div>
+<div class="grant-side">
+<span class="grant-amount">$100,000</span><span class="grant-years">1996–1999</span>
+</div>
+</li>
+</ul>
+</div>
+<p class="grant-source">Amounts are award amounts as recorded in UNT's Faculty Information System and Dr. Albert's CV, rounded to the dollar. For multi-institution awards the amount may cover partner institutions; a project recorded more than once is counted once.</p>
+
+<p class="partner-label">Grant providers</p>
+<div class="partner-logos">
+<a class="partner-logo" href="https://www.nsf.gov" title="National Science Foundation"><img src="/images/partners/nsf.png" alt="National Science Foundation" loading="lazy"></a><a class="partner-logo partner-text" href="https://www.nih.gov" title="National Institutes of Health"><span>NIH</span></a><a class="partner-logo partner-text" href="https://arl.devcom.army.mil" title="U.S. Army Research Laboratory"><span>Army Research Laboratory</span></a><a class="partner-logo partner-text" href="https://www.hhs.gov" title="U.S. Department of Health and Human Services"><span>Health and Human Services</span></a><a class="partner-logo" href="https://www.shrinerschildrens.org" title="Shriners Children's"><img src="/images/partners/shriners-childrens.png" alt="Shriners Children's" loading="lazy"></a><a class="partner-logo" href="https://www.sralab.org" title="Shirley Ryan AbilityLab"><img src="/images/partners/shirley-ryan-abilitylab.png" alt="Shirley Ryan AbilityLab" loading="lazy"></a><a class="partner-logo" href="https://aitc.jhu.edu" title="Johns Hopkins AI and Technology Collaboratory for Aging Research"><img src="/images/partners/johns-hopkins.png" alt="Johns Hopkins AI and Technology Collaboratory for Aging Research" loading="lazy"></a><a class="partner-logo" href="https://ai-4-all.org" title="AI4ALL"><img src="/images/partners/ai4all.png" alt="AI4ALL" loading="lazy"></a>
+</div>
+
+<p class="partner-label">Collaborators</p>
+<div class="partner-logos">
+<a class="partner-logo" href="https://www.luriechildrens.org" title="Lurie Children's Hospital of Chicago"><img src="/images/partners/lurie-childrens.png" alt="Lurie Children's Hospital of Chicago" loading="lazy"></a><a class="partner-logo" href="https://www.unthealthfw.org" title="UNT Health Fort Worth (formerly UNT Health Science Center)"><img src="/images/partners/unt-health-fort-worth.png" alt="UNT Health Fort Worth (formerly UNT Health Science Center)" loading="lazy"></a><a class="partner-logo" href="https://www.northwestern.edu" title="Northwestern University"><img src="/images/partners/northwestern.png" alt="Northwestern University" loading="lazy"></a>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="software">
+<i class="fa-solid fa-laptop-code" aria-hidden="true"></i>Software and data</h2>
+
+<p>Apps, notebooks and tools from the lab. Each card links to the app, the paper or the code.</p>
+
+<div class="scard-grid">
+<article class="scard"><h3 class="scard-title"><a href="https://doi.org/10.1007/s10462-021-10047-7">Neural Efficient Coding</a></h3>
+<span class="scard-sub">Jupyter notebook and Android app</span><div class="scard-text">
+<p>Shows how early visual and auditory receptive fields can emerge from natural input using efficient-coding strategies. Published in <em>Artificial Intelligence Review</em>. <a href="https://play.google.com/store/apps/details?id=com.biomedai.neuroscience">Get the Android app</a>, visit the <a href="https://sites.google.com/view/neurosenseapp/home">Neurosense website</a>, or see the <a href="https://docs.google.com/document/d/1GxwGyiuU0rO4OKGNDh-R2I5RFyaqZNZXlhPGwXBAxpE/edit?usp=sharing">updated data and code</a>.</p>
+</div>
+<div class="tag-row">
+<span class="tag-pill">neuroscience</span><span class="tag-pill">tutorial</span>
+</div></article><article class="scard"><h3 class="scard-title"><a href="https://play.google.com/store/apps/details?id=edu.luc.cs.ConvMod">Conversation Moderator</a></h3>
+<span class="scard-sub">Android app</span><div class="scard-text">
+<p>A mobile app that tracks how much each person speaks in a group conversation.</p>
+</div>
+<div class="tag-row"><span class="tag-pill">app</span></div></article><article class="scard"><h3 class="scard-title"><a href="https://play.google.com/store/apps/details?id=com.hand_gesture_collection_app">Gesture Recognition App</a></h3>
+<span class="scard-sub">Android app</span><div class="scard-text">
+<p>Collects hand-gesture data from wearable sensors for the lab’s gesture-to-speech research.</p>
+</div>
+<div class="tag-row">
+<span class="tag-pill">app</span><span class="tag-pill">wearables</span>
 </div></article>
 </div>
+
+<p><strong>In the works:</strong> a dashboard for music-induced hearing loss, topic modeling, a biomarker detection app, stock2vec and a dual reinforcement learning app. Each gets a card here once its link or code is public.</p>
   </section>
 
   
@@ -709,98 +1142,6 @@
 <a class="cta" href="https://scholar.google.com/citations?user=LPzMx1IAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
 <a class="cta ghost" href="/publications">Selected publications</a>
 </div>
-
-<details class="alumni-group">
-  <summary>Funding: current and recent projects</summary>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Project</th>
-        <th>Sponsor</th>
-        <th>Role</th>
-        <th>Years</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Predicting and Optimizing Long-Term Outcomes in Pediatric-Onset Spinal Cord Injury</td>
-        <td>Shriners Children’s</td>
-        <td>Site PI</td>
-        <td>2026–2027</td>
-      </tr>
-      <tr>
-        <td>Advancing Digital Health Technology: A Summer Research Program for Educators</td>
-        <td>NIH (R25)</td>
-        <td>Co-PI</td>
-        <td>2025–2030</td>
-      </tr>
-      <tr>
-        <td>REU Site: Making Generative Artificial Intelligence Responsible</td>
-        <td>NSF</td>
-        <td>Co-PI</td>
-        <td>2025–2028</td>
-      </tr>
-      <tr>
-        <td>Precision gesture-to-speech system for speech-impaired individuals with limited mobility</td>
-        <td>C-STAR, Shirley Ryan AbilityLab (NIH)</td>
-        <td>Subcontract</td>
-        <td>2024</td>
-      </tr>
-      <tr>
-        <td>Improving Orthopaedic Outcomes through Machine Learning</td>
-        <td>Shriners Children’s</td>
-        <td>Site PI</td>
-        <td>2023–2026</td>
-      </tr>
-      <tr>
-        <td>Using the Fitbit for Early Detection of Infection after Discharge in Pediatric Surgical Patients</td>
-        <td>NIH (R01), with Lurie Children’s Hospital</td>
-        <td>Co-I</td>
-        <td>2023–2027</td>
-      </tr>
-      <tr>
-        <td>Predicting Fall Risk in Older Adults Using Machine Learning</td>
-        <td>Johns Hopkins AITC for Aging Research, with UNT Health Science Center</td>
-        <td>Subaward</td>
-        <td>2023–2024</td>
-      </tr>
-      <tr>
-        <td>Hierarchically Structured Materials Systems for Enhanced Dynamic Performance</td>
-        <td>U.S. Army Research Laboratory</td>
-        <td>Co-PI</td>
-        <td>2023–2024</td>
-      </tr>
-      <tr>
-        <td>AI4All College Pathways</td>
-        <td>AI4All</td>
-        <td>Co-PI</td>
-        <td>2022–2023</td>
-      </tr>
-      <tr>
-        <td>Physical Activity Measurement in Toddlers</td>
-        <td>NIH (R01), with Lurie Children’s Hospital</td>
-        <td>Co-I</td>
-        <td>2021–2026</td>
-      </tr>
-      <tr>
-        <td>REU Site: Accelerated Deep Learning through a Hardware-Software Collaborative Approach</td>
-        <td>NSF</td>
-        <td>Co-PI</td>
-        <td>2021–2023</td>
-      </tr>
-      <tr>
-        <td>Fall Catcher: Wearable Airbag Technology to Mitigate Falls after Stroke</td>
-        <td>RERC, with Shirley Ryan AbilityLab</td>
-        <td>Subcontract</td>
-        <td>2018–2023</td>
-      </tr>
-    </tbody>
-  </table>
-
-</details>
-
-<p><strong>Collaborators:</strong> Shriners Children’s · Shirley Ryan AbilityLab · Lurie Children’s Hospital of Chicago · UNT Health Science Center · Northwestern University</p>
   </section>
 
 
