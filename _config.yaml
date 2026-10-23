@@ -14,6 +14,9 @@ under-construction: false
 #   false = "not actively recruiting" note
 recruiting: false
 
+# red "Website Under Construction" notice at the top of the home page
+construction-notice: true
+
 # light header and footer with the round logo (reference-lab style)
 header-dark: false
 footer-dark: false

@@ -1026,3 +1026,15 @@ details.course-group > summary {
   text-align: center;
   color: #1f3a5f;
 }
+
+// home page "Website Under Construction" notice (construction-notice in _config.yaml)
+.construction-notice {
+  margin: 8px 0 16px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 600px) {
+  .construction-notice {
+    font-size: 1.5rem;
+  }
+}

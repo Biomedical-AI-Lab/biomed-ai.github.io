@@ -3,6 +3,8 @@
 
 {% assign brand = site.data.affiliation %}
 
+{% if site.construction-notice %}<div class="recruiting-banner construction-notice">Website Under Construction</div>{% endif %}
+
 <div class="hero">
 <img src="{{ "images/logo.png" | relative_url }}" alt="{{ site.title }} logo">
 <div>
