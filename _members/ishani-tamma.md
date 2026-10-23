@@ -1,4 +1,6 @@
 ---
+# Hidden for now; delete this line to show this student again.
+published: false
 name: "Ishani Tamma"
 image: images/team/ishani-tamma.jpg
 role: undergrad

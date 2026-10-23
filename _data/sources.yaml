@@ -15,6 +15,18 @@
   tags: [gait, amputation]
 - id: doi:10.1109/JBHI.2022.3157518
   tags: [gait, parkinsons]
+- id: doi:10.1109/ICHI64645.2025.00018
+  tags: [gait]
+- id: doi:10.1109/URTC68753.2025.11533050
+  tags: [gait]
+- id: doi:10.52141/gcmas2022_13
+  tags: [gait]
+# No DOI: conference abstracts and papers, cited from their details
+- title: "Autoencoder-derived Single Summary Metric to Assess Gait Quality"
+  authors: ["Thasina Tabashum", "Shou-Jen Wang", "K. Kruger", "J. Krzak", "Mark V. Albert"]
+  publisher: "Archives of Physical Medicine and Rehabilitation (abstract)"
+  date: "2021-01-01"
+  tags: [gait]
 
 # Wearable and mobile health sensing
 - id: doi:10.1371/journal.pone.0036556
@@ -39,6 +51,25 @@
   tags: [wearables]
 - id: doi:10.1109/CIC52973.2021.00012
   tags: [wearables]
+- id: doi:10.1186/s12984-022-01040-4
+  tags: [wearables, falls]
+- id: doi:10.1186/s12984-021-00918-z
+  tags: [wearables, falls]
+- id: doi:10.1088/1361-6579/ab6ebb
+  tags: [wearables]
+- id: doi:10.1109/ICSC.2020.00083
+  tags: [wearables]
+- title: "A Gesture-to-Speech Recognition Mobile Application Prototype"
+  authors: ["Riyad Bin Rafiq", "Syed Araib Karim", "Annie Liu", "Mark V. Albert"]
+  publisher: "Archives of Physical Medicine and Rehabilitation (abstract)"
+  date: "2021-01-01"
+  tags: [wearables]
+- title: "Cyber-Physiotherapy: Rehabilitation to Training"
+  authors: ["Ishan Ranasinghe", "R. Dantu", "Mark V. Albert", "S. Watts", "R. Ocaña"]
+  publisher: "2021 IFIP/IEEE International Symposium on Integrated Network Management (IM), pp. 1054–1057"
+  date: "2021-05-01"
+  link: https://www.semanticscholar.org/paper/8e43573118e86bdc9036e220a7fb446a696b2093
+  tags: [wearables]
 
 # Language models
 - id: doi:10.48550/arXiv.2601.11746
@@ -53,6 +84,16 @@
   tags: [language]
 - id: doi:10.1016/j.knosys.2021.106907
   tags: [language]
+- id: doi:10.1109/ICHI69079.2026.00062
+  tags: [language, falls]
+- id: doi:10.1109/BHI62660.2024.10913939
+  tags: [language, falls]
+- id: doi:10.1016/j.apmr.2025.01.176
+  tags: [language]
+- id: doi:10.48550/arXiv.2510.22823
+  publisher: "LREC 2026"
+  date: "2026-05-01"
+  tags: [language]
 
 # Medical imaging and multimodal AI
 - id: doi:10.3390/info16020136
@@ -62,6 +103,10 @@
 - id: doi:10.1002/btm2.10641
   tags: [imaging]
 - id: doi:10.1109/BIBM49941.2020.9313322
+  tags: [imaging]
+- id: doi:10.1109/JCDL67857.2025.00025
+  tags: [imaging]
+- id: doi:10.48550/arXiv.2505.09787
   tags: [imaging]
 
 # Neurological disorders
@@ -78,6 +123,26 @@
 - id: doi:10.1016/j.pmrj.2016.09.007
 - id: doi:10.1016/j.rico.2024.100471
 - id: doi:10.1109/MIPR54900.2022.00077
+- id: doi:10.1109/ISVLSI54635.2022.00056
+- id: doi:10.1145/3441369.3441372
+- id: doi:10.1007/978-3-030-74188-4_2
+- id: doi:10.1007/978-3-030-84729-6
+- id: doi:10.1145/3430665.3456364
+- title: "Play with trained hierarchical reinforcement learning agents in two common games: conference tutorial"
+  authors: ["Chengping Yuan", "Mark V. Albert", "Daniel McGartland", "Jakob Smith", "A. Solorio"]
+  publisher: "Journal of Computing Sciences in Colleges"
+  date: "2021-04-01"
+  link: https://dl.acm.org/doi/10.5555/3469581.3469592
+- title: "On-ramp to AI: lessons from the introductory AI course \"Software Development for AI\": conference tutorial"
+  authors: ["Ting Xiao", "Mark V. Albert"]
+  publisher: "Journal of Computing Sciences in Colleges"
+  date: "2021-04-01"
+  link: https://dl.acm.org/doi/10.5555/3469581.3469593
+- title: "Temporal Distance Map: A Warped Isochrone Map Depicting Accurate Travel Times"
+  authors: ["Elijah Nacar", "Devak Nanda", "B. Albert", "Christian Panici", "Mark V. Albert"]
+  publisher: "GEOProcessing 2020, pp. 85–89"
+  date: "2020-11-01"
+  link: https://personales.upv.es/thinkmind/GEOProcessing/GEOProcessing_2020/geoprocessing_2020_1_150_30097.html
 
 # Foundations
 - id: doi:10.1371/journal.pcbi.1000137

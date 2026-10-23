@@ -1,9 +1,9 @@
 {%- comment -%}
   Logo tiles from _data/partners.yaml. include partner-logos.html type="sponsor"
 {%- endcomment -%}
-{%- assign list = site.data.partners | where: "type", include.type -%}
 <div class="partner-logos">
-{%- for p in list -%}
+{%- for p in site.data.partners -%}
+{%- unless p.type contains include.type -%}{%- continue -%}{%- endunless -%}
 <a class="partner-logo{% unless p.logo %} partner-text{% endunless %}" href="{{ p.link }}" title="{{ p.name }}">{%- if p.logo -%}<img src="{{ p.logo | relative_url }}" alt="{{ p.name }}" loading="lazy">{%- else -%}<span>{{ p.short | default: p.name }}</span>{%- endif -%}</a>
 {%- endfor -%}
 </div>

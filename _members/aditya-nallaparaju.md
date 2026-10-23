@@ -1,4 +1,6 @@
 ---
+# Hidden for now; delete this line to show this student again.
+published: false
 name: "Aditya Nallaparaju"
 image: images/team/aditya-nallaparaju.jpg
 role: undergrad

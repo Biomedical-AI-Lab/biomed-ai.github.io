@@ -28,17 +28,17 @@
   label: Wearables
   title: Wearable and Mobile Health Sensing
   icon: fa-solid fa-mobile-screen
-  focus: Phones and wearable sensors that recognize activity, detect falls and give a voice to people who cannot speak.
+  focus: Phones and wearable sensors that recognize and assess activity, predict fall risk and give a voice to people who cannot speak.
   items:
     - title: "Wearable gesture recognition for motor-impaired users"
       venue: IJCAI, 2024 · ECML PKDD, 2026
       text: Few-shot continual learning, and now knowledge-attentive representation learning (KARL), let a wearable sensor learn new, user-defined hand gestures from motor-impaired individuals, building on the lab's gesture-to-speech app.
       tags: [gesture recognition, few-shot learning, assistive tech]
       link: https://doi.org/10.48550/arXiv.2405.08969
-    - title: "Fall classification with mobile phones"
-      venue: PLoS ONE, 2012
-      text: One of the early demonstrations that a phone's accelerometer, with machine learning, can detect and classify falls, later extended to real-world falls in people with amputations and to wearable airbags after stroke.
-      tags: [fall detection, smartphones, rehabilitation]
+    - title: "Fall risk prediction with phones and wearables"
+      venue: PLoS ONE, 2012 · JNER, 2022
+      text: Machine learning on phone and wearable sensor data to predict and classify falls, from early smartphone work to real-world falls in people with amputations and pre-impact prediction for wearable airbags after stroke.
+      tags: [fall risk prediction, smartphones, rehabilitation]
       link: https://doi.org/10.1371/journal.pone.0036556
 
 - id: language

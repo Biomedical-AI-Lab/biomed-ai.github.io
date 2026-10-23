@@ -17,7 +17,7 @@
         <img class="affiliation-logo" src="{{ brand.logo_dark | relative_url }}" alt="{{ brand.institution }}">
       </a>
     {% elsif brand.institution %}
-      <a href="{{ brand.url }}">{{ brand.department }}, {{ brand.institution }}</a>
+      <a href="{{ brand.url }}">{{ brand.institution }}</a>
     {% endif %}
     {% if brand.address %}
       <br>

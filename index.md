@@ -13,7 +13,7 @@
 </div>
 </div>
 
-We use **machine learning to advance medicine**. Our roots are in **wearable-device analytics** that help clinicians treat mobility disorders, and today we build **movement, sensing, language and imaging models** that measure health outcomes more precisely, for people with **Parkinson's disease, cerebral palsy, stroke, amputation and spinal cord injury**.
+We use **machine learning to advance medicine**. Our roots are in **wearable-device analytics** that help clinicians treat mobility disorders, and today we build **movement, sensing, language and imaging models** that measure health outcomes more precisely, to address mobility impairment including **Parkinson's disease, cerebral palsy, stroke, amputation and spinal cord injury**.
 
 <div class="focus-grid" markdown="1">
 <div markdown="1">
@@ -22,15 +22,15 @@ We use **machine learning to advance medicine**. Our roots are in **wearable-dev
 
 - **Gait quality scores:** the Shriners Gait Index for children with cerebral palsy.
 - **Clinical prediction:** surgical outcomes and fall risk from gait and balance data.
-- **Rehabilitation outcomes:** prosthetics, spasticity and Parkinson's symptoms.
+- **Rehabilitation outcomes:** precise measurement of prosthetic performance, spasticity, Parkinson's symptoms and more.
 
 </div>
 <div markdown="1">
 
 #### <i class="fa-solid fa-mobile-screen"></i>Wearable Sensing
 
-- **Fall detection:** phones, wearables and airbag belts that respond in real time.
-- **Activity recognition:** from toddlers to adults with spinal cord injury.
+- **Fall risk prediction:** phones and wearables that flag risk early, and airbag belts that respond in real time.
+- **Activity recognition and assessment:** from toddlers to adults with spinal cord injury.
 - **Gesture-to-speech:** wearable gesture recognition for people who cannot speak.
 
 </div>
@@ -63,7 +63,7 @@ We use **machine learning to advance medicine**. Our roots are in **wearable-dev
 
 #### Our impact
 
-Our work appears in venues including **IEEE JBHI, Journal of Biomechanics, Journal of NeuroEngineering and Rehabilitation, PLoS ONE, PLoS Computational Biology, Information Fusion, JMIR Medical Informatics, ECML PKDD, IJCAI, LREC, ACM/IEEE JCDL and IEEE ICHI**, and in two US patents.
+Our work appears in venues including **IEEE JBHI, Journal of Biomechanics, Journal of NeuroEngineering and Rehabilitation, PLoS Computational Biology, Information Fusion, JMIR Medical Informatics, ECML PKDD, IJCAI, LREC, ACM/IEEE JCDL and IEEE ICHI**, and in two US patents.
 
 #### Grant providers and collaborators
 

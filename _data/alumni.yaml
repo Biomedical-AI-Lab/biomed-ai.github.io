@@ -46,6 +46,11 @@
       note: "co-advised with Dr. Ting Xiao"
       link: "https://www.linkedin.com/in/ziruoy/"
       pub_names: ["Ziruo Yi"]
+    - name: "Fahmida Yasmin Rifat"
+      level: "PhD student"
+      years: "2024–2026"
+      link: "https://rifat-22.github.io/"
+      pub_names: ["Fahmida Yasmin Rifat", "Fahmida Y. Rifat", "Fahimda Yasmin Rifat"]
     - name: "Abdullah Albanyan"
       years: "2023"
       thesis: "Investigating the Relationships between Online Hate Speech and Counterhate Replies to Mitigate Hateful Content"
@@ -64,11 +69,6 @@
       level: "PhD"
       next: "Amazon"
       link: "https://www.linkedin.com/in/md-mosharaf-hossain-phd-490b5751/"
-    - name: "Shiva Ebrahimi"
-      level: "PhD"
-    - name: "Chandrashekhar Ramamurthi"
-      level: "PhD student"
-      years: "joined 2020"
 
 - group: "Master's students"
   people:

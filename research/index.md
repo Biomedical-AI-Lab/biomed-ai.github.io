@@ -15,12 +15,11 @@ redirect_from:
 
 {% assign domains = site.data.highlights %}
 
-We build machine learning that clinicians can use: models that score movement, detect falls, read clinical text and interpret medical images. Below are highlights from each area, the grants that fund our work, and the software and data we share.
+We build machine learning that clinicians can use: models that score movement, predict fall risk, read clinical text and interpret medical images. Below are highlights from each area, the grants that fund our work, and the software and data we share.
 {:.page-sub}
 
 <div class="jump-links">
 {%- for d in domains -%}<a href="#{{ d.id }}">{{ d.label }}</a>{%- endfor -%}
-<a class="jump-strong" href="#grants">Grants</a><a class="jump-strong" href="#software">Software &amp; Data</a>
 </div>
 
 {% for d in domains %}

@@ -33,7 +33,7 @@ redirect_from:
 {% endif %}
 
 {% if undergrad.size > 0 %}
-## Undergraduate and TAMS Students
+## Undergraduate Students
 
 {% for m in undergrad %}{% include team-member.html member=m %}{% endfor %}
 {% endif %}
