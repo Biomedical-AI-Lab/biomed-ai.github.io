@@ -1,0 +1,50 @@
+[data-dark=false] {
+  --primary: #00853E;
+  --secondary: #B9DCD2;
+  --heading-color: #006747;
+  --muted: #53565A;
+  --text: #000000;
+  --background: #ffffff;
+  --background-alt: #fafafa;
+  --light-gray: #e0e0e0;
+  --gray: #808080;
+  --dark-gray: #404040;
+  --overlay: #00000020;
+}
+
+[data-dark=true] {
+  --primary: #00A950;
+  --secondary: #006747;
+  --heading-color: #ffffff;
+  --muted: #b0b0b0;
+  --text: #ffffff;
+  --background: #181818;
+  --background-alt: #1c1c1c;
+  --light-gray: #404040;
+  --gray: #808080;
+  --dark-gray: #b0b0b0;
+  --overlay: #ffffff10;
+}
+
+:root {
+  --brand-bar: #006747;
+  --title: "Open Sans", sans-serif;
+  --heading: "Open Sans", sans-serif;
+  --body: "Open Sans", sans-serif;
+  --code: "Roboto Mono", monospace;
+  --heading-stretch: 87.5%;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
+  --compact: 1.5;
+  --rounded: 6px;
+  --shadow: 0 0 10px 0 var(--overlay);
+  --transition: 0.2s ease;
+}
+
+/*# sourceMappingURL=-theme.css.map */
