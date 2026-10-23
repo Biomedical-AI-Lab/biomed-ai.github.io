@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Checkout main branch contents
         uses: actions/checkout@v7
+        with:
+          # build the latest main, including citations committed earlier in this run
+          ref: ${{ github.event.repository.default_branch || 'main' }}
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
