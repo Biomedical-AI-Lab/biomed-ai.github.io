@@ -20,7 +20,7 @@ links:
 
 Mark V. Albert directs the Biomedical AI Lab.
 He is Chair of the Department of Information Science at the {{ site.data.affiliation.institution }} and an Associate Professor of Computer Science and Engineering, with a joint appointment in Biomedical Engineering.
-Until 2025 he was Associate Chair for Graduate Studies in Computer Science and Engineering, a period in which the department's graduate program grew more than sixfold.
+From 2019 to 2025 he was Associate Chair for Graduate Studies in Computer Science and Engineering, a period in which the department's graduate program grew more than sixfold.
 
 His research applies machine learning to clinical care, especially rehabilitation and wearable sensing: detecting falls and recognizing activity with phones and wearables, and scoring movement quality for clinicians.
 As an advisor to Shriners Children's on gait analysis, he created the Shriners Gait Index, a single summary measure of gait quality for children with cerebral palsy.
@@ -40,11 +40,23 @@ From 2009 to 2013 he was a postdoctoral research associate at the Rehabilitation
 
 ## Career
 
-- **Chair, Department of Information Science**, University of North Texas, 2025–present
-- **Associate Professor and Associate Chair for Graduate Studies, Computer Science and Engineering**, University of North Texas, until 2025
-- **Assistant Professor, Computer Science and Engineering and Biomedical Engineering**, University of North Texas, 2019–2023
-- **Assistant Professor of Computer Science**, Loyola University Chicago, 2013–2019
-- **Postdoctoral Research Associate**, Rehabilitation Institute of Chicago and Northwestern University Feinberg School of Medicine, 2009–2013
+**University of North Texas**, 2019–present
+
+- **Department Chair, Information Science**, Aug 2025–present
+- **Associate Professor and Associate Chair for Graduate Studies, Computer Science and Engineering**, Sep 2019–Aug 2025
+- **Assistant Professor, Department of Computer Science and Engineering and Department of Biomedical Engineering**, Aug 2019–Oct 2023
+
+**Loyola University Chicago**
+
+- **Assistant Professor of Computer Science**, Aug 2013–Aug 2019
+
+**Rehabilitation Institute of Chicago** (now Shirley Ryan AbilityLab)
+
+- **Postdoctoral Research Associate**, Dec 2009–Jul 2013
+
+**Northwestern University, Feinberg School of Medicine**
+
+- **Postdoctoral Research Associate**, Dec 2009–Jul 2013
 
 ## Selected honors
 
