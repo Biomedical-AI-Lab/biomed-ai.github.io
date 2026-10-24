@@ -2,6 +2,7 @@
   News as a flat list: category icon, MM/YYYY date, one or two sentences.
   Set kind in each post: paper, funding, award, press, talk or lab.
   Pass limit=N to show only the newest N.
+  Names listed in _data/people_links.yaml link to their personal websites.
 {%- endcomment -%}
 {%- assign lim = include.limit | default: 1000 -%}
 <ul class="news-list">
@@ -15,6 +16,14 @@
 {%- when "talk" -%}{%- assign ic = "fa-solid fa-microphone" -%}
 {%- else -%}{%- assign ic = "fa-solid fa-flask" -%}
 {%- endcase -%}
-<li><span class="news-icon" data-cat="{{ cat }}"><i class="{{ ic }}" aria-hidden="true"></i></span><div class="news-text"><span class="news-date">{{ post.date | date: "%m/%Y" }}:</span> {{ post.content | strip }}</div></li>
+{%- assign text = post.content | strip -%}
+{%- for person in site.data.people_links -%}
+{%- if text contains person.name -%}
+{%- if person.link contains "://" -%}{%- assign href = person.link -%}{%- else -%}{%- assign href = person.link | relative_url -%}{%- endif -%}
+{%- capture linked -%}<a class="news-person" href="{{ href }}">{{ person.name }}</a>{%- endcapture -%}
+{%- assign text = text | replace: person.name, linked -%}
+{%- endif -%}
+{%- endfor -%}
+<li><span class="news-icon" data-cat="{{ cat }}"><i class="{{ ic }}" aria-hidden="true"></i></span><div class="news-text"><span class="news-date">{{ post.date | date: "%m/%Y" }}:</span> {{ text }}</div></li>
 {%- endfor -%}
 </ul>

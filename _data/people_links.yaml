@@ -1,0 +1,18 @@
+# Personal websites for people named in news items. Each name below is
+# linked automatically wherever it appears in a news item (home page and
+# News page). Add a person when they have a personal website; LinkedIn and
+# Google Scholar profiles are not used here.
+# link may be a full URL or a path on this site (e.g. members/mark-v-albert).
+
+- name: "Prof. Albert"
+  link: members/mark-v-albert
+- name: "George Mihaila"
+  link: https://gmihaila.github.io/
+- name: "Poli Nemkova"
+  link: https://www.nemkova.com/
+- name: "Riyad Bin Rafiq"
+  link: https://riyadrafiq.github.io/
+- name: "Fahmida Yasmin Rifat"
+  link: https://rifat-22.github.io/
+- name: "Muhammad Zubair Hasan"
+  link: https://mdzh10.github.io/
